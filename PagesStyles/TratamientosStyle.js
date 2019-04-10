@@ -2,19 +2,31 @@ import styled from 'styled-components';
 
 const TratamientosWrapperStyle = styled.div`
 
+
 .tratamientosContainer {
     width: 100vw;
     background: #EBECEE;
 }
 
+.imageContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(${props => props.img});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+}
+
 .upImage {
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
 }
 
 .downImage {
-    width: 40vw;
-    height: 40vh;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
 }
 
 /* 
@@ -78,8 +90,25 @@ const TratamientosWrapperStyle = styled.div`
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
 
+  .imageContainer {
+  
+  width: 160vw;
+  height: 80vh;
+  background-image: url(${props => props.img});
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-position-x: -80px;
+}
+  
+.downImage {
+    position: absolute;
+    width: 75vw;
+    height: 75vh;
+    object-fit: contain;
+    z-index: 1;
+}
   
 }
 

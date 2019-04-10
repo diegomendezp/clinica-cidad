@@ -5,8 +5,10 @@ const MainWrapperStyle = styled.div`
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+z-index: 2;
 
 .mainContainer {
+  position: relative;
   width: 100vw;
   background-image: url(${props => props.img});
   background-size: cover;
@@ -14,11 +16,14 @@ const MainWrapperStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 2;
+
 }
 
 .headerContainer {
   width: 80vw;
   padding: 2% 2%;
+  z-index: 2;
 }
 
 .addressContainer {

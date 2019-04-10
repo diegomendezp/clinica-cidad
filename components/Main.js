@@ -8,8 +8,8 @@ import imageOffice from '../static/imgs/home/imgHome1.jpg'
 export default class Main extends Component {
   render() {
     return (
-      <Div100vh style={{ height: '100rvh' }}>
-        <MainWrapperStyle img={imageOffice} style={{ height: '100vh' }}>
+      <Div100vh style={{ height: '100rvh'}}>
+        <MainWrapperStyle img={imageOffice} style={{ height: '100vh', zIndex: 2 }}>
           <Div100vh style={{ height: '100rvh' }} className="mainContainer">
             <div className="headerContainer">
               <H1Style>Clínica Cidad – medicina estética, ortodoncia, odeontología…</H1Style>

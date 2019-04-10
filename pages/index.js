@@ -41,6 +41,7 @@ export default () => (
       <NavBar></NavBar>
       <Main></Main>
       <Tratamientos></Tratamientos>
+      <Main></Main>
     </React.Fragment>
   </React.Fragment>
 );

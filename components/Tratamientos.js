@@ -25,10 +25,10 @@ export default class Tratamientos extends Component {
     
         tween({
             from: {
-              transalteX: -200, transalteY: 0, rotate: -10
+              transalteX: -200, transalteY: 30, rotate: 50
             },
             to: {
-              transalteX: -30, transalteY: -370, rotate: 20
+              transalteX: -125, transalteY: 10, rotate: 10
             },
             duration: 2800,
             ease: easing.easeInOut,
@@ -36,9 +36,26 @@ export default class Tratamientos extends Component {
             if (document.getElementById('image2') !== null) {
               document.getElementById(
                 'image2'
-              ).style.webkitTransform = `translate(${v.transalteX}px, ${v.transalteY}px)`;
+              ).style.webkitTransform = `translate(${v.transalteX}px, ${v.transalteY}px) rotate(${v.rotate}deg)`;
             }
           })
+
+        //   tween({
+        //     from: {
+        //       transalteX: -200, transalteY: 1000, rotate: 50
+        //     },
+        //     to: {
+        //       transalteX: -30, transalteY: 410, rotate: 0
+        //     },
+        //     duration: 2800,
+        //     ease: easing.easeInOut,
+        //   }).start((v) => {
+        //     if (document.getElementById('image2') !== null) {
+        //       document.getElementById(
+        //         'image2'
+        //       ).style.webkitTransform = `translate(${v.transalteX}px, ${v.transalteY}px) rotate(${v.rotate}deg)`;
+        //     }
+        //   })
 
     }
 
@@ -53,20 +70,19 @@ export default class Tratamientos extends Component {
     render() {
 
         return (
-            <div>
-                <TratamientosWrapperStyle>
+            <Div100vh style={{ height: "100rvh", zIndex: "-10" }}>
+                <TratamientosWrapperStyle img={image1}>
                     <div className="tratamientosContainer">
-                        <ScrollPercentage onChange={(percentage, inView) => {
+                        {/* <ScrollPercentage onChange={(percentage, inView) => {
                             !inView ? this.setState({animation: inView, animationDone: true}) : this.setState({animation: inView}) 
-                        }}>
-                            <div>
-                                <img id="image1" className="upImage" src={image1}></img>
+                        }}> */}
+                            <div className="imageContainer">
                                 <img id="image2" className="downImage" src={image2}></img>
                             </div>
-                        </ScrollPercentage>
+                        {/* </ScrollPercentage> */}
                     </div>
                 </TratamientosWrapperStyle>
-            </div>
+            </Div100vh>
         )
     }
 }
