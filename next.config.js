@@ -1,10 +1,19 @@
-module.exports = {
-  webpack: config => {
-    // Fixes npm packages that depend on `fs` module
-    config.node = {
-      fs: 'empty'
-    }
+const withFonts = require('next-fonts');
+const withImages = require('next-images');
+const withCSS = require('@zeit/next-css');
+const withPlugins = require('next-compose-plugins');
 
-    return config
-  }
-}
+// const exportPathMap = () => ({
+//   '/': { page: '/' },
+//   '/nosotros': { page: '/nosotros' },
+//   '/tratamientos': { page: '/tratamientos' },
+// });
+
+
+module.exports = withPlugins([
+  [withCSS],
+  [withFonts],
+  [withImages]
+  // [exportPathMap],
+]);
+// module.exports = withFonts(withImages(withCSS()));
