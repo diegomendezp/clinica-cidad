@@ -2,9 +2,8 @@ import React from 'react'
 import posed from 'react-pose';
 import { NavWrapperStyle } from '../PagesStyles/NavBarStyle'
 import { FooterStyle } from '../PagesStyles/FooterStyle'
-import { FooterTextStyle } from '../PagesStyles/TextStyles/FooterTextStyle'
-import logo from '../static/imgs/home/logoAzul.jpg'
-
+import { NavTextStyle } from '../PagesStyles/TextStyles/NavTextStyle'
+import logo from '../static/imgs/home/logoMenu.jpg'
 
 const Box = posed.div({
     up: {
@@ -87,22 +86,22 @@ class NavBar extends React.Component {
                     <div className="menuSection">
                     <div className="subMenuSection">
                         <img className="logo" src={logo} />
-                        <FooterTextStyle>Citas: 600 000 000 – 91 000 000 Calle Alcalá 590 1A </FooterTextStyle>
-                        <FooterTextStyle>Citas: 600 000 000 – 91 000 000 Calle Machupichu 25</FooterTextStyle>
-                        <FooterTextStyle>info@clinicacidad.es</FooterTextStyle>
+                        <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Alcalá 590 1A </NavTextStyle>
+                        <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Machupichu 25</NavTextStyle>
+                        <NavTextStyle>info@clinicacidad.es</NavTextStyle>
                     </div>
                     <div className="subMenuSection">
-                        <FooterTextStyle>Clínicas</FooterTextStyle>
-                        <FooterTextStyle>Tratamientos</FooterTextStyle>
-                        <FooterTextStyle>- Medicina estética</FooterTextStyle>
-                        <FooterTextStyle>- Ortodoncia</FooterTextStyle>
-                        <FooterTextStyle>- Odeontología</FooterTextStyle>
-                        <FooterTextStyle>Equipo</FooterTextStyle>
-                        <FooterTextStyle>Blog</FooterTextStyle>
+                        <NavTextStyle>Clínicas</NavTextStyle>
+                        <NavTextStyle>Tratamientos</NavTextStyle>
+                        <NavTextStyle>- Medicina estética</NavTextStyle>
+                        <NavTextStyle>- Ortodoncia</NavTextStyle>
+                        <NavTextStyle>- Odeontología</NavTextStyle>
+                        <NavTextStyle>Equipo</NavTextStyle>
+                        <NavTextStyle>Blog</NavTextStyle>
                     </div>
                     </div>
                     <div className="menuFooter">
-                        <FooterTextStyle>© 2019 by Tailor</FooterTextStyle>
+                        <NavTextStyle>© 2019 by Tailor</NavTextStyle>
                     </div>
                 </Box>
             </NavWrapperStyle>

@@ -29,6 +29,7 @@ export default () => (
         padding: 0;
         max-width: 100%;
         position: relative;
+        overflow-x: hidden;
       
       }
 

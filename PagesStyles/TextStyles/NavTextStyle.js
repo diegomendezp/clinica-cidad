@@ -1,60 +1,18 @@
 import styled from 'styled-components';
 
-const NavWrapperStyle = styled.div`
-
-box-sizing: border-box;
-width: 100vw;
-height: 15vh;
-padding: 0;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-position: absolute;
-z-index: 10;
-
-
-.logo {
-  margin-bottom: 15%;
-  width: 12vw;
-}
-
-.menu {
-  width: 100vw;
-  height: 100vh;
-  background: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.menuSection {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5%;
-}
-
-.subMenuSection {
-  width: 50vw;
-}
-
-.menuFooter {
-  padding: 5% 5%;
-}
-
-.menuIcon {
-  position: absolute;
-  padding-right: 3%;
-  z-index: 10;
-}
-
-
-
+const NavTextStyle = styled.p`
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+margin: 0;
+padding: 0;
+font-family: "Avenir";
+font-size: 1.2vw;
+line-height: 5vh;
+letter-spacing: 0.2vw;
+width: 25vw;
+margin-bottom: ${props => props.margin && "3%"};
 
 @media (min-width: 1281px) {
   
@@ -112,11 +70,9 @@ z-index: 10;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-
-  
+    font-size: 5.5vw;
 }
 
 `;
 
-export { NavWrapperStyle };
+export { NavTextStyle };
