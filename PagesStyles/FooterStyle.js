@@ -1,48 +1,17 @@
 import styled from 'styled-components';
 
-const NavWrapperStyle = styled.div`
+const FooterStyle = styled.div`
 
-box-sizing: border-box;
 width: 100vw;
-height: 15vh;
-padding: 0;
+height: 50vh;
+background: rgb(225,236,255);
 display: flex;
-justify-content: flex-end;
 align-items: center;
-position: absolute;
-z-index: 10;
+justify-content: center;
 
-.menu {
-  width: 100vw;
-  height: 100vh;
-  background: white;
-  display: flex;
-  flex-direction: column;
+.footerSection {
+    width: 33.3vw
 }
-
-.menuSection {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5%;
-}
-
-.subMenuSection {
-  width: 50vw;
-}
-
-.menuFooter {
-  padding: 0 5%;
-}
-
-.menuIcon {
-  position: absolute;
-  padding-right: 3%;
-  z-index: 10;
-}
-
 
 
 /* 
@@ -106,11 +75,23 @@ z-index: 10;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 3%;
 
-  
+    .footerSection {
+        width: 55vw;
+        margin-bottom: 5%;
+    }
+
+    .logo {
+        display: none
+    }
+
 }
 
 `;
 
-export { NavWrapperStyle };
+export { FooterStyle };

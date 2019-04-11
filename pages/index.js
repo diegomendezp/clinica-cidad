@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar';
 import Main from '../components/Main';
 import Tratamientos from '../components/Tratamientos'
 import Equipo from '../components/Equipo'
+import Footer from '../components/Footer'
 import Avenir from "../static/fonts/avenir.ttf";
 
 
@@ -43,6 +44,7 @@ export default () => (
       <Main></Main>
       <Tratamientos></Tratamientos>
       <Equipo></Equipo>
+      <Footer></Footer>
     </React.Fragment>
   </React.Fragment>
 );
