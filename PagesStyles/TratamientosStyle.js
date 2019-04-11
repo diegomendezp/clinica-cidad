@@ -2,19 +2,32 @@ import styled from 'styled-components';
 
 const TratamientosWrapperStyle = styled.div`
 
+box-sizing: border-box;
+position: relative;
+
 
 .tratamientosContainer {
-    width: 100vw;
-    background: #EBECEE;
-}
-
-.imageContainer {
   width: 100vw;
   height: 100vh;
   background-image: url(${props => props.img});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 100px;
+}
+
+.infoContainer {
+  box-sizing: border-box;
+  text-align: right;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.imageContainer {
+  z-index: -1;
 }
 
 .upImage {
@@ -26,7 +39,7 @@ const TratamientosWrapperStyle = styled.div`
     position: absolute;
     width: 50vw;
     height: 50vh;
-    z-index: 1;
+
 }
 
 /* 
@@ -84,28 +97,43 @@ const TratamientosWrapperStyle = styled.div`
   
 }
 
+@media (min-width: 376px) and (max-width: 480px) {
+
+  .imageContainer {
+    background-position-x: -100px;
+    background-position-y: 70px;
+    
+  }
+
+    .downImage {
+      width: 66vw;
+      height: 28vh;
+      object-fit: cover;
+  }
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-
-  .imageContainer {
+@media (min-width: 320px) and (max-width: 375px) {
   
-  width: 160vw;
-  height: 80vh;
-  background-image: url(${props => props.img});
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-y: 100px;
-  background-position-x: -80px;
+
+  .tratamientosContainer {
+    background-position-x: -450px;
+    padding-bottom: 10%;
+  }
+
+  .infoContainer {
+  text-align: left;
 }
+
   
 .downImage {
     position: absolute;
-    width: 75vw;
-    height: 75vh;
+    width: 100vw;
+    height: 100vh;
     object-fit: contain;
     z-index: 1;
 }

@@ -1,20 +1,21 @@
 import styled from 'styled-components';
 
-const H1Style = styled.h1`
+const ButtonHomeStyle = styled.button`
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-margin: 0;
-padding: 0;
-font-family: "Avenir";
-font-size: 8vw;
-line-height: 16vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
-letter-spacing: 0.6vw;
 
+font-family: "Avenir";
+border: 4px solid black;
+background: transparent;
+padding: 1% 2%;
+font-size: 2vw;
+-webkit-order: -1;
+-ms-flex-order: -1;
+order: -1;
+align-self: ${props => props.equipo ? "flex-start" : "flex-end"};;
+margin-bottom: 3%;
 
 @media (min-width: 1281px) {
   
@@ -62,7 +63,8 @@ letter-spacing: 0.6vw;
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-
+  padding: 4% 9%;
+    font-size: 6vw;
   
 }
 
@@ -72,13 +74,13 @@ letter-spacing: 0.6vw;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-  font-size: 8.5vw;
-  letter-spacing: 0.6vw;
-  line-height: 7vh;
-  padding: ${props => props.padding ? "0 25%" : "0"}
+  padding: 4% 9%;
+  font-size: 6vw;
+  order: 1;
+  align-self: center;
+  width: 80vw;
 }
 
 `;
 
-export { H1Style };
+export { ButtonHomeStyle };

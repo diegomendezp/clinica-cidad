@@ -5,23 +5,21 @@ const MainWrapperStyle = styled.div`
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-z-index: 2;
+width: 100vw;
 
 .mainContainer {
-  position: relative;
-  width: 100vw;
+  
   background-image: url(${props => props.img});
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 2;
 
 }
 
 .headerContainer {
-  width: 80vw;
+  width: 100vw;
   padding: 2% 2%;
   z-index: 2;
 }
@@ -79,7 +77,9 @@ z-index: 2;
 
 @media (min-width: 481px) and (max-width: 767px) {
   
+  .mainContainer {
 
+    }  
   
 }
 
@@ -91,12 +91,12 @@ z-index: 2;
 @media (min-width: 320px) and (max-width: 480px) {
 
     .mainContainer {
-      background-position-x: -651px;
+      background-position-x: -551px;
     }  
 
     .headerContainer {
       width: 80vw;
-      padding: 10% 3%;
+      padding: 8% 3%;
     }
 
     .addressContainer {

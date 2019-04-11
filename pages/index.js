@@ -3,6 +3,7 @@ import Head from "next/head";
 import NavBar from '../components/NavBar';
 import Main from '../components/Main';
 import Tratamientos from '../components/Tratamientos'
+import Equipo from '../components/Equipo'
 import Avenir from "../static/fonts/avenir.ttf";
 
 
@@ -41,7 +42,7 @@ export default () => (
       <NavBar></NavBar>
       <Main></Main>
       <Tratamientos></Tratamientos>
-      <Main></Main>
+      <Equipo></Equipo>
     </React.Fragment>
   </React.Fragment>
 );

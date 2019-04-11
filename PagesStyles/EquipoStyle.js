@@ -1,20 +1,34 @@
 import styled from 'styled-components';
 
-const H1Style = styled.h1`
+const EquipoStyle = styled.div`
+
+z-index:2;
+
+  .equipoContainer { 
+  width: 100vw;
+  height: 100vh;
+  background-image: url(${props => props.img});
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index:2;
+
+  }
+
+  .infoContainer {
+  box-sizing: border-box;
+  text-align: left;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 3%;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-margin: 0;
-padding: 0;
-font-family: "Avenir";
-font-size: 8vw;
-line-height: 16vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
-letter-spacing: 0.6vw;
-
 
 @media (min-width: 1281px) {
   
@@ -72,13 +86,14 @@ letter-spacing: 0.6vw;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-  font-size: 8.5vw;
-  letter-spacing: 0.6vw;
-  line-height: 7vh;
-  padding: ${props => props.padding ? "0 25%" : "0"}
+  
+    .equipoContainer {
+        background-position-x: -550px;
+        padding-bottom: 10%;
+  }
+  
 }
 
 `;
 
-export { H1Style };
+export { EquipoStyle };
