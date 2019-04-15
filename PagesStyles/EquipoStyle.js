@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const EquipoStyle = styled.div`
 
-z-index:2;
+  z-index:10;
+  position: relative;
 
   .equipoContainer { 
   width: 100vw;

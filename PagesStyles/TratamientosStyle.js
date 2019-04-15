@@ -4,7 +4,7 @@ const TratamientosWrapperStyle = styled.div`
 
 box-sizing: border-box;
 position: relative;
-
+z-index: 1;
 
 .tratamientosContainer {
   width: 100vw;
@@ -27,7 +27,7 @@ position: relative;
 }
 
 .imageContainer {
-  z-index: -1;
+  z-index: 1;
 }
 
 .upImage {
@@ -38,7 +38,7 @@ position: relative;
 .downImage {
     position: absolute;
     width: 50vw;
-    height: 50vh;
+    height: 65vh;
 
 }
 
@@ -106,8 +106,8 @@ position: relative;
   }
 
     .downImage {
-      width: 66vw;
-      height: 28vh;
+      width: 46vw;
+      height: 18vh;
       object-fit: cover;
   }
 }
@@ -119,10 +119,14 @@ position: relative;
 
 @media (min-width: 320px) and (max-width: 375px) {
   
+  height: 100vh;
+  background: #ebecee;
 
   .tratamientosContainer {
-    background-position-x: -450px;
+    background-position-x: -220px;
     padding-bottom: 10%;
+    height: 64vh;
+
   }
 
   .infoContainer {
@@ -132,8 +136,8 @@ position: relative;
   
 .downImage {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 70vh;
     object-fit: contain;
     z-index: 1;
 }
