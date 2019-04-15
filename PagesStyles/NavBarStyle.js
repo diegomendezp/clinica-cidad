@@ -4,7 +4,7 @@ const NavWrapperStyle = styled.div`
 
 box-sizing: border-box;
 width: 100vw;
-height: 15vh;
+height: 100vh;
 padding: 0;
 display: flex;
 justify-content: flex-end;
@@ -47,6 +47,7 @@ z-index: 10;
   position: absolute;
   padding-right: 3%;
   z-index: 10;
+  top: 5%;
 }
 
 

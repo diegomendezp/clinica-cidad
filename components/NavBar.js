@@ -30,21 +30,21 @@ class NavBar extends React.Component {
         this.state = {
             hamburger: undefined,
             position: true,
-            menuSizes: {y: -500, y2: undefined}
         }
     }
 
     _manageResize = () => {
-        switch (true) {
-        case window.innerWidth < 376:
-            return { y: -500, y2: 310 }
-        case window.innerWidth < 415:
-            return { y: -500, y2: 370 }
-        case window.innerWidth < 769:
-            return { y: -500, y2: 370 }
-        default:
-            return { y: -500, y2: 365 }
-        }
+        return {y: -window.innerHeight, y2: 0}
+        // switch (true) {
+        // case window.innerWidth < 376:
+        //     return { y: -500, y2: 310 }
+        // case window.innerWidth < 415:
+        //     return { y: -500, y2: 370 }
+        // case window.innerWidth < 769:
+        //     return { y: -500, y2: 370 }
+        // default:
+        //     return { y: -500, y2: 365 }
+        // }
     };
 
     componentDidMount() {
@@ -82,7 +82,7 @@ class NavBar extends React.Component {
                         </span>
                     </button>
                 </div>
-                <Box pose={this.state.position ? "up" : "down"} className="menu" y={this.state.menuSizes.y !== undefined && this.state.menuSizes.y} y2={this.state.menuSizes.y2 !== undefined && this.state.menuSizes.y2}>
+                <Box pose={this.state.position ? "up" : "down"} className="menu" y={this.state.menuSizes !== undefined && this.state.menuSizes.y} y2={this.state.menuSizes !== undefined && this.state.menuSizes.y2}>
                     <div className="menuSection">
                     <div className="subMenuSection">
                         <img className="logo" src={logo} />
