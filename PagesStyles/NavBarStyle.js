@@ -10,9 +10,9 @@ display: flex;
 justify-content: flex-end;
 align-items: center;
 position: absolute;
-z-index: 10;
+z-index: ${props => props.position ? 0 : 10};
 overflow-x: hidden;
-
+animation-delay: 0.4s
 
 
 .logo {

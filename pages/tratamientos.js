@@ -64,9 +64,9 @@ const Tratamientos = props => {
             <React.Fragment>
                 <NavBar></NavBar>
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"nuestros tratamientos"} footer={false}></Main>
-                <ImgWithText img={img2} text={"ORTODONCIA Y ODEONTOLOGÍA"}></ImgWithText>
+                <ImgWithText img={img2} text={"ORTODONCIA Y ODEONTOLOGÍA"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientos}></ListItems>
-                <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"}></ImgWithText>
+                <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"}></ImgWithText>
                 <IconContainer icons={icons}></IconContainer>
                 <ListItems list={listTratamientos}></ListItems>
                 <Footer></Footer>

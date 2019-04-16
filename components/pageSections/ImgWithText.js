@@ -4,7 +4,7 @@ import { ImgWithTextStyleWrapperStyle } from '../../PagesStyles/ImgWithTextStyle
 
 const ImgWithText = props => {
     return (
-        <ImgWithTextStyleWrapperStyle img={props.img} imgPosition={props.imgPosition}>
+        <ImgWithTextStyleWrapperStyle img={props.img} imgPosition={props.imgPosition} colorText={props.colorText} order={props.order} width={props.width}>
             <h1>{props.text}</h1>
         </ImgWithTextStyleWrapperStyle>
     )

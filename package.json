@@ -16,6 +16,7 @@
     "react": "^16.8.6",
     "react-div-100vh": "^0.3.2",
     "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.16",
     "react-intersection-observer": "^8.22.5",
     "react-pose": "^4.0.8",
     "react-scroll-percentage": "^3.1.0",

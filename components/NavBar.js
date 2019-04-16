@@ -1,7 +1,6 @@
 import React from 'react'
 import posed from 'react-pose';
 import { NavWrapperStyle } from '../PagesStyles/NavBarStyle'
-import { FooterStyle } from '../PagesStyles/FooterStyle'
 import { NavTextStyle } from '../PagesStyles/TextStyles/NavTextStyle'
 import logo from '../static/imgs/home/logoMenu.jpg'
 
@@ -30,6 +29,7 @@ class NavBar extends React.Component {
         this.state = {
             hamburger: undefined,
             position: true,
+            pos: true,
             menuSizes: {y: -1000, y2: 0} 
         }
     }
@@ -40,9 +40,9 @@ class NavBar extends React.Component {
         case window.innerWidth < 376:
             return { y: -window.innerHeight * 1.20, y2: 0 }
         case window.innerWidth < 415:
-            return { y: -500, y2: 370 }
+            return { y: -window.innerHeight * 1.20, y2: 0 }
         case window.innerWidth < 769:
-            return { y: -500, y2: 370 }
+            return { y: -window.innerHeight * 1.20, y2: 0 }
         default:
             return {y: -window.innerHeight, y2: 0}
         }
@@ -70,14 +70,30 @@ class NavBar extends React.Component {
         }
     }
 
+    _managePositionNav = () => {
+        if (this.state.pos) {
+            this.setState({ position: !this.state.position, pos: !this.state.pos }, () => this.hamburgerEffect()) 
+        } else {
+            this.setState({ position: !this.state.position }, () => {
+            this.hamburgerEffect()
+            setTimeout(()=> {
+                this.setState({pos: !this.state.pos})
+            },400)
+            })
+        }
+     
+    }
+
 
     render() {
 
+
+
         return (
-            <NavWrapperStyle>
+            <NavWrapperStyle position={this.state.pos}>
                 <div className="menuIcon">
                     <link href="/static/css/hamburger.css" rel="stylesheet" />
-                    <button className="hamburger hamburger--spin" type="button" onClick={() => this.setState({ position: !this.state.position }, () => this.hamburgerEffect())}>
+                    <button className="hamburger hamburger--spin" type="button" onClick={() => this._managePositionNav()}>
                         <span className="hamburger-box">
                             <span className="hamburger-inner"></span>
                         </span>

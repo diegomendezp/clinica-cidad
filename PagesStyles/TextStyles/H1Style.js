@@ -12,6 +12,11 @@ font-size: 8vw;
 line-height: 16vh;
 letter-spacing: 0.6vw;
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 
 @media (min-width: 1281px) {
   

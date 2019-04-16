@@ -6,20 +6,23 @@ const ImgWithTextStyleWrapperStyle = styled.div`
   ##Screen = 1281px to higher resolution desktops
 */
 
-width: 100vw;
+width: ${props => props.width ? `${props.width}vw` : "100vw"};
 height: 100vh;
 background-image: url(${props => props.img});
 background-repeat: no-repeat;
 background-size: cover;
+order: ${props => props.order};
 
 h1 {
   margin: 0;
-  color: white;
+  color: ${props => props.colorText};
   font-family: "AvenirL";
   padding: 7% 3%;
   letter-spacing: 0.6vw;
   font-size: 3.5vw;
 }
+
+
 
 
 
@@ -80,13 +83,16 @@ h1 {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-
+  width: 100vw;
   height: 75vh;
+  order: 0;
   background-position-x: ${props=> props.imgPosition ? `${props.imgPosition}px` : "-345px"};
 
   h1 {
   font-size: 9.5vw;
-}
+  }
+
+
 
 
 }

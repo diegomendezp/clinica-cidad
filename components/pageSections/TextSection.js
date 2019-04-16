@@ -1,19 +1,32 @@
+import React from 'react'
 import styled from 'styled-components';
 
-const HeaderWrapperStyle = styled.div`
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+const TextSection = props => {
+    return (
+        <TextSectionStyle>
+            {
+                Object.values(props.text).map((p,i) => <p key={i}>{p}</p>)
+            }
+            
+        </TextSectionStyle>
+    )
+}
 
-width: 70vw;
-padding: 2% 2%;
-z-index: 2;
+export { TextSection }
 
+const TextSectionStyle = styled.div`
+
+box-sizing: border-box;
+padding: 20% 3%;
+order: 2;
+
+p {
+    font-family: "AvenirL"
+}
+
+width: 50vw;
 
 @media (min-width: 1281px) {
-  
-
   
 }
 
@@ -24,8 +37,6 @@ z-index: 2;
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-
-  
 }
 
 /* 
@@ -34,8 +45,6 @@ z-index: 2;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-
   
 }
 
@@ -46,8 +55,6 @@ z-index: 2;
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-
-  
 }
 
 /* 
@@ -56,10 +63,6 @@ z-index: 2;
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  .mainContainer {
-
-  }  
   
 }
 
@@ -70,13 +73,9 @@ z-index: 2;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    box-sizing: border-box;
-    width: 85vw;
-    padding: 8% 3%;
+    width: 100vw;
+    order: 0;
 
 
 }
-
-`;
-
-export { HeaderWrapperStyle };
+`
