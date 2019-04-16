@@ -6,6 +6,8 @@ import Tratamientos from '../components/Tratamientos'
 import Equipo from '../components/Equipo'
 import Footer from '../components/Footer'
 import Avenir from "../static/fonts/avenir.ttf";
+import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
+import imageOffice from '../static/imgs/home/imgHome1.jpg'
 
 
 export default () => (
@@ -19,6 +21,13 @@ export default () => (
       @font-face {
         font-family: "Avenir";
         src: url(${Avenir}) format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "AvenirL";
+        src: url(${AvenirL}) format("truetype");
         font-weight: normal;
         font-style: normal;
       }
@@ -42,7 +51,7 @@ export default () => (
     `}</style>
     <React.Fragment>
       <NavBar></NavBar>
-      <Main></Main>
+      <Main img={imageOffice} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"medicina estética, ortodoncia, odeontología…"} footer={true}></Main>
       <Tratamientos></Tratamientos>
       <Equipo></Equipo>
       <Footer></Footer>

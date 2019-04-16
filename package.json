@@ -19,6 +19,7 @@
     "react-intersection-observer": "^8.22.5",
     "react-pose": "^4.0.8",
     "react-scroll-percentage": "^3.1.0",
+    "react-svg": "^8.0.5",
     "styled-components": "^4.1.3"
   }
 }

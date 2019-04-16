@@ -99,17 +99,27 @@ z-index: 1;
 
 @media (min-width: 376px) and (max-width: 480px) {
 
-  .imageContainer {
-    background-position-x: -100px;
-    background-position-y: 70px;
-    
+  height: 100vh;
+  background: #ebecee;
+
+  .tratamientosContainer {
+    background-position-x: -220px;
+    padding-bottom: 10%;
+    height: 64vh;
+
   }
 
-    .downImage {
-      width: 46vw;
-      height: 18vh;
-      object-fit: cover;
+  .infoContainer {
+  text-align: left;
   }
+
+  .downImage {
+    position: absolute;
+    width: 90vw;
+    height: 70vh;
+    object-fit: contain;
+    z-index: 1;
+}
 }
 
 /* 
@@ -128,11 +138,6 @@ z-index: 1;
     height: 64vh;
 
   }
-
-  .infoContainer {
-  text-align: left;
-}
-
   
 .downImage {
     position: absolute;

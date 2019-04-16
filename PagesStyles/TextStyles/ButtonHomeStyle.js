@@ -15,7 +15,7 @@ font-size: 2vw;
 -ms-flex-order: -1;
 order: -1;
 align-self: ${props => props.equipo ? "flex-start" : "flex-end"};
-margin-bottom: ${props => props.mobile ? "15%" : "3%"};;
+margin-bottom: 3%;
 
 @media (min-width: 1281px) {
   
@@ -79,6 +79,7 @@ margin-bottom: ${props => props.mobile ? "15%" : "3%"};;
   order: 1;
   align-self: center;
   width: 80vw;
+  margin-bottom: ${props => props.mobile ? "15%" : "3%"};
 }
 
 `;

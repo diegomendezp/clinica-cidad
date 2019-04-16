@@ -30,21 +30,22 @@ class NavBar extends React.Component {
         this.state = {
             hamburger: undefined,
             position: true,
+            menuSizes: {y: -1000, y2: 0} 
         }
     }
 
     _manageResize = () => {
-        return {y: -window.innerHeight, y2: 0}
-        // switch (true) {
-        // case window.innerWidth < 376:
-        //     return { y: -500, y2: 310 }
-        // case window.innerWidth < 415:
-        //     return { y: -500, y2: 370 }
-        // case window.innerWidth < 769:
-        //     return { y: -500, y2: 370 }
-        // default:
-        //     return { y: -500, y2: 365 }
-        // }
+        
+        switch (true) {
+        case window.innerWidth < 376:
+            return { y: -window.innerHeight * 1.20, y2: 0 }
+        case window.innerWidth < 415:
+            return { y: -500, y2: 370 }
+        case window.innerWidth < 769:
+            return { y: -500, y2: 370 }
+        default:
+            return {y: -window.innerHeight, y2: 0}
+        }
     };
 
     componentDidMount() {

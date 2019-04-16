@@ -6,6 +6,7 @@ import { ButtonHomeStyle } from '../PagesStyles/TextStyles/ButtonHomeStyle'
 import image1 from '../static/imgs/home/imgHome2.jpg'
 import image2 from '../static/imgs/home/imghome2.png'
 import image3 from '../static/imgs/home/imgHome4.jpg'
+import Link from 'next/link';
 
 
 
@@ -31,7 +32,7 @@ export default class Tratamientos extends Component {
                 this._makeAnimation(-130, -130, 60, 70, 20, 20);
                 break;
             case window.innerWidth < 415:
-                this._makeAnimation(-150, -150, 40, 50, 10, 10);
+                this._makeAnimation(-150, -150, 70, 80, 20, 20);
                 break;
             case window.innerWidth < 769:
                 this._makeAnimation(-200, -120, 400, 200, 50, 10);
@@ -72,7 +73,7 @@ export default class Tratamientos extends Component {
     }
 
     render() {
-        
+
         return (
 
             <TratamientosWrapperStyle img={this.state.width !== undefined && this.state.width <= 414 ? image3 : image1}>
@@ -83,7 +84,9 @@ export default class Tratamientos extends Component {
                     </div>
                     <div className="infoContainer">
                         <H2Style padding={true}>Nuestros tratamientos</H2Style>
-                        <ButtonHomeStyle mobile={true}>Ver tratamientos</ButtonHomeStyle>
+                        <Link href="/tratamientos">
+                            <ButtonHomeStyle mobile={true}>Ver tratamientos</ButtonHomeStyle>
+                        </Link>
                     </div>
 
                 </div>

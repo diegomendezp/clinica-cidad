@@ -11,6 +11,8 @@ justify-content: flex-end;
 align-items: center;
 position: absolute;
 z-index: 10;
+overflow-x: hidden;
+
 
 
 .logo {

@@ -1,28 +1,36 @@
+import React from 'react'
 import styled from 'styled-components';
+import { IconSVG } from './IconSVG'
 
-const H2Style = styled.h1`
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-margin: 0;
-padding: 0;
-font-family: "Avenir";
-font-size: 8vw;
-line-height: 13vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
-letter-spacing: 0.6vw;
-align-self: flex-end;
-width: ${props => props.equipo ? "100%" : "52vw"};
-height: 29vh;
+const IconContainer = props => {
+    return (
+        <IconStyleWrapper>
+            {
+                props.icons.map(icon => <IconSVG svg={icon.svg} title={icon.title} subtitle={icon.subtitle}></IconSVG>)
+            }
+        </IconStyleWrapper>
+    )
+}
+
+export { IconContainer }
+
+const IconStyleWrapper = styled.div`
 
 
-@media (min-width: 1281px) {
+    background: rgb(225,236,255);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 70vw;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -6%;
+    margin-bottom: -13%;
+
+
+
+    @media (min-width: 1281px) {
   
 
   
@@ -79,19 +87,12 @@ height: 29vh;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  padding: ${props => props.padding ? "0 25%" : "0"};
-  margin: 0;
-  padding: 0;
-  font-family: "AvenirL";
-  font-size: 8vw;
-  line-height: 6vh;
-  letter-spacing: 0.4vw;
-  align-self: center;
-  height: 15vh;
-  width: ${props => props.equipo && "80%"};
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
 
 }
 
-`;
-
-export { H2Style };
+`

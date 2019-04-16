@@ -91,7 +91,7 @@ width: 100vw;
 @media (min-width: 320px) and (max-width: 480px) {
 
     .mainContainer {
-      background-position-x: -551px;
+      background-position-x: ${props => props.position}px;
     }  
 
     .headerContainer {

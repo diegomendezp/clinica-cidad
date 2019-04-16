@@ -8,6 +8,7 @@ background: rgb(225,236,255);
 display: flex;
 align-items: center;
 justify-content: center;
+box-sizing: border-box;
 
 .footerSection {
     width: 33.3vw
