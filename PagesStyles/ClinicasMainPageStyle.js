@@ -152,7 +152,7 @@ const ClinicasMainPageStyle = styled.div`
       0%   {top: 33%}
       50% {top: 30%}
       100% {top: 33%}
-    }
+      }
 
     .image-gallery-image img {
     width: 100vw;

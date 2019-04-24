@@ -5,6 +5,31 @@ import Main from '../components/Main'
 import img from '../static/imgs/equipo/imgpersonal1.jpg'
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
+import fotopadierna from "../static/imgs/equipo/imgdrAna.jpg";
+import fotorabal from "../static/imgs/equipo/imgdrAna2.jpg";
+import fotoangel from "../static/imgs/equipo/imgdrAngel.jpg";
+import WorkerCard from '../components/pageSections/WorkerCard';
+import { EquipoMainPageStyle } from '../PagesStyles/EquipoMainPageStyle'
+import { H3Style } from '../PagesStyles/TextStyles/H3Style'
+import Footer from '../components/Footer';
+
+const trabajadores = [
+    {
+        nombre: "Dra. Ana Padierna",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
+        imagen: fotopadierna,
+    },
+    {
+        nombre: "Dr. Ángel",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
+        imagen: fotoangel,
+    },
+    {
+        nombre: "Dra. Ana Rabal",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
+        imagen: fotorabal,
+    }
+]
 
 const Equipo = props => {
     return (
@@ -41,10 +66,21 @@ const Equipo = props => {
     
         
         `}</style>
-            <React.Fragment>
-                <NavBar></NavBar>
+            <NavBar></NavBar>
+            <EquipoMainPageStyle>
                 <Main img={img} imgPosition={-421} title={"Clínica Cidad –"} subtitle={"nuestro equipo"} footer={false}></Main>
-            </React.Fragment>
+                <div>
+                    <H3Style equipo={true}>
+                        Nuestros doctores
+                    </H3Style>
+                    <div className="workersContainer">
+                        {
+                            trabajadores.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
+                        }
+                    </div>
+                </div>
+                <Footer></Footer>
+            </EquipoMainPageStyle>
 
         </React.Fragment>
     )

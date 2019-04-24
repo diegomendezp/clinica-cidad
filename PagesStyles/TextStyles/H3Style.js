@@ -1,21 +1,27 @@
 import styled from 'styled-components';
 
-const PStyle = styled.p`
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+const H3Style = styled.h1`
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
 margin: 0;
-padding: 0;
+padding: 0 0 0 2%;
 font-family: "Avenir";
-font-size: 2vw;
-line-height: 3.3vh;
+font-size: 4vw;
+line-height: 13vh;
 -webkit-letter-spacing: 0.6vw;
 -moz-letter-spacing: 0.6vw;
 -ms-letter-spacing: 0.6vw;
-letter-spacing: 0.3vw;
+-webkit-letter-spacing: 0.6vw;
+-moz-letter-spacing: 0.6vw;
+-ms-letter-spacing: 0.6vw;
+letter-spacing: 0.6vw;
+align-self: flex-end;
+width: ${props => props.equipo ? "100%" : "52vw"};
 
-text-align: ${props => props.align && "left"};
+
 
 @media (min-width: 1281px) {
   
@@ -74,12 +80,21 @@ text-align: ${props => props.align && "left"};
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  font-size: 6vw;
-  letter-spacing: 1.3px;
-  line-height: 5vh;
+  justify-content: center;
+
+  padding: ${props => props.padding ? "0 25%" : "0"};
+  margin: 0;
+  padding: 0;
+  font-family: "AvenirL";
+  font-size: 8vw;
+  line-height: 6vh;
+  letter-spacing: 0.4vw;
+  align-self: center;
+  height: 15vh;
+  width: ${props => props.equipo && "100%"};
 
 }
 
 `;
 
-export { PStyle };
+export { H3Style };

@@ -51,7 +51,7 @@ export default () => (
     `}</style>
     <React.Fragment>
       <NavBar></NavBar>
-      <Main img={imageOffice} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"medicina estética, ortodoncia, odeontología…"} footer={true}></Main>
+      <Main img={imageOffice} imgPosition={-251} title={"Clínica Cidad –"} subtitle={"medicina estética, ortodoncia, odeontología…"} footer={true}></Main>
       <Tratamientos></Tratamientos>
       <Equipo></Equipo>
       <Footer></Footer>

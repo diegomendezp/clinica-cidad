@@ -6,10 +6,10 @@ const HeaderWrapperStyle = styled.div`
   ##Screen = 1281px to higher resolution desktops
 */
 
-width: 70vw;
+width: 80vw;
 padding: 2% 2%;
 z-index: 2;
-
+text-align:left;
 
 @media (min-width: 1281px) {
   

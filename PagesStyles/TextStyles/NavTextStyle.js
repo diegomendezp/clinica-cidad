@@ -8,7 +8,7 @@ const NavTextStyle = styled.p`
 margin: 0;
 padding: 0;
 font-family: "Avenir";
-font-size: 1.2vw;
+font-size: ${props => props.title ? "3vw" : "1.2vw"};
 line-height: 5vh;
 letter-spacing: 0.2vw;
 width: 25vw;

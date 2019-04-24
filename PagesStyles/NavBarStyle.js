@@ -12,7 +12,7 @@ align-items: center;
 position: absolute;
 z-index: ${props => props.position ? 0 : 10};
 overflow-x: hidden;
-animation-delay: 0.4s
+animation-delay: 0.4s;
 
 
 .logo {
@@ -30,7 +30,7 @@ animation-delay: 0.4s
 
 .menuSection {
   width: 100vw;
-  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,10 +39,12 @@ animation-delay: 0.4s
 
 .subMenuSection {
   width: 50vw;
+  background: white;
 }
 
 .menuFooter {
   padding: 5% 5%;
+  background: white;
 }
 
 .menuIcon {
@@ -116,7 +118,13 @@ animation-delay: 0.4s
 
 @media (min-width: 320px) and (max-width: 480px) {
   
+/* .menuSection {
+    flex-direction: column;
+}
 
+.subMenuSection {
+  width: 100vw;
+} */
   
 }
 

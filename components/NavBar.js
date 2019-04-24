@@ -3,6 +3,7 @@ import posed from 'react-pose';
 import { NavWrapperStyle } from '../PagesStyles/NavBarStyle'
 import { NavTextStyle } from '../PagesStyles/TextStyles/NavTextStyle'
 import logo from '../static/imgs/home/logoMenu.jpg'
+import Link from 'next/link';
 
 const Box = posed.div({
     up: {
@@ -102,19 +103,29 @@ class NavBar extends React.Component {
                 <Box pose={this.state.position ? "up" : "down"} className="menu" y={this.state.menuSizes !== undefined && this.state.menuSizes.y} y2={this.state.menuSizes !== undefined && this.state.menuSizes.y2}>
                     <div className="menuSection">
                     <div className="subMenuSection">
-                        <img className="logo" src={logo} />
+                        <Link href="/">
+                            <img className="logo" src={logo} />
+                        </Link>
                         <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Alcalá 590 1A </NavTextStyle>
                         <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Machupichu 25</NavTextStyle>
                         <NavTextStyle>info@clinicacidad.es</NavTextStyle>
                     </div>
                     <div className="subMenuSection">
-                        <NavTextStyle>Clínicas</NavTextStyle>
-                        <NavTextStyle>Tratamientos</NavTextStyle>
+                        <Link href="/clinicas">
+                            <NavTextStyle title={true} margin={true}>Clínicas</NavTextStyle>
+                        </Link>
+                        <Link href="/tratamientos">
+                            <NavTextStyle title={true}>Tratamientos</NavTextStyle>
+                        </Link>
                         <NavTextStyle>- Medicina estética</NavTextStyle>
                         <NavTextStyle>- Ortodoncia</NavTextStyle>
-                        <NavTextStyle>- Odeontología</NavTextStyle>
-                        <NavTextStyle>Equipo</NavTextStyle>
-                        <NavTextStyle>Blog</NavTextStyle>
+                        <NavTextStyle margin={true}>- Odeontología</NavTextStyle>
+                        <Link href="/equipo">
+                            <NavTextStyle title={true} margin={true}>Equipo</NavTextStyle>
+                        </Link>
+                        <Link href="/blog">                        
+                            <NavTextStyle title={true} margin={true}>Blog</NavTextStyle>
+                        </Link>
                     </div>
                     </div>
                     <div className="menuFooter">
