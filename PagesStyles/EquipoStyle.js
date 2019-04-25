@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const EquipoStyle = styled.div`
 
-  z-index:10;
+  z-index:0;
   position: relative;
 
   .equipoContainer { 
@@ -75,7 +75,7 @@ const EquipoStyle = styled.div`
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 767px) {
   
 
   
@@ -86,7 +86,7 @@ const EquipoStyle = styled.div`
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 375px) {
   
     .equipoContainer {
         background-position-x: -550px;

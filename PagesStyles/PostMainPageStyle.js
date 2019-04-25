@@ -25,6 +25,7 @@ position: relative;
     font-family: AvenirL;
     text-decoration: underline;
     align-self: flex-start;
+    cursor: pointer;
   
 }
 
@@ -37,6 +38,7 @@ position: relative;
 .titlePost {
     font-family: AvenirL;
     font-size: 3vw;
+    align-self: flex-start;
 }
 
 .imageSection {

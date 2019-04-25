@@ -29,14 +29,24 @@ flex-wrap: wrap;
 
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 414px) and (max-width: 767px) {
   
 
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 413px) {
 
+    .blogInfo {
+        p {
+            font-size: 6vw;
+        }
+
+        a {
+            font-size: 4vw;
+            margin-bottom: 5%;
+        }
+    }
     text-align: center;
   
 }

@@ -14,8 +14,8 @@ const BlogCard = props => {
                 <img src={props.blog.imagen}></img>
             </div>
             <div className="blogInfo">
-                    <PStyle>{props.blog.title}</PStyle>
-                    <Link as={`/post/${props.blog.shortName}`} href={{ pathname: '/post', query: { blog: JSON.stringify(props.blog) } }}>Leer más +++</Link>
+                    <PStyle>{props.blog.title.toUpperCase()}</PStyle>
+                    <Link as={`/post/${props.blog.shortName}`} href={{ pathname: '/post', query: { blog: JSON.stringify(props.blog) } }}><a className="link">Leer más +++</a></Link>
              </div>
         </BlogCardStyle>
     )
@@ -27,7 +27,7 @@ export default BlogCard
 const BlogCardStyle = styled.div`
 
 width: 50vw;
-height: 63vh;
+
 
 .blogInfo {
 
@@ -45,6 +45,17 @@ height: 63vh;
     }
 
 }
+
+.link {
+  cursor: pointer;
+  font-family: "AvenirL";
+  padding: 0% 3%;
+  margin: 0;
+  text-decoration: underline;
+  font-size: 1.1vw;
+  color: rgba(49,49,49);
+}
+
 
 
 .imageBlogEntrade {

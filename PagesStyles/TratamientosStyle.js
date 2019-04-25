@@ -4,7 +4,7 @@ const TratamientosWrapperStyle = styled.div`
 
 box-sizing: border-box;
 position: relative;
-z-index: 1;
+z-index: 0;
 
 .tratamientosContainer {
   width: 100vw;

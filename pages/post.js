@@ -63,8 +63,10 @@ const Blog = withRouter(props => {
                 <h1 className="title">Clínica Cidad</h1>
                 <div className="imageSection"></div>
                 <div className="textSection">
-                <BackLink href="/blog">&lt;-Volver</BackLink>
-                <h1 className="titlePost">{blog.title}</h1>
+                <Link href="/blog">
+                <p className="backLink">&lt;-- Volver</p>
+                </Link>
+                <h1 className="titlePost">{blog.title.toUpperCase()}</h1>
                 <p className="descriptionPost">{blog.descripcion}</p>
                 </div>
             </PostMainPageStyle>

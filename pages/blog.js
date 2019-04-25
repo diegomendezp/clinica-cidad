@@ -76,7 +76,7 @@ const Blog = props => {
     
         
         `}</style>
-            <NavBar></NavBar>
+            <NavBar position={true}></NavBar>
             <BlogMainPageStyle>
                 <Main img={img} imgPosition={-301} title={"Clínica Cidad –"} subtitle={"blog"} footer={false}></Main>
                 <div>

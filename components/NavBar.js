@@ -2,7 +2,9 @@ import React from 'react'
 import posed from 'react-pose';
 import { NavWrapperStyle } from '../PagesStyles/NavBarStyle'
 import { NavTextStyle } from '../PagesStyles/TextStyles/NavTextStyle'
+import { NavLinkStyle } from '../PagesStyles/TextStyles/NavLinkStyle'
 import logo from '../static/imgs/home/logoMenu.jpg'
+import tailorLogo from '../static/imgs/tailorBlackLogo.svg'
 import Link from 'next/link';
 
 const Box = posed.div({
@@ -31,7 +33,8 @@ class NavBar extends React.Component {
             hamburger: undefined,
             position: true,
             pos: true,
-            menuSizes: {y: -1000, y2: 0} 
+            menuSizes: {y: -1000, y2: 0},
+            visible: false
         }
     }
 
@@ -39,13 +42,13 @@ class NavBar extends React.Component {
         
         switch (true) {
         case window.innerWidth < 376:
-            return { y: -window.innerHeight * 1.20, y2: 0 }
+            return { y: -window.innerHeight * 1.20, y2: 95 }
         case window.innerWidth < 415:
-            return { y: -window.innerHeight * 1.20, y2: 0 }
+            return { y: -window.innerHeight * 1.20, y2: 140 }
         case window.innerWidth < 769:
             return { y: -window.innerHeight * 1.20, y2: 0 }
-        default:
-            return {y: -window.innerHeight, y2: 0}
+        case window.innerWidth >= 769:
+            return {y: -window.innerHeight * 1.20, y2: -60}
         }
     };
 
@@ -69,6 +72,14 @@ class NavBar extends React.Component {
 
             el.className = classes.join(' ');
         }
+
+        if (this.state.visible) {
+            setTimeout(() => {
+                this.setState({visible: !this.state.visible})
+            }, 400)
+        } else {
+            this.setState({visible: !this.state.visible})
+        }
     }
 
     _managePositionNav = () => {
@@ -91,7 +102,7 @@ class NavBar extends React.Component {
 
 
         return (
-            <NavWrapperStyle position={this.state.pos}>
+            <NavWrapperStyle position={this.state.pos} visible={this.state.visible}>
                 <div className="menuIcon">
                     <link href="/static/css/hamburger.css" rel="stylesheet" />
                     <button className="hamburger hamburger--spin" type="button" onClick={() => this._managePositionNav()}>
@@ -102,34 +113,44 @@ class NavBar extends React.Component {
                 </div>
                 <Box pose={this.state.position ? "up" : "down"} className="menu" y={this.state.menuSizes !== undefined && this.state.menuSizes.y} y2={this.state.menuSizes !== undefined && this.state.menuSizes.y2}>
                     <div className="menuSection">
-                    <div className="subMenuSection">
-                        <Link href="/">
-                            <img className="logo" src={logo} />
-                        </Link>
-                        <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Alcalá 590 1A </NavTextStyle>
-                        <NavTextStyle margin={true}>Citas: 600 000 000 – 91 000 000 Calle Machupichu 25</NavTextStyle>
-                        <NavTextStyle>info@clinicacidad.es</NavTextStyle>
-                    </div>
-                    <div className="subMenuSection">
-                        <Link href="/clinicas">
-                            <NavTextStyle title={true} margin={true}>Clínicas</NavTextStyle>
-                        </Link>
-                        <Link href="/tratamientos">
-                            <NavTextStyle title={true}>Tratamientos</NavTextStyle>
-                        </Link>
-                        <NavTextStyle>- Medicina estética</NavTextStyle>
-                        <NavTextStyle>- Ortodoncia</NavTextStyle>
-                        <NavTextStyle margin={true}>- Odeontología</NavTextStyle>
-                        <Link href="/equipo">
-                            <NavTextStyle title={true} margin={true}>Equipo</NavTextStyle>
-                        </Link>
-                        <Link href="/blog">                        
-                            <NavTextStyle title={true} margin={true}>Blog</NavTextStyle>
-                        </Link>
-                    </div>
+                    <div className="logoSection">
+                                <Link href="/">
+                                    <img className="logo" src={logo} />
+                                </Link>
+                        </div>
+                        <div className="infoNavSection">
+                        <div className="leftSection">                        
+                            <div className="subMenuSection">                    
+                                <NavTextStyle>Citas: 917 423 141 </NavTextStyle>
+                                <NavTextStyle margin={true}>Calle Alcalá 590 1A</NavTextStyle>
+                                <NavTextStyle>Citas: 91 000 000 </NavTextStyle>
+                                <NavTextStyle margin={true}>Calle Machupichu 25</NavTextStyle>
+                                <NavTextStyle>info@clinicacidad.es</NavTextStyle>
+                            </div>
+                        </div>
+                        <div className="rightSection">
+                            <div className="subMenuSection2">
+                                <Link href="/clinicas">
+                                    <NavLinkStyle title={true} margin={true}>Clínicas</NavLinkStyle>
+                                </Link>
+                                <Link href="/tratamientos">
+                                    <NavLinkStyle title={true}>Tratamientos</NavLinkStyle>
+                                </Link>
+                                <NavLinkStyle top={true}>- Medicina estética</NavLinkStyle>
+                                <NavLinkStyle margin={true}>- Ortodoncia y odeontología</NavLinkStyle>                  
+                                <Link href="/equipo">
+                                    <NavLinkStyle title={true} margin={true}>Equipo</NavLinkStyle>
+                                </Link>
+                                <Link href="/blog">                        
+                                    <NavLinkStyle title={true} margin={true}>Blog</NavLinkStyle>
+                                </Link>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                     <div className="menuFooter">
-                        <NavTextStyle>© 2019 by Tailor</NavTextStyle>
+                            <NavTextStyle>© 2019 by Tailor</NavTextStyle>
+                            <img src={tailorLogo}/>
                     </div>
                 </Box>
             </NavWrapperStyle>
