@@ -10,9 +10,9 @@ const Equipo = props => {
         <EquipoStyle img={image1}>
             <div className="equipoContainer">
                 <div className="infoContainer">
-                    <H2Style padding={true} equipo={true}>Nuestros equipo de exportos</H2Style>
+                    <H2Style padding={true} equipo={true}>Nuestros equipo de expertos</H2Style>
                     <Link href="/equipo">
-                    <ButtonHomeStyle equipo={true} mobile={false}>Ver equipo</ButtonHomeStyle>
+                    <ButtonHomeStyle equipo={true} mobile={false} background={true}>Ver equipo</ButtonHomeStyle>
                     </Link>
                 </div>
             </div>

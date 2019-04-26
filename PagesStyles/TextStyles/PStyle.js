@@ -74,9 +74,9 @@ text-align: ${props => props.align && "left"};
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  font-size: 6vw;
+  /* font-size: 6vw;
   letter-spacing: 1.3px;
-  line-height: 5vh;
+  line-height: 5vh; */
 
 }
 

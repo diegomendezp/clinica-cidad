@@ -2,11 +2,9 @@ import React from 'react'
 import NavBar from '../components/NavBar';
 import Head from "next/head";
 import Avenir from "../static/fonts/avenir.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
-import { PostMainPageStyle, BackLink } from '../PagesStyles/PostMainPageStyle'
-import { H1Style } from '../PagesStyles/TextStyles/H1Style'
-import { H3Style } from '../PagesStyles/TextStyles/H3Style'
-import { PStyle } from '../PagesStyles/TextStyles/PStyle'
+import { PostMainPageStyle } from '../PagesStyles/PostMainPageStyle'
 import Link from 'next/link'
 import Footer from '../components/Footer';
 
@@ -28,6 +26,14 @@ const Blog = withRouter(props => {
             @font-face {
             font-family: "Avenir";
             src: url(${Avenir}) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+            }
+
+
+            @font-face {
+            font-family: "AvenirB";
+            src: url(${AvenirB}) format("truetype");
             font-weight: normal;
             font-style: normal;
             }
@@ -70,7 +76,7 @@ const Blog = withRouter(props => {
                 <p className="descriptionPost">{blog.descripcion}</p>
                 </div>
             </PostMainPageStyle>
-
+            <Footer></Footer>
         </React.Fragment>
     )
 })

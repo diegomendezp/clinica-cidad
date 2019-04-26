@@ -8,7 +8,7 @@ const ButtonHomeStyle = styled.button`
 
 font-family: "Avenir";
 border: 4px solid black;
-background: transparent;
+background: ${props=> props.background ? "#ffffff63" : "transparent" };
 padding: 1% 2%;
 font-size: 2vw;
 -webkit-order: -1;

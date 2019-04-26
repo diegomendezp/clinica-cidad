@@ -138,9 +138,9 @@ animation-delay: 0.4s;
 
 @media (min-width: 414px) and (max-width: 767px) {
 
-  .menu {
-
-}
+.menuIcon {
+    top: ${props => props.visible ? "0.8%" : "4%"};
+} 
 
 .logo {
   width: 30vw;
@@ -202,9 +202,9 @@ animation-delay: 0.4s;
 
 @media (min-width: 320px) and (max-width: 413px) {
 
-.menu {
-
-}
+.menuIcon {
+    top: ${props => props.visible ? "0.8%" : "4%"};
+} 
 
 .logo {
   width: 30vw;
@@ -217,12 +217,13 @@ animation-delay: 0.4s;
 
 .subMenuSection2 {
   margin-top: 5%;
+ 
 }
 
 .logoSection {
   /* order: 1; */
   align-self: flex-start;
-  margin-top: 5%;
+  margin-top: 13%;
 }
 
 .leftSection {
@@ -243,7 +244,7 @@ animation-delay: 0.4s;
   width: 100%;
   flex-direction: column;
   padding: 0 4%;
-  margin-top: 30%;
+  margin-top: 22%;
 }
 
 .leftSection, .rightSection {

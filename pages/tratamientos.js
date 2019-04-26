@@ -66,7 +66,8 @@ const Tratamientos = props => {
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"nuestros tratamientos"} footer={false}></Main>
                 <ImgWithText img={img2} text={"ORTODONCIA Y ODEONTOLOGÍA"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientos}></ListItems>
-                <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"}></ImgWithText>
+                <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
+                </ImgWithText>
                 <IconContainer icons={icons}></IconContainer>
                 <ListItems list={listTratamientos}></ListItems>
                 <Footer></Footer>

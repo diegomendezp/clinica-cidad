@@ -4,6 +4,7 @@ import Head from "next/head";
 import Main from '../components/Main'
 import img from '../static/imgs/blog/imgBlog.jpg'
 import Avenir from "../static/fonts/avenir.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
 import blog1 from "../static/imgs/blog/post1.jpg";
 import blog2 from "../static/imgs/blog/post2.jpg";
@@ -53,6 +54,13 @@ const Blog = props => {
             @font-face {
             font-family: "Avenir";
             src: url(${Avenir}) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+            }
+
+            @font-face {
+            font-family: "AvenirB";
+            src: url(${AvenirB}) format("truetype");
             font-weight: normal;
             font-style: normal;
             }

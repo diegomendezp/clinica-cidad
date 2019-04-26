@@ -10,14 +10,16 @@ const Footer = props => {
                 <img className="logo" src={logo} />
             </div>
             <div className="footerSection">
-                <FooterTextStyle>Clínica Cidad</FooterTextStyle>
-                <FooterTextStyle>Calle Alcalá 590 1A 91 000 00 00</FooterTextStyle>
-                <FooterTextStyle>Calle Machupichu 25 91 000 00 00</FooterTextStyle>
+                <FooterTextStyle margin={true} black={true}>Clínica Cidad</FooterTextStyle>
+                <FooterTextStyle>Calle Alcalá 590 1A</FooterTextStyle>
+                <FooterTextStyle margin={true}>91 000 00 00</FooterTextStyle>
+                <FooterTextStyle>Calle Machupichu 25</FooterTextStyle>
+                <FooterTextStyle margin={true}>91 000 00 00</FooterTextStyle>
             </div>
             <div className="footerSection">
-                <FooterTextStyle>Tratamientos</FooterTextStyle>
-                <FooterTextStyle>Equipo</FooterTextStyle>
-                <FooterTextStyle>Blog</FooterTextStyle>
+                <FooterTextStyle margin={true} black={true}>Tratamientos</FooterTextStyle>
+                <FooterTextStyle margin={true} black={true}>Equipo</FooterTextStyle>
+                <FooterTextStyle margin={true} black={true}>Blog</FooterTextStyle>
             </div>
         </FooterStyle>
     )

@@ -60,14 +60,15 @@ const WorkerCardStyle = styled.div`
 
 width: 50vw;
 
+
 .arrow {
     width: 3vw;
   }
 
 .imageWorker {
     img {
-        width: 100%;
-        height: 40vh;
+        width: 50vw;
+        height: 60vh;
         object-fit: cover;
     }
 }
@@ -108,7 +109,7 @@ width: 50vw;
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 414px) and (max-width: 767px) {
   
 }
 
@@ -117,7 +118,7 @@ width: 50vw;
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 413px) {
 
     width: 100vw;
     .arrow {

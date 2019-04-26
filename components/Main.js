@@ -20,8 +20,8 @@ export default class Main extends Component {
             {
               this.props.footer &&
               <div className="addressContainer">
-                <PStyle>Calle Alcalá 590 1A –</PStyle>
-                <PStyle> Calle Machupichu 25  |  Madrid</PStyle>
+                <p>Calle Alcalá 590 1A –</p>
+                <p> Calle Machupichu 25  |  Madrid</p>
               </div>
             }
           </Div100vh>

@@ -38,6 +38,7 @@ flex-wrap: wrap;
 @media (min-width: 320px) and (max-width: 413px) {
 
     .blogInfo {
+        margin-bottom: 5%;
         p {
             font-size: 6vw;
         }
@@ -45,6 +46,7 @@ flex-wrap: wrap;
         a {
             font-size: 4vw;
             margin-bottom: 5%;
+            color: black;
         }
     }
     text-align: center;

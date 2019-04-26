@@ -83,6 +83,26 @@ position: relative;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    flex-direction: column;
+
+    .imageSection {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .textSection {
+        justify-content: flex-start;
+        width: 100vw;
+
+        .titlePost {
+            font-size: 10vw;
+        }
+
+    }
+
+    .title {
+        top: 1%;
+    }
 
 }
 

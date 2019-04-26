@@ -10,7 +10,10 @@ align-items: center;
 justify-content: center;
 box-sizing: border-box;
 
+
 .footerSection {
+    text-align: left;
+    box-sizing: border-box;
     width: 33.3vw
 }
 
@@ -79,12 +82,15 @@ box-sizing: border-box;
     
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 0 3%;
+    padding: 3% 3%;
+    height: 55vh;
 
     .footerSection {
-        width: 55vw;
-        margin-bottom: 5%;
+        padding: 0 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw;
     }
 
     .logo {

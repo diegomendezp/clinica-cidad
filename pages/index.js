@@ -6,6 +6,7 @@ import Tratamientos from '../components/Tratamientos'
 import Equipo from '../components/Equipo'
 import Footer from '../components/Footer'
 import Avenir from "../static/fonts/avenir.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
 import imageOffice from '../static/imgs/home/imgHome1.jpg'
 
@@ -24,6 +25,13 @@ export default () => (
         font-weight: normal;
         font-style: normal;
       }
+
+      @font-face {
+        font-family: "AvenirB";
+        src: url(${AvenirB}) format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        }
 
       @font-face {
         font-family: "AvenirL";

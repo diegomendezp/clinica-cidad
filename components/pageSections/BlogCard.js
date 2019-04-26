@@ -32,6 +32,7 @@ width: 50vw;
 .blogInfo {
 
     text-align: left;
+    margin-bottom: 5%;
 
     p {
         font-size: 1.5vw;
@@ -114,6 +115,15 @@ width: 50vw;
 @media (min-width: 320px) and (max-width: 480px) {
 
     width: 100vw;
+    .blogInfo {
+      p {
+        font-size: 6vw;
+      }
+
+      a {
+        font-size: 4vw;
+      }
+    }
 
 }
 `
