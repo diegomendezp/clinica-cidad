@@ -4,6 +4,7 @@ import Head from "next/head";
 import Main from '../components/Main'
 import img from '../static/imgs/equipo/imgpersonal1.jpg'
 import Avenir from "../static/fonts/avenir.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
 import fotopadierna from "../static/imgs/equipo/imgdrAna.jpg";
 import fotorabal from "../static/imgs/equipo/imgdrAna2.jpg";
@@ -46,6 +47,13 @@ const Equipo = props => {
             font-weight: normal;
             font-style: normal;
             }
+
+            @font-face {
+                font-family: "AvenirB";
+                src: url(${AvenirB}) format("truetype");
+                font-weight: normal;
+                font-style: normal;
+                }
     
             @font-face {
             font-family: "AvenirL";

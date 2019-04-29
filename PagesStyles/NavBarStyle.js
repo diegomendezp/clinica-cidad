@@ -36,7 +36,7 @@ animation-delay: 0.4s;
 
 .leftSection {
   margin-top: 19%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   /* order: 2; */
 }
 
@@ -94,6 +94,10 @@ animation-delay: 0.4s;
 */
 
 @media (min-width: 1281px) {
+
+  .menu {
+    height: 100vh;
+  }
   
   /* .subMenuSection2 {
     width: 50vw;
@@ -124,6 +128,15 @@ animation-delay: 0.4s;
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .menu {
+     height: 100vh;
+   }
+  
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   

@@ -13,21 +13,42 @@ const ImgWithText = props => {
                         <div className="wrapper">
                             <div className="point" id="point1"></div>
                             <div className="popOver">
-                                <p>Hola!</p>
+                                <p className="popOverText">Hola!</p>
                             </div>
                         </div>
                     </PointInteractive>
                     <PointInteractive posX={62} posY={10}>
-                        <div className="point" id="point2"></div>
+                    <div className="wrapper">
+                            <div className="point" id="point2"></div>
+                            <div className="popOver">
+                                <p>Hola!</p>
+                            </div>
+                        </div>
+                        
                     </PointInteractive>
                     <PointInteractive posX={62} posY={50}>
-                        <div className="point" id="point3"></div>
+                    <div className="wrapper">
+                            <div className="point" id="point3"></div>
+                            <div className="popOver">
+                                <p>Hola!</p>
+                            </div>
+                        </div>
                     </PointInteractive>
                     <PointInteractive posX={36} posY={50}>
-                        <div className="point" id="point4"></div>
+                    <div className="wrapper">
+                            <div className="point" id="point4"></div>
+                            <div className="popOver">
+                                <p>Hola!</p>
+                            </div>
+                        </div>
                     </PointInteractive>
                     <PointInteractive posX={43} posY={83}>
-                        <div className="point" id="point5"></div>
+                    <div className="wrapper">
+                            <div className="point" id="point5"></div>
+                            <div className="popOver">
+                                <p>Hola!</p>
+                            </div>
+                        </div>
                     </PointInteractive>
                 </div>
                 )

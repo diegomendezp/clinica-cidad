@@ -121,7 +121,7 @@ const PointInteractive = styled.ul`
   }
 
   .wrapper {
-    position: relative;
+    position: absolute;
     margin-top: 1.5rem;
     display: inline-block;
     top: ${props => `${props.posY}%`};
@@ -135,24 +135,31 @@ const PointInteractive = styled.ul`
     left: 30px;
     top: -40px;
     transform: translate(0, 10px);
-    background-color: #bfbfbf;
+    background-color: black;
     padding: 1.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     width: auto;
     border-radius: 5%;
   }
 
-  .popOver:before {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    top: 0px;
-    border-style: solid;
-    border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #bfbfbf transparent;
-    transition-duration: 0.3s;
-    transition-property: transform;
+  .popOverText {
+    color: white;
+    font-family: "AvenirL";
+    text-align: center;
   }
+
+  .popOver::after {
+    /* this is used to create the pulse animation */
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(1.2);
+    border-radius: 5%;
+    box-shadow: inset 0 0 2px 1px black;
+  }
+
 
   .wrapper:hover .popOver {
     z-index: 10;

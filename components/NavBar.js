@@ -47,8 +47,14 @@ class NavBar extends React.Component {
             return { y: -window.innerHeight * 1.20, y2: 140 }
         case window.innerWidth < 769:
             return { y: -window.innerHeight * 1.20, y2: 0 }
-        case window.innerWidth >= 769:
-            return {y: -window.innerHeight * 1.20, y2: -60}
+        case window.innerWidth < 1024:
+            return { y: -window.innerHeight * 1.20, y2: -60 }
+        case window.innerWidth < 1280:
+            return { y: -window.innerHeight * 1.20, y2: -60 }
+        case window.innerWidth > 1280 && window.innerWidth < 1400:
+            return { y: -window.innerHeight * 1.20, y2: 0}
+        case window.innerWidth >= 1400:
+            return {y: -window.innerHeight * 1.20, y2: -165}
         }
     };
 

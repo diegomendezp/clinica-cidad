@@ -41,12 +41,12 @@ const WorkerCard = props => {
                 <ExpansionPanelSummary expandIcon={
                     <img src={arrow} className="arrow"/>
                 }>
-                    <PStyle>{props.trabajador.nombre}</PStyle>
+                    <p className="workerName">{props.trabajador.nombre}</p>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
-                    <PStyle align={true}>
+                    <p className="workerDescription" align={true}>
                         {props.trabajador.descripcion}
-                    </PStyle>
+                    </p>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
         </WorkerCardStyle>
@@ -59,6 +59,20 @@ export default WorkerCard
 const WorkerCardStyle = styled.div`
 
 width: 50vw;
+
+.workerName, .workerDescription {
+
+margin: 0;
+padding: 0;
+font-family: "Avenir";
+font-size: 2vw;
+line-height: 3.3vh;
+-webkit-letter-spacing: 0.6vw;
+-moz-letter-spacing: 0.6vw;
+-ms-letter-spacing: 0.6vw;
+letter-spacing: 0.3vw;
+text-align: left;
+}
 
 
 .arrow {
@@ -124,6 +138,18 @@ width: 50vw;
     .arrow {
       width: 10vw;
     }
+
+    .imageWorker {
+    img {
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+  }
+
+  .workerName, .workerDescription {
+      font-size: 5vw;
+  }
 
 }
 `
