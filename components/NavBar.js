@@ -155,7 +155,7 @@ class NavBar extends React.Component {
                         </div>
                     </div>
                     <div className="menuFooter">
-                            <NavTextStyle>© 2019 by Tailor</NavTextStyle>
+                    <NavTextStyle><a href="http://tailor-hub.com" target="_blank">©2019 by Tailor</a></NavTextStyle>
                             <img src={tailorLogo}/>
                     </div>
                 </Box>

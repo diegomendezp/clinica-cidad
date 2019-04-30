@@ -44,6 +44,14 @@ animation-delay: 0.4s;
   /* order: 3; */
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
 
 
 .menu {
