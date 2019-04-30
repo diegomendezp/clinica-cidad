@@ -8,12 +8,14 @@ const PStyle = styled.p`
 margin: 0;
 padding: 0;
 font-family: "Avenir";
-font-size: 3.2vw;
-line-height: 7vh;
+font-size: 2vw;
+line-height: 3.3vh;
 -webkit-letter-spacing: 0.6vw;
 -moz-letter-spacing: 0.6vw;
 -ms-letter-spacing: 0.6vw;
 letter-spacing: 0.3vw;
+
+text-align: ${props => props.align && "left"};
 
 @media (min-width: 1281px) {
   
@@ -72,9 +74,9 @@ letter-spacing: 0.3vw;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  font-size: 6vw;
+  /* font-size: 6vw;
   letter-spacing: 1.3px;
-  line-height: 7vh;
+  line-height: 5vh; */
 
 }
 

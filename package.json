@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "@zeit/next-css": "^1.0.1",
     "all": "^0.0.0",
     "next": "^8.0.4",
@@ -17,9 +19,11 @@
     "react": "^16.8.6",
     "react-div-100vh": "^0.3.2",
     "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.16",
     "react-intersection-observer": "^8.22.5",
     "react-pose": "^4.0.8",
     "react-scroll-percentage": "^3.1.0",
+    "react-svg": "^8.0.5",
     "styled-components": "^4.1.3"
   }
 }

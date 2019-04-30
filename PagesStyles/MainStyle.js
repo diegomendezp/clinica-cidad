@@ -15,7 +15,6 @@ width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .headerContainer {
@@ -29,6 +28,15 @@ width: 100vw;
   display: flex;
   width: 100vw;
   padding: 3%;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir";
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vh;
+  }
 }
 
 @media (min-width: 1281px) {
@@ -91,7 +99,7 @@ width: 100vw;
 @media (min-width: 320px) and (max-width: 480px) {
 
     .mainContainer {
-      background-position-x: -551px;
+      background-position-x: ${props => props.position}px;
     }  
 
     .headerContainer {
@@ -103,6 +111,10 @@ width: 100vw;
       display: inline;
       width: 100vw;
       padding: 3%;
+
+      p {
+        font-size: 5.5vw;
+      }
     }
 }
 

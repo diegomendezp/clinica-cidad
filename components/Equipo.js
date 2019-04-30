@@ -3,17 +3,19 @@ import { EquipoStyle } from '../PagesStyles/EquipoStyle'
 import image1 from '../static/imgs/home/imgHome3.jpg'
 import { H2Style } from '../PagesStyles/TextStyles/H2Style'
 import { ButtonHomeStyle } from '../PagesStyles/TextStyles/ButtonHomeStyle'
+import Link from 'next/link';
 
 const Equipo = props => {
     return (
         <EquipoStyle img={image1}>
             <div className="equipoContainer">
                 <div className="infoContainer">
-                    <H2Style padding={true} equipo={true}>Nuestros equipo de exportos</H2Style>
-                    <ButtonHomeStyle equipo={true}>Ver equipo</ButtonHomeStyle>
+                    <H2Style padding={true} equipo={true}>Nuestros equipo de expertos</H2Style>
+                    <Link href="/equipo">
+                    <ButtonHomeStyle equipo={true} mobile={false} background={true}>Ver equipo</ButtonHomeStyle>
+                    </Link>
                 </div>
             </div>
-
         </EquipoStyle>
     )
 }

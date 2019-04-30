@@ -7,13 +7,15 @@ const H1Style = styled.h1`
 */
 margin: 0;
 padding: 0;
-font-family: "Avenir";
+font-family: ${props=>props.bold ? "Avenir" : "AvenirL"};
 font-size: 8vw;
 line-height: 16vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
 letter-spacing: 0.6vw;
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 
 @media (min-width: 1281px) {
@@ -62,7 +64,7 @@ letter-spacing: 0.6vw;
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-
+  letter-spacing: 0.1vw;
   
 }
 
@@ -74,7 +76,7 @@ letter-spacing: 0.6vw;
 @media (min-width: 320px) and (max-width: 480px) {
 
   font-size: 8.5vw;
-  letter-spacing: 0.6vw;
+  letter-spacing: 0.1vw;
   line-height: 7vh;
   padding: ${props => props.padding ? "0 25%" : "0"}
 }

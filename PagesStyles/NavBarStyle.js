@@ -4,17 +4,50 @@ const NavWrapperStyle = styled.div`
 
 box-sizing: border-box;
 width: 100vw;
-height: 15vh;
+height: ${props => props.visible ? "100vh" : "20vh"};
 padding: 0;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-position: absolute;
-z-index: 10;
+position: fixed;
+z-index: ${props => props.position ? 1 : 10};
+overflow-x: hidden;
+overflow-y: ${props => props.visible ? "scroll" : "hidden"};
+animation-delay: 0.4s;
+
+
+.logo {
+  margin-bottom: 15%;
+  width: 12vw;
+}
+
+.logoSection {
+  align-self: flex-start;
+  margin-top: 13%;
+  /* order: 1; */
+}
+
+.infoNavSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -13%;
+}
+
+.leftSection {
+  margin-top: 19%;
+  margin-bottom: 3%;
+  /* order: 2; */
+}
+
+.rightSection {
+  /* order: 3; */
+}
+
+
 
 .menu {
   width: 100vw;
-  height: 100vh;
   background: white;
   display: flex;
   flex-direction: column;
@@ -22,8 +55,8 @@ z-index: 10;
 
 .menuSection {
   width: 100vw;
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 5%;
@@ -31,16 +64,26 @@ z-index: 10;
 
 .subMenuSection {
   width: 50vw;
+  background: white;
+}
+
+.subMenuSection2 {
+  width: 50vw;
+  background: white;
 }
 
 .menuFooter {
-  padding: 0 5%;
+  padding: 3% 5%;
+  background: white;
+  display: flex;
+  align-items: center;
 }
 
 .menuIcon {
   position: absolute;
   padding-right: 3%;
   z-index: 10;
+  top: ${props => props.visible ? "5%" : "25%"};
 }
 
 
@@ -51,9 +94,18 @@ z-index: 10;
 */
 
 @media (min-width: 1281px) {
-  
 
+  .menu {
+    height: 100vh;
+  }
   
+  /* .subMenuSection2 {
+    width: 50vw;
+    background: white;
+    padding-top: 27%;
+  
+} */
+
 }
 
 /* 
@@ -72,16 +124,19 @@ z-index: 10;
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .menu {
+     height: 100vh;
+   }
+  
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
@@ -94,9 +149,62 @@ z-index: 10;
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
+@media (min-width: 414px) and (max-width: 767px) {
 
+.menuIcon {
+    top: ${props => props.visible ? "0.8%" : "4%"};
+} 
+
+.logo {
+  width: 30vw;
+}
+
+.subMenuSection, .subMenuSection2 {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.subMenuSection2 {
+  margin-top: 5%;
+}
+
+.logoSection {
+  /* order: 1; */
+  align-self: flex-start;
+  margin-top: 5%;
+}
+
+.leftSection {
+  order: 2;
+}
+
+.rightSection {
+  /* order: 2; */
+}
+  
+.menuSection {
+  box-sizing: border-box;
+  flex-direction: column;
+
+}
+
+.infoNavSection {
+  width: 100%;
+  flex-direction: column;
+  padding: 0 4%;
+  margin-top: 30%;
+}
+
+.leftSection, .rightSection {
+  width: 100%;
+}
+
+.menuFooter  {
+  img {
+    width: 10vw;
+    margin-left: 2%;
+  }
+}
   
 }
 
@@ -105,9 +213,63 @@ z-index: 10;
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
+@media (min-width: 320px) and (max-width: 413px) {
 
+.menuIcon {
+    top: ${props => props.visible ? "0.8%" : "4%"};
+} 
+
+.logo {
+  width: 30vw;
+}
+
+.subMenuSection, .subMenuSection2 {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.subMenuSection2 {
+  margin-top: 5%;
+ 
+}
+
+.logoSection {
+  /* order: 1; */
+  align-self: flex-start;
+  margin-top: 13%;
+}
+
+.leftSection {
+  order: 2;
+}
+
+.rightSection {
+  /* order: 2; */
+}
+  
+.menuSection {
+  box-sizing: border-box;
+  flex-direction: column;
+
+}
+
+.infoNavSection {
+  width: 100%;
+  flex-direction: column;
+  padding: 0 4%;
+  margin-top: 22%;
+}
+
+.leftSection, .rightSection {
+  width: 100%;
+}
+
+.menuFooter  {
+  img {
+    width: 10vw;
+    margin-left: 2%;
+  }
+}
   
 }
 
