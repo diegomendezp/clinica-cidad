@@ -21747,7 +21747,7 @@ var _jsxFileName = "/Users/albertosoler/Desktop/TaylorHUB/Proyectos/Clients/Clin
     img: _static_imgs_home_imgHome1_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
     imgPosition: -251,
     title: "Clínica Cidad –",
-    subtitle: "medicina estética, ortodoncia, odeontología…",
+    subtitle: "medicina estética, ortodoncia, odontología…",
     footer: true,
     __source: {
       fileName: _jsxFileName,

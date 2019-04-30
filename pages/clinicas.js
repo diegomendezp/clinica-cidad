@@ -29,7 +29,7 @@ const texto = {
     p3: "Duis tempor nulla erat, nec vulputate turpis placerat vitae. Etiam vel pretium augue. Ut vel aliquet purus. Etiam ut fringilla ante. Suspendisse rhoncus ultrices lacus nec tempor.",
 }
 
-const listTratamientos = ["Odeontología preventiva", "Odontopediatría", "Eestética dental"]
+const listTratamientos = ["odontología preventiva", "Odontopediatría", "Eestética dental"]
 
 
 const Clinicas = props => {

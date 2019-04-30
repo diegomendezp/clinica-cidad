@@ -17,7 +17,7 @@ import { IconContainer } from '../components/pageSections/IconsContainer';
 import Footer from '../components/Footer'
 
 
-const listTratamientos = ["Odeontología preventiva", "Odontopediatría", "Eestética dental"]
+const listTratamientos = ["odontología preventiva", "Odontopediatría", "Eestética dental"]
 
 const icons = [
     {svg: svg1, title: "RESULTADO", subtitle: "Inmediato"},
@@ -64,7 +64,7 @@ const Tratamientos = props => {
             <React.Fragment>
                 <NavBar></NavBar>
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"nuestros tratamientos"} footer={false}></Main>
-                <ImgWithText img={img2} text={"ORTODONCIA Y ODEONTOLOGÍA"} colorText={"white"}></ImgWithText>
+                <ImgWithText img={img2} text={"ORTODONCIA Y odontología"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientos}></ListItems>
                 <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
                 </ImgWithText>
