@@ -10,6 +10,14 @@ align-items: center;
 justify-content: center;
 box-sizing: border-box;
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
 
 .footerSection {
     text-align: left;
