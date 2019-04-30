@@ -1,0 +1,62 @@
+{
+  "doctors": [
+    {
+      "name":"Dr. Ángel Cidad",
+      "photo":""
+    },
+    {
+      "name":"Dra. Ana Padierna",
+      "photo":""
+    },
+    {
+      "name":"Dr. Ramón Aries",
+      "photo":""
+    },
+    {
+      "name":"Dra. Ana Rabal",
+      "photo":""
+    },
+    {
+      "name":"Dra. Piferrer",
+      "photo":""
+    },
+    {
+      "name":"Dra. Tonita",
+      "photo":""
+    }
+  ],
+  "other": [
+    {
+      "name":"Amanda",
+      "photo":""
+    },
+    {
+      "name":"Carmen",
+      "photo":""
+    },
+    {
+      "name":"Enrique",
+      "photo":""
+    },
+    {
+      "name":"Mar",
+      "photo":""
+    },
+    {
+      "name":"Sara",
+      "photo":""
+    },
+    {
+      "name":"Raquel",
+      "photo":""
+    },
+    {
+      "name":"Sergio",
+      "photo":""
+    },
+    {
+      "name":"Soraya..",
+      "photo":""
+    }
+  ]
+}
