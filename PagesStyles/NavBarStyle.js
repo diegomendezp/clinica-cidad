@@ -4,15 +4,15 @@ const NavWrapperStyle = styled.div`
 
 box-sizing: border-box;
 width: 100vw;
-height: ${props => props.visible ? "100vh" : "20vh"};
+height: ${props => (props.visible ? '100vh' : '20vh')};
 padding: 0;
 display: flex;
 justify-content: flex-end;
 align-items: center;
 position: fixed;
-z-index: ${props => props.position ? 1 : 10};
+z-index: ${props => (props.position ? 1 : 10)};
 overflow-x: hidden;
-overflow-y: ${props => props.visible ? "scroll" : "hidden"};
+overflow-y: ${props => (props.visible ? 'scroll' : 'hidden')};
 animation-delay: 0.4s;
 
 
@@ -83,10 +83,13 @@ animation-delay: 0.4s;
   position: absolute;
   padding-right: 3%;
   z-index: 10;
-  top: ${props => props.visible ? "5%" : "25%"};
+  top: ${props => (props.visible ? '5%' : '25%')};
+
 }
 
-
+.hamburger {
+  outline: none;
+}
 
 /* 
   ##Device = Desktops
@@ -152,7 +155,7 @@ animation-delay: 0.4s;
 @media (min-width: 414px) and (max-width: 767px) {
 
 .menuIcon {
-    top: ${props => props.visible ? "0.8%" : "4%"};
+    top: ${props => (props.visible ? '0.8%' : '4%')};
 } 
 
 .logo {
@@ -216,7 +219,7 @@ animation-delay: 0.4s;
 @media (min-width: 320px) and (max-width: 413px) {
 
 .menuIcon {
-    top: ${props => props.visible ? "0.8%" : "4%"};
+    top: ${props => (props.visible ? '0.8%' : '4%')};
 } 
 
 .logo {

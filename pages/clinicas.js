@@ -69,7 +69,7 @@ const Clinicas = props => {
         `}</style>
             <ClinicasMainPageStyle>
                 <NavBar position={true}></NavBar>
-                <Main img={img} imgPosition={-201} title={"Clínica Cidad –"} subtitle={"nuestros clínicas"} footer={false}></Main>
+                <Main img={img} imgPosition={-201} title={"Clínica Cidad –"} subtitle={"nuestras clínicas"} footer={false}></Main>
                 <div className="firstSectionClinicas">
                     <ImgWithText img={img2} width={50} text={"Machupichu 25 |  Alcalá 590 1A"} colorText={"black"} imgPosition={-60} order={3}></ImgWithText>
                     <TextSection text={texto}></TextSection>
