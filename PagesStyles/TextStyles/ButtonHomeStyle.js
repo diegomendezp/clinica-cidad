@@ -8,14 +8,20 @@ const ButtonHomeStyle = styled.button`
 
 font-family: "Avenir";
 border: 4px solid black;
-background: ${props=> props.background ? "#ffffff63" : "transparent" };
+background: ${props => (props.background ? '#ffffff63' : 'transparent')};
 padding: 1% 2%;
 font-size: 2vw;
 -webkit-order: -1;
 -ms-flex-order: -1;
 order: -1;
-align-self: ${props => props.equipo ? "flex-start" : "flex-end"};
+align-self: ${props => (props.equipo ? 'flex-start' : 'flex-end')};
 margin-bottom: 3%;
+cursor: pointer;
+
+&:hover {
+    background: black;
+    color: white;
+}
 
 @media (min-width: 1281px) {
   
@@ -79,7 +85,7 @@ margin-bottom: 3%;
   order: 1;
   align-self: center;
   width: 80vw;
-  margin-bottom: ${props => props.mobile ? "15%" : "3%"};
+  margin-bottom: ${props => (props.mobile ? '15%' : '3%')};
 }
 
 `;
