@@ -1,26 +1,25 @@
 import styled from 'styled-components';
 
-const H3Style = styled.h1`
+const H3Style = styled.h3`
 
 display: flex;
 justify-content: flex-start;
 align-items: center;
 
 margin: 0;
-padding: 0 0 0 2%;
+padding: 2% 0 0 2%;
 font-family: "Avenir";
-font-size: 4vw;
-line-height: 13vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
-letter-spacing: 0.6vw;
+font-size: 4.5vw;
+line-height: 10vh;
+-webkit-letter-spacing: 0.4vw;
+-moz-letter-spacing: 0.4vw;
+-ms-letter-spacing: 0.4vw;
+-webkit-letter-spacing: 0.4vw;
+-moz-letter-spacing: 0.4vw;
+-ms-letter-spacing: 0.4vw;
+letter-spacing: 0.4vw;
 align-self: flex-end;
-width: ${props => props.equipo ? "100%" : "52vw"};
-
+width: ${props => (props.equipo ? '100%' : '52vw')};
 
 
 @media (min-width: 1281px) {
@@ -82,7 +81,7 @@ width: ${props => props.equipo ? "100%" : "52vw"};
 
   justify-content: center;
 
-  padding: ${props => props.padding ? "0 25%" : "0"};
+  padding: ${props => (props.padding ? '0 25%' : '0')};
   margin: 0;
   padding: 0;
   font-family: "AvenirL";
@@ -91,7 +90,7 @@ width: ${props => props.equipo ? "100%" : "52vw"};
   letter-spacing: 0.4vw;
   align-self: center;
   height: 15vh;
-  width: ${props => props.equipo && "100%"};
+  width: ${props => props.equipo && '100%'};
 
 }
 

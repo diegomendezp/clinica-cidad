@@ -80,6 +80,7 @@ text-align: left;
   }
 
 .imageWorker {
+  margin-top: 2%;
     img {
         width: 50vw;
         height: 60vh;
