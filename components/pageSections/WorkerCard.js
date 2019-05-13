@@ -35,13 +35,13 @@ const WorkerCard = props => {
     return (
         <WorkerCardStyle>
             <div className="imageWorker">
-                <img src={props.trabajador.imagen}></img>
+                <img src={props.trabajador.photo}></img>
             </div>
             <ExpansionPanel className="workerDescription">
                 <ExpansionPanelSummary expandIcon={
                     <img src={arrow} className="arrow"/>
                 }>
-                    <p className="workerName">{props.trabajador.nombre}</p>
+                    <p className="workerName">{props.trabajador.name}</p>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <p className="workerDescription" align={true}>

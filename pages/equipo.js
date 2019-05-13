@@ -13,24 +13,7 @@ import WorkerCard from '../components/pageSections/WorkerCard';
 import { EquipoMainPageStyle } from '../PagesStyles/EquipoMainPageStyle'
 import { H3Style } from '../PagesStyles/TextStyles/H3Style'
 import Footer from '../components/Footer';
-
-const trabajadores = [
-    {
-        nombre: "Dra. Ana Padierna",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-        imagen: fotopadierna,
-    },
-    {
-        nombre: "Dr. Ángel",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-        imagen: fotoangel,
-    },
-    {
-        nombre: "Dra. Ana Rabal",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-        imagen: fotorabal,
-    }
-]
+import trabajadores from '../content/team.json'
 
 const Equipo = props => {
     return (
@@ -83,7 +66,7 @@ const Equipo = props => {
                     </H3Style>
                     <div className="workersContainer">
                         {
-                            trabajadores.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
+                            trabajadores.doctors.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
                         }
                     </div>
                 </div>
