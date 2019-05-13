@@ -2,6 +2,8 @@ import React from 'react'
 import { FooterStyle } from '../PagesStyles/FooterStyle'
 import { FooterTextStyle } from '../PagesStyles/TextStyles/FooterTextStyle'
 import logo from '../static/imgs/home/logoAzul.jpg'
+import { FooterLink } from '../PagesStyles/TextStyles/FooterLinkStyles';
+import Link from 'next/link'
 
 const Footer = props => {
     return (
@@ -17,9 +19,18 @@ const Footer = props => {
                 <FooterTextStyle margin={true}><a href={`tel:${"910660526"}`}>910 66 05 26</a></FooterTextStyle>
             </div>
             <div className="footerSection">
-                <FooterTextStyle margin={true} black={true}>Tratamientos</FooterTextStyle>
+                <Link href="/tratamientos">
+                    <FooterLink margin={true} black={true}>Tratamientos</FooterLink>
+                </Link>
+                <Link href="/equipo">
+                    <FooterLink margin={true} black={true}>Equipo</FooterLink>
+                </Link>
+                <Link href="/blog">
+                    <FooterLink margin={true} black={true}>Blog</FooterLink>
+                </Link>
+                {/* <FooterTextStyle margin={true} black={true}>Tratamientos</FooterTextStyle>
                 <FooterTextStyle margin={true} black={true}>Equipo</FooterTextStyle>
-                <FooterTextStyle margin={true} black={true}>Blog</FooterTextStyle>
+                <FooterTextStyle margin={true} black={true}>Blog</FooterTextStyle> */}
                 
             </div>
         </FooterStyle>

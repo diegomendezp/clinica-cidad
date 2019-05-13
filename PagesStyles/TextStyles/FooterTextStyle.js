@@ -7,11 +7,11 @@ const FooterTextStyle = styled.p`
 */
 margin: 0;
 padding: 0;
-font-family: ${props => props.black ? "AvenirB" : "Avenir"};
+font-family: ${props => (props.black ? "AvenirB" : "Avenir")};
 font-size: 1.8vw;
 line-height: 5vh;
-letter-spacing: 0.2vw;
-margin-bottom: ${props=> props.margin && "3%"};
+letter-spacing: 0.15vw;
+margin-bottom: ${props => props.margin && '3%'};
 
 @media (min-width: 1281px) {
   
@@ -71,7 +71,7 @@ margin-bottom: ${props=> props.margin && "3%"};
 @media (min-width: 320px) and (max-width: 480px) {
     font-size: 5.5vw;
     line-height: 4vh;
-    margin-bottom: ${props=> props.margin && "5%"};
+    margin-bottom: ${props => props.margin && '5%'};
 }
 
 `;
