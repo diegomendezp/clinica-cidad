@@ -14,7 +14,8 @@ z-index: ${props => (props.position ? 1 : 10)};
 overflow-x: hidden;
 overflow-y: ${props => (props.visible ? 'scroll' : 'hidden')};
 animation-delay: 0.4s;
-
+background-color: ${props => (props.visible ? 'white' : 'transparent')};
+transition: background-color 0.01s ease;
 
 .logo {
   margin-bottom: 15%;
