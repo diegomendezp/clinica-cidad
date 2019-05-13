@@ -16,6 +16,7 @@ import Footer from '../components/Footer';
 import trabajadores from '../content/team.json'
 
 const Equipo = props => {
+    const { doctors, other } = trabajadores;
     return (
         <React.Fragment>
             <Head>
@@ -66,7 +67,17 @@ const Equipo = props => {
                     </H3Style>
                     <div className="workersContainer">
                         {
-                            trabajadores.doctors.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
+                            doctors.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
+                        }
+                    </div>
+                </div>
+                <div>
+                    <H3Style equipo={true}>
+                        Nuestro equipo
+                    </H3Style>
+                    <div className="workersContainer">
+                        {
+                            other.map(trabajador => <WorkerCard trabajador={trabajador}></WorkerCard>)
                         }
                     </div>
                 </div>
