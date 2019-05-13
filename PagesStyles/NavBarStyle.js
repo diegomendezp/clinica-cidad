@@ -25,6 +25,8 @@ transition: background-color 0.01s ease;
 .logoSection {
   align-self: flex-start;
   margin-top: 13%;
+  z-index: 1000;
+  cursor: pointer;
   /* order: 1; */
 }
 

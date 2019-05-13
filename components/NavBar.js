@@ -124,8 +124,8 @@ class NavBar extends React.Component {
         >
           <div className="menuSection">
             <div className="logoSection">
-              <Link href="/">
-                <img className="logo" src={logo} />
+              <Link href="/" >
+                <img onClick={() => this._managePositionNav()} className="logo" src={logo} alt="logo-clinica"/>
               </Link>
             </div>
             <div className="infoNavSection">
