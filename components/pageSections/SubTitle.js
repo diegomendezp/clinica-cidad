@@ -21,9 +21,9 @@ const H2Style = styled.h1`
 margin: 0;
 padding: 0;
 font-family: ${props=>props.bold ? "Avenir" : "AvenirL"};
-font-size: 8vw;
+font-size: 6vw;
 line-height: 16vh;
-letter-spacing: 0.6vw;
+letter-spacing: 0.5vw;
 font-weight: 100;
 
 a {

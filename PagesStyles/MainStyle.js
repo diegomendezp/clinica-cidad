@@ -29,13 +29,23 @@ width: 100vw;
   width: 100vw;
   padding: 3%;
 
-  p {
-    margin: 0;
+  a {
+    margin-left: ${props => (props.margin ? '1%' : '0')};;
     padding: 0;
     font-family: "Avenir";
     font-size: 2vw;
     letter-spacing: 0.1vw;
     line-height: 4vh;
+    text-decoration: none;
+    color: black;
+  }
+  .with-margin {
+    margin-left: 1%;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
   }
 }
 
