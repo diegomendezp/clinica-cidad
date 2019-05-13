@@ -168,10 +168,10 @@ class NavBar extends React.Component {
                   <Link href="/tratamientos">
                     <NavLinkStyle title={true}>Tratamientos</NavLinkStyle>
                   </Link>
-                  <NavLinkStyle top={true}>- Medicina estética</NavLinkStyle>
-                  <NavLinkStyle margin={true}>
+                  <NavLinkStyle  top={true}>
                     - Ortodoncia y odontología
                   </NavLinkStyle>
+                  <NavLinkStyle margin={true}>- Medicina estética</NavLinkStyle>
                   <Link href="/equipo">
                     <NavLinkStyle title={true} margin={true}>
                       Equipo
