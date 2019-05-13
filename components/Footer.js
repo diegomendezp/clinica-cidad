@@ -27,11 +27,7 @@ const Footer = props => {
                 </Link>
                 <Link href="/blog">
                     <FooterLink margin={true} black={true}>Blog</FooterLink>
-                </Link>
-                {/* <FooterTextStyle margin={true} black={true}>Tratamientos</FooterTextStyle>
-                <FooterTextStyle margin={true} black={true}>Equipo</FooterTextStyle>
-                <FooterTextStyle margin={true} black={true}>Blog</FooterTextStyle> */}
-                
+                </Link>                
             </div>
         </FooterStyle>
     )

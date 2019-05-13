@@ -8,11 +8,11 @@ const NavTextStyle = styled.p`
 margin: 0;
 padding: 0;
 font-family: "Avenir";
-font-size: ${props => props.title ? "3vw" : "1.2vw"};
+font-size: ${props => (props.title ? '3vw' : '1.2vw')};
 line-height: 5vh;
-letter-spacing: 0.2vw;
+letter-spacing: ${props => (props.title ? '0.2vw' : '0.15vw')};
 margin-right: 1%;
-margin-bottom: ${props => props.margin && "3%"};
+margin-bottom: ${props => props.margin && '3%'};
 
 @media (min-width: 1281px) {
   
