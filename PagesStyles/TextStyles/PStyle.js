@@ -1,85 +1,34 @@
 import styled from 'styled-components';
 
 const PStyle = styled.p`
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-margin: 0;
-padding: 0;
-font-family: "Avenir";
-font-size: ${props => (props.menu ? '1vw' : '2vw')};
-line-height: 3.3vh;
--webkit-letter-spacing: 0.6vw;
--moz-letter-spacing: 0.6vw;
--ms-letter-spacing: 0.6vw;
-letter-spacing: 0.3vw;
-
-text-align: ${props => props.align && 'left'};
-
-@media (min-width: 1281px) {
   
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir";
+  font-size: ${props => (props.menu ? '5vw' : '2vw')};
+  line-height: 3.3vh;
+  -webkit-letter-spacing: 0.6vw;
+  -moz-letter-spacing: 0.6vw;
+  -ms-letter-spacing: 0.6vw;
+  letter-spacing: 0.3vw;
 
-  
-}
+  text-align: ${props => props.align && 'left'};
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
+  @media only screen and (min-width: 415px) and (max-width: 768px) {
+    font-size: ${props => (props.menu ? '3vw' : '2vw')};
+  }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: ${props => (props.menu ? '3vw' : '2vw')};
+  }
 
-  
-}
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    font-size: ${props => (props.menu ? '1.5vw' : '2vw')};
+  }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  /* font-size: 6vw;
-  letter-spacing: 1.3px;
-  line-height: 5vh; */
-
-}
-
+  @media only screen and (min-width: 1441px) {
+    font-size: ${props => (props.menu ? '1vw' : '2vw')};
+  }
 `;
 
 export { PStyle };
