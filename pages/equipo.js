@@ -73,7 +73,7 @@ const Equipo = props => {
                 </div>
                 <div>
                     <H3Style equipo={true}>
-                        Nuestro equipo
+                        Equipo
                     </H3Style>
                     <div className="workersContainer">
                         {

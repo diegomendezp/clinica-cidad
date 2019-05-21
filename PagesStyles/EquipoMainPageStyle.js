@@ -1,46 +1,63 @@
 import styled from 'styled-components';
 
 const EquipoMainPageStyle = styled.div`
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 
-box-sizing: border-box;
-text-align: center;
-display: flex;
-flex-wrap: wrap;
-
-
-
-.workersContainer {
+  .workersContainer {
     display: flex;
     flex-wrap: wrap;
-}
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
 
+  @media only screen and (min-width: 415px) and (max-width: 768px) {
+    .workersContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
 
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .workersContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-}
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .workersContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
 
-
-
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-}
-
-
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-    text-align: center;
-  
-}
-
+  @media only screen and (min-width: 1441px) {
+    .workersContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
 `;
 
 export { EquipoMainPageStyle };

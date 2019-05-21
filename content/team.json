@@ -1,26 +1,26 @@
 {
+  "boss": {
+    "name": "Dr. Ángel Cidad",
+    "curriculum": [
+      {
+        "name": "Licenciado en Medicina y Cirugía."
+      },
+      {
+        "name": "Especialista en Estomatología."
+      },
+      {
+        "name": "Especialista en Prótesis"
+      },
+      {
+        "name": "Especialista en ATM."
+      },
+      {
+        "name": "Especialista en Periodoncia."
+      }
+    ],
+    "photo": "../static/imgs/equipo/imgdrAngel.jpg"
+  },
   "doctors": [
-    {
-      "name": "Dr. Ángel Cidad",
-      "curriculum": [
-        {
-          "name": "Licenciado en Medicina y Cirugía."
-        },
-        {
-          "name": "Especialista en Estomatología."
-        },
-        {
-          "name": "Especialista en Prótesis"
-        },
-        {
-          "name": "Especialista en ATM."
-        },
-        {
-          "name": "Especialista en Periodoncia."
-        }
-      ],
-      "photo": "../static/imgs/equipo/imgdrAngel.jpg"
-    },
     {
       "name": "Dra. Ana Padierna",
       "curriculum": [
@@ -164,16 +164,6 @@
       "photo": "../static/imgs/equipo/imgAmanda.jpg"
     },
     {
-      "name": "Carmen",
-      "descripcion": "Gerente.",
-      "photo": "../static/imgs/equipo/imgCarmen.jpg"
-    },
-    {
-      "name": "Enrique",
-      "descripcion": "Informático.",
-      "photo": "../static/imgs/equipo/imgEnrique.jpg"
-    },
-    {
       "name": "Mar",
       "descripcion": "Auxiliar Dental.",
       "photo": "../static/imgs/equipo/imgMar.jpg"
@@ -192,6 +182,16 @@
       "name": "Soraya",
       "descripcion": "Auxiliar e Higienista Dental.",
       "photo": "../static/imgs/equipo/imgSoraya.jpg"
+    },
+    {
+      "name": "Carmen",
+      "descripcion": "Gerente.",
+      "photo": "../static/imgs/equipo/imgCarmen.jpg"
+    },
+    {
+      "name": "Enrique",
+      "descripcion": "Informático.",
+      "photo": "../static/imgs/equipo/imgEnrique.jpg"
     }
   ]
 }
