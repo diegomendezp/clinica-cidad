@@ -6,6 +6,8 @@ import { NavLinkStyle } from "../PagesStyles/TextStyles/NavLinkStyle";
 import logo from "../static/imgs/home/logoMenu.jpg";
 import tailorLogo from "../static/imgs/tailorBlackLogo.svg";
 import Link from "next/link";
+import { PStyle } from "../PagesStyles/TextStyles/PStyle";
+
 
 const Box = posed.div({
   up: {
@@ -112,7 +114,7 @@ class NavBar extends React.Component {
             onClick={() => this._managePositionNav()}
           >
             <span className="hamburger-box">
-              <span className="hamburger-inner" />
+              <PStyle menu>{this.state.visible? "Cerrar" :"Menú"}</PStyle>
             </span>
           </button>
         </div>

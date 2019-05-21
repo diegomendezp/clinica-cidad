@@ -18,6 +18,7 @@ const ButtonHomeStyle = styled.button`
   margin-bottom: 3%;
   cursor: pointer;
   border-radius: 2px;
+  outline: none;
 
   &:hover {
     background: black;

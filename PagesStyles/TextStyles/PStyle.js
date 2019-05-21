@@ -8,14 +8,14 @@ const PStyle = styled.p`
 margin: 0;
 padding: 0;
 font-family: "Avenir";
-font-size: 2vw;
+font-size: ${props => (props.menu ? '1vw' : '2vw')};
 line-height: 3.3vh;
 -webkit-letter-spacing: 0.6vw;
 -moz-letter-spacing: 0.6vw;
 -ms-letter-spacing: 0.6vw;
 letter-spacing: 0.3vw;
 
-text-align: ${props => props.align && "left"};
+text-align: ${props => props.align && 'left'};
 
 @media (min-width: 1281px) {
   
