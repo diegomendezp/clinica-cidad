@@ -1,71 +1,197 @@
 {
   "doctors": [
     {
-      "name":"Dr. Ángel Cidad",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrAngel.jpg"
+      "name": "Dr. Ángel Cidad",
+      "curriculum": [
+        {
+          "name": "Licenciado en Medicina y Cirugía."
+        },
+        {
+          "name": "Especialista en Estomatología."
+        },
+        {
+          "name": "Especialista en Prótesis"
+        },
+        {
+          "name": "Especialista en ATM."
+        },
+        {
+          "name": "Especialista en Periodoncia."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrAngel.jpg"
     },
     {
-      "name":"Dra. Ana Padierna",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrAna.jpg"
+      "name": "Dra. Ana Padierna",
+      "curriculum": [
+        {
+          "name": "Lda. en Medicina  y Cirugía por la UCM."
+        },
+        {
+          "name": "Master en Medicina Estética y Antienvejecimiento."
+        },
+        {
+          "name": "Especialista en Medicina Familiar, Comunitaria y de Empresa."
+        },
+        {
+          "name": "Formación continuada y dilatada experiencia profesional en estas materias así como en Medicina de Urgencias."
+        },
+        {
+          "name": "Miembro de la SEME, AMEM, SEMERGEN y SEMES."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrAna.jpg"
     },
     {
-      "name":"Dr. Ramón Aries",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrRamon.jpg"
+      "name": "Dr. Ramón Arias",
+      "curriculum": [
+        {
+          "name": "Licenciado en Odontología en la UCM."
+        },
+        {
+          "name": "Magister Universitario en Endodoncia."
+        },
+        {
+          "name": "Miembro de la Asociación Española de Endodoncia."
+        },
+        {
+          "name": "Asistente a numerosos cursos y seminarios que le permiten dominar los últimos avances tecnológicos."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrRamon.jpg"
     },
     {
-      "name":"Dra. Ana Rabal",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrAna2.jpg"
+      "name": "Dra. Ana Rabal Soláns",
+      "curriculum": [
+        {
+          "name": "Licenciada en Odontología."
+        },
+        {
+          "name": "Magíster Universitario en Ortodoncia."
+        },
+        {
+          "name": "Tesina doctoral con calificación de sobresaliente."
+        },
+        {
+          "name": "Profesora colaboradora en Máster Universitario de Ortodoncia en la Universidad Alfonso X el Sabio."
+        },
+        {
+          "name": "Miembro de sociedades científicas:  SEDO, AESOR, EOS y SEDA."
+        },
+        {
+          "name": "Certificado en el Sistema de  Ortodoncia Invisible INVISALIGN."
+        },
+        {
+          "name": "Certificado en el  Sistema de ortodoncia lingual INCOGNITO."
+        },
+        {
+          "name": "Máster DAMON por los Dres. Perera y García Espejo."
+        },
+        {
+          "name": "Formación en Tratamiento Ortodóncico-Quirúrgico de las Deformidades Dentofaciales en Valencia."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrAna2.jpg"
     },
     {
-      "name":"Dra. Piferrer",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrPiferrer.jpg"
+      "name": "Dra. Piferrer",
+      "curriculum": [
+        {
+          "name": "Especializada en odontología general de adultos y niños."
+        },
+        {
+          "name": "Licenciada en Odontología por la UAM."
+        },
+        {
+          "name": "Máster de Cirugía Oral, Periodoncia e Implantología por la UAM"
+        },
+        {
+          "name": "Diploma Pre-doctorado de Estudios Avanzados por la UAM."
+        },
+        {
+          "name": "Odontología en Atención Primaria en el Servicio Madrileño de Salud (SERMAS)."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrPiferrer.jpg"
     },
     {
-      "name":"Dra. Tonita",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgdrTonita.jpg"
+      "name": "Dra. Tonita",
+      "curriculum": [
+        {
+          "name": "Licenciada en Odontología."
+        },
+        {
+          "name": "Curso Universitario de especialización en carillas."
+        },
+        {
+          "name": "Máster en Estética y Rehabilitación oral."
+        },
+        {
+          "name": "Curso Universitario de Fotografía Dental."
+        },
+        {
+          "name": "Máster en Periodoncia Avanzada e Implantología."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrTonita.jpg"
+    },
+    {
+      "name": "Dr. Chamorro",
+      "curriculum": [
+        {
+          "name": "Doctor en Medicina y Cirugía."
+        },
+        {
+          "name": "Médico especialista en Cirugía Maxilofacial."
+        },
+        {
+          "name": "Jefe Departamento de Cirugía Maxilofacial del Hospital la Paz."
+        },
+        {
+          "name": "Miembro de la Sociedad Española de Implantes."
+        },
+        {
+          "name": "Profesor de la Universidad Autónoma de Madrid."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrChamorro.jpg"
     }
   ],
   "other": [
     {
-      "name":"Amanda",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgAmanda.jpg"
+      "name": "Amanda",
+      "descripcion": "Auxiliar e Higienista Dental.",
+      "photo": "../static/imgs/equipo/imgAmanda.jpg"
     },
     {
-      "name":"Carmen",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgCarmen.jpg"
+      "name": "Carmen",
+      "descripcion": "Gerente.",
+      "photo": "../static/imgs/equipo/imgCarmen.jpg"
     },
     {
-      "name":"Enrique",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgEnrique.jpg"
+      "name": "Enrique",
+      "descripcion": "Informático.",
+      "photo": "../static/imgs/equipo/imgEnrique.jpg"
     },
     {
-      "name":"Mar",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgMar.jpg"
+      "name": "Mar",
+      "descripcion": "Auxiliar Dental.",
+      "photo": "../static/imgs/equipo/imgMar.jpg"
     },
     {
-      "name":"Sara",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgSara.jpg"
+      "name": "Sara Medina",
+      "descripcion": "Atención al paciente.",
+      "photo": "../static/imgs/equipo/imgSara.jpg"
     },
     {
-      "name":"Sergio",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgSergio.jpg"
+      "name": "Sergio",
+      "descripcion": "Auxiliar e Higienista Dental.",
+      "photo": "../static/imgs/equipo/imgSergio.jpg"
     },
     {
-      "name":"Soraya",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget faucibus est, aliquam condimentum tortor. Nunc a sagittis nunc. Maecenas tincidunt congue lacus. Etiam interdum id dolor quis fringilla. Maecenas vitae eros a metus efficitur molestie nec vitae arcu. Maecenas et iaculis diam, vel ornare erat. Suspendisse rhoncus urna eget nibh rhoncus accumsan.",
-      "photo":"../static/imgs/equipo/imgSoraya.jpg"
+      "name": "Soraya",
+      "descripcion": "Auxiliar e Higienista Dental.",
+      "photo": "../static/imgs/equipo/imgSoraya.jpg"
     }
   ]
 }

@@ -29,23 +29,29 @@ const ExpansionPanel = withStyles({
     },
   })(MuiExpansionPanel);
 
-const WorkerCard = props => {
+const displayCurriculum = (curriculum) => (
+  curriculum.map(element => (
+    <li>- {element.name}</li>
+  ))
+)
 
+const WorkerCard = props => {
+    const { photo, name, descripcion, curriculum } = props.trabajador;
 
     return (
         <WorkerCardStyle>
             <div className="imageWorker">
-                <img src={props.trabajador.photo}></img>
+                <img src={photo}></img>
             </div>
             <ExpansionPanel className="workerDescription">
                 <ExpansionPanelSummary expandIcon={
                     <img src={arrow} className="arrow"/>
                 }>
-                    <p className="workerName">{props.trabajador.name}</p>
+                    <p className="workerName">{name}</p>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <p className="workerDescription" align={true}>
-                        {props.trabajador.descripcion}
+                        {curriculum ? displayCurriculum(curriculum): descripcion}
                     </p>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
@@ -74,7 +80,9 @@ letter-spacing: 0.3vw;
 text-align: left;
 }
 
-
+li {
+  list-style: none;
+}
 .arrow {
     width: 3vw;
   }
