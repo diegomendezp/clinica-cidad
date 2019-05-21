@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 import Head from "next/head";
-import NavBar from '../components/NavBar';
-import Main from '../components/Main';
-import Tratamientos from '../components/Tratamientos'
-import Equipo from '../components/Equipo'
-import Footer from '../components/Footer'
+import NavBar from "../components/NavBar";
+import Main from "../components/Main";
+import Tratamientos from "../components/Tratamientos";
+import Equipo from "../components/Equipo";
+import Footer from "../components/Footer";
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
-import imageOffice from '../static/imgs/home/imgHome1.jpg'
-
+import imageOffice from "../static/imgs/home/imgHome1.jpg";
+import Cookies from "../components/Cookies/Cookies";
 
 export default () => (
   <React.Fragment>
@@ -31,7 +31,7 @@ export default () => (
         src: url(${AvenirB}) format("truetype");
         font-weight: normal;
         font-style: normal;
-        }
+      }
 
       @font-face {
         font-family: "AvenirL";
@@ -40,29 +40,37 @@ export default () => (
         font-style: normal;
       }
 
-
       body {
         margin: 0;
         padding: 0;
         max-width: 100%;
         position: relative;
         overflow-x: hidden;
-      
       }
 
       .center {
-        width: 100%;
+        width: 100vw;
         height: auto;
         display: flex;
         justify-content: center;
+        text-align: center;
       }
     `}</style>
     <React.Fragment>
-      <NavBar></NavBar>
-      <Main img={imageOffice} imgPosition={-251} title={"Clínica Cidad –"} subtitle={"ortodoncia, odontología, medicina estética…"} footer={true}></Main>
-      <Tratamientos></Tratamientos>
-      <Equipo></Equipo>
-      <Footer></Footer>
+      <NavBar />
+      <Main
+        img={imageOffice}
+        imgPosition={-251}
+        title={"Clínica Cidad –"}
+        subtitle={"ortodoncia, odontología, medicina estética…"}
+        footer={true}
+      />
+      <Tratamientos />
+      <Equipo />
+      <div className="center">
+        <Cookies backgroundColor="white" />
+      </div>
+      <Footer />
     </React.Fragment>
   </React.Fragment>
 );
