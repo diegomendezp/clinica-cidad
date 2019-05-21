@@ -7,8 +7,8 @@ import { PStyle } from "../../PagesStyles/TextStyles/PStyle";
 
 import MuiExpansionPanel from "@material-ui/core/ExpansionPanel";
 
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import arrow from "../../static/imgs/down.svg";
@@ -29,8 +29,23 @@ const ExpansionPanel = withStyles({
   }
 })(MuiExpansionPanel);
 
+const ExpansionPanelSummary = withStyles({
+  root: {
+    padding:0
+  },
+  
+})(MuiExpansionPanelSummary);
+
+
+const ExpansionPanelDetails= withStyles({
+  root: {
+    padding:0
+  },
+  
+})(MuiExpansionPanelDetails);
+
 const displayCurriculum = curriculum =>
-  curriculum.map(element => <li>- {element.name}</li>);
+  curriculum.map(element => <li>– {element.name}</li>);
 
 const WorkerCard = props => {
   const { photo, name, descripcion, curriculum } = props.trabajador;
@@ -40,18 +55,25 @@ const WorkerCard = props => {
       <div className="imageWorker">
         <img src={photo} />
       </div>
-      <ExpansionPanel className="workerDescription">
-        <ExpansionPanelSummary
-          expandIcon={<img src={arrow} className="arrow" />}
-        >
+      {curriculum ? (
+        <ExpansionPanel className="workerDescription">
+          <ExpansionPanelSummary
+            expandIcon={<img src={arrow} className="arrow" />}
+          >
+            <p className="workerName">{name}</p>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails>
+            <p className="workerDescription" align={true}>
+              {displayCurriculum(curriculum)}
+            </p>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
+      ) : (
+        <div className="other-panel">
           <p className="workerName">{name}</p>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <p className="workerDescription" align={true}>
-            {curriculum ? displayCurriculum(curriculum) : descripcion}
-          </p>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+          <p className="workerDescription">{descripcion}</p>
+        </div>
+      )}
     </WorkerCardStyle>
   );
 };
@@ -67,11 +89,15 @@ const WorkerCardStyle = styled.div`
     font-family: "Avenir";
     font-size: 2vw;
     line-height: 3.3vh;
-    -webkit-letter-spacing: 0.6vw;
-    -moz-letter-spacing: 0.6vw;
-    -ms-letter-spacing: 0.6vw;
-    letter-spacing: 0.3vw;
+    -webkit-letter-spacing: 0.2vw;
+    -moz-letter-spacing: 0.2vw;
+    -ms-letter-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
     text-align: left;
+  }
+
+  .other-panel {
+    margin: 2% 0;
   }
 
   li {
@@ -90,7 +116,7 @@ const WorkerCardStyle = styled.div`
     }
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1441px) {
     .arrow {
       width: 2vw;
     }
@@ -100,7 +126,7 @@ const WorkerCardStyle = styled.div`
     }
 
     .workerDescription {
-      font-size: 1.5vw;
+      font-size: 1.25vw;
     }
   }
 

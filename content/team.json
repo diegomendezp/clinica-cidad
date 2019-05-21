@@ -22,27 +22,6 @@
   },
   "doctors": [
     {
-      "name": "Dra. Ana Padierna",
-      "curriculum": [
-        {
-          "name": "Lda. en Medicina  y Cirugía por la UCM."
-        },
-        {
-          "name": "Master en Medicina Estética y Antienvejecimiento."
-        },
-        {
-          "name": "Especialista en Medicina Familiar, Comunitaria y de Empresa."
-        },
-        {
-          "name": "Formación continuada y dilatada experiencia profesional en estas materias así como en Medicina de Urgencias."
-        },
-        {
-          "name": "Miembro de la SEME, AMEM, SEMERGEN y SEMES."
-        }
-      ],
-      "photo": "../static/imgs/equipo/imgdrAna.jpg"
-    },
-    {
       "name": "Dr. Ramón Arias",
       "curriculum": [
         {
@@ -155,6 +134,27 @@
         }
       ],
       "photo": "../static/imgs/equipo/imgdrChamorro.jpg"
+    },
+    {
+      "name": "Dra. Ana Padierna",
+      "curriculum": [
+        {
+          "name": "Lda. en Medicina  y Cirugía por la UCM."
+        },
+        {
+          "name": "Master en Medicina Estética y Antienvejecimiento."
+        },
+        {
+          "name": "Especialista en Medicina Familiar, Comunitaria y de Empresa."
+        },
+        {
+          "name": "Formación continuada y dilatada experiencia profesional en estas materias así como en Medicina de Urgencias."
+        },
+        {
+          "name": "Miembro de la SEME, AMEM, SEMERGEN y SEMES."
+        }
+      ],
+      "photo": "../static/imgs/equipo/imgdrAna.jpg"
     }
   ],
   "other": [
