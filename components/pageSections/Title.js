@@ -55,7 +55,7 @@ a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   
 
   
@@ -66,7 +66,7 @@ a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
   
 
   
@@ -77,8 +77,8 @@ a {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
+@media (min-width: 481px) and (max-width: 768px) {
+  line-height: 14vh;
   letter-spacing: 0.1vw;
   
 }

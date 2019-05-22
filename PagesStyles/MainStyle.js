@@ -65,6 +65,11 @@ const MainWrapperStyle = styled.div`
 */
 
   @media (min-width: 769px) and (max-width: 1024px) {
+    .addressContainer {
+      a {
+        font-size: 3vw;
+      }
+    }
   }
 
   /* 
@@ -73,6 +78,11 @@ const MainWrapperStyle = styled.div`
 */
 
   @media (min-width: 415px) and (max-width: 768px) {
+    .addressContainer {
+      a {
+        font-size: 3vw;
+      }
+    }
   }
 
   /* 

@@ -6,7 +6,7 @@ import { SubTitle } from './pageSections/SubTitle'
 const Header = props => {
     return (
         <HeaderWrapperStyle>
-            <Title text={props.title} bold={true}></Title>
+            <Title text={props.title} bold ></Title>
             <SubTitle text={props.subtitle} bold={false}></SubTitle>
         </HeaderWrapperStyle>
     )

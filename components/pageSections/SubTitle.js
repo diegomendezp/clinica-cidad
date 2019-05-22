@@ -54,10 +54,9 @@ a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+@media (min-width: 769px) and (max-width: 1024px) {
 
-  
+  line-height: 7vh;
 }
 
 /* 
@@ -76,9 +75,10 @@ a {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   
   letter-spacing: 0.1vw;
+  line-height: 7vh;
   
 }
 
