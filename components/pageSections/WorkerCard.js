@@ -227,10 +227,14 @@ const WorkerCardStyle = styled.div`
 
     .workerName {
       font-size: 5vw;
+      padding-left: 2%;
+      padding-right: 0 !important;
+      display:inline-block;
     }
 
     .workerDescription {
       font-size: 3.5vw;
+      padding-left: 2%;
     }
   }
 `;
