@@ -7,7 +7,7 @@ const FooterTextStyle = styled.p`
 */
 margin: 0;
 padding: 0;
-font-family: ${props => (props.black ? "AvenirB" : "Avenir")};
+font-family: ${props => (props.black ? 'AvenirB' : 'Avenir')};
 font-size: 1.8vw;
 line-height: 5vh;
 letter-spacing: 0.15vw;

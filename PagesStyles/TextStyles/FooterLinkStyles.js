@@ -15,6 +15,10 @@ const FooterLink = styled.a`
   &:visited {
     color: black;
   }
+
+  @media only screen and (max-width: 414px) {
+    font-size: 5vw;
+  }
 `;
 
 export { FooterLink };

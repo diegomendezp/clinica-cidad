@@ -59,8 +59,6 @@ const EquipoMainPageStyle = styled.div`
     }
   }
 
-  
-
   @media only screen and (min-width: 415px) and (max-width: 768px) {
     display: flex;
     justify-content: center;
@@ -169,7 +167,6 @@ const EquipoMainPageStyle = styled.div`
       justify-content: space-between;
       flex-direction: row;
     }
-    
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
