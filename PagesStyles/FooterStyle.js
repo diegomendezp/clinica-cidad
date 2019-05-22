@@ -107,6 +107,10 @@ a:visited {
 
 }
 
+@media screen and (orientation: landscape) and (max-height: 414px) {
+  height: auto;
+}
+
 `;
 
 export { FooterStyle };

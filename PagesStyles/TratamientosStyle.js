@@ -5,12 +5,15 @@ const TratamientosWrapperStyle = styled.div`
   position: relative;
   z-index: 0;
 
+
   .tratamientosContainer {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-image: url(${props => props.img});
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 2%;
   }
 
   .infoContainer {
@@ -45,7 +48,7 @@ const TratamientosWrapperStyle = styled.div`
   ##Screen = 1281px to higher resolution desktops
 */
 
-  @media (min-width: 1281px) {
+  @media (min-width: 1441px) {
   }
 
   /* 
@@ -53,7 +56,7 @@ const TratamientosWrapperStyle = styled.div`
   ##Screen = B/w 1025px to 1280px
 */
 
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1025px) and (max-width: 1440px) {
   }
 
   /* 
@@ -61,7 +64,7 @@ const TratamientosWrapperStyle = styled.div`
   ##Screen = B/w 768px to 1024px
 */
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
   }
 
   /* 
@@ -77,11 +80,21 @@ const TratamientosWrapperStyle = styled.div`
   ##Screen = B/w 481px to 767px
 */
 
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media (min-width: 415px) and (max-width: 768px) {
+    .tratamientosContainer {
+      background-position-x: -450px;
+    }
+    .downImage {
+      position: absolute;
+      width: 50vw;
+      height: 20vh;
+      left: 0;
+      bottom: 0;
+    }
   }
 
   @media (min-width: 376px) and (max-width: 480px) {
-    height: 100vh;
+    /* height: 100vh;
     background: #ebecee;
 
     .tratamientosContainer {
@@ -100,7 +113,8 @@ const TratamientosWrapperStyle = styled.div`
       height: 70vh;
       object-fit: contain;
       z-index: 1;
-    }
+      left: 0;
+    } */
   }
 
   /* 
@@ -108,7 +122,7 @@ const TratamientosWrapperStyle = styled.div`
   ##Screen = B/w 320px to 479px
 */
 
-  @media only screen and  (max-width: 414px) {
+  @media only screen and (max-width: 414px) {
     height: 100vh;
     background: #ebecee;
 
@@ -128,13 +142,13 @@ const TratamientosWrapperStyle = styled.div`
         margin-top: 5%;
       }
     }
-
     .downImage {
       position: absolute;
       width: 90vw;
       height: 70vh;
       object-fit: contain;
       z-index: 1;
+      left: 0;
     }
   }
 `;

@@ -68,6 +68,7 @@ const Equipo = props => {
           position: relative;
           overflow-x: hidden;
         }
+
       `}</style>
       <NavBar />
       <EquipoMainPageStyle>
