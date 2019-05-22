@@ -4,7 +4,7 @@ export const CookieWrapper = styled.div`
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: ${props => (props.backgroundColor ? props.backgroundColor : 'white')};
+  background-color: ${props => (props.backgroundColor ? props.backgroundColor : "white")};
   color: ${props => (props.color ? props.color : 'black')};
   display: ${props => (props.display ? props.display : 'flex')};
   justify-content: space-around;
@@ -39,9 +39,9 @@ export const CookieWrapper = styled.div`
       font-size: 1.2rem;
       margin-bottom: 1.2em;
       border: none;
-      background-color: ${props => (props.backgroundColor ? props.backgroundColor : 'white')};
+      background-color: ${props => (props.backgroundColor ? props.backgroundColor : "white")};
 
-      width: 30%;
+      width: 50%;
     }
   }
   .logo {

@@ -12,9 +12,11 @@ const Equipo = props => {
                 <div className="infoContainer">
                     <H2Style padding={true} equipo={true}>Nuestros equipo de 
                     {"\n"}
-                    expertos <Link href="/equipo">
-                    <ButtonHomeStyle equipo={true} mobile={false} background={true}>Ver equipo</ButtonHomeStyle>
-                    </Link></H2Style>
+                    expertos 
+                    </H2Style>
+                    <Link href="/equipo">
+                    <ButtonHomeStyle equipo mobile={false} background>Ver equipo</ButtonHomeStyle>
+                    </Link>
                     
                 </div>
             </div>

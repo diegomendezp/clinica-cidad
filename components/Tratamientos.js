@@ -83,9 +83,9 @@ export default class Tratamientos extends Component {
                         <img id="image2" className="downImage" src={image2}></img>
                     </div>
                     <div className="infoContainer">
-                        <H2Style padding={true}>Nuestros tratamientos</H2Style>
+                        <H2Style padding={true} tratamientos>Nuestros tratamientos</H2Style>
                         <Link href="/tratamientos">
-                            <ButtonHomeStyle mobile={true}>Ver tratamientos</ButtonHomeStyle>
+                            <ButtonHomeStyle tratamientos mobile>Ver tratamientos</ButtonHomeStyle>
                         </Link>
                     </div>
 

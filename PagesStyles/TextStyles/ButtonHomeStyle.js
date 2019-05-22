@@ -17,7 +17,7 @@ const ButtonHomeStyle = styled.button`
   align-self: ${props => (props.equipo ? 'flex-start' : 'flex-end')};
   margin-bottom: 3%;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 3px;
   outline: none;
 
   &:hover {
@@ -26,7 +26,9 @@ const ButtonHomeStyle = styled.button`
     border: 4px solid white;
   }
 
-  @media (min-width: 1281px) {
+  @media (min-width: 1441px) {
+    padding: 1% 4%;
+    font-size: 2vw;
   }
 
   /* 
@@ -34,7 +36,9 @@ const ButtonHomeStyle = styled.button`
   ##Screen = B/w 1025px to 1280px
 */
 
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    padding: 1.5% 5%;
+    font-size: 2vw;
   }
 
   /* 
@@ -42,7 +46,9 @@ const ButtonHomeStyle = styled.button`
   ##Screen = B/w 768px to 1024px
 */
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 2% 6%;
+    font-size: 2.5vw;
   }
 
   /* 
@@ -50,17 +56,17 @@ const ButtonHomeStyle = styled.button`
   ##Screen = B/w 768px to 1024px
 */
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  }
+  /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  } */
 
   /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-  @media (min-width: 481px) and (max-width: 767px) {
-    padding: 4% 9%;
-    font-size: 6vw;
+  @media (min-width: 415px) and (max-width: 768px) {
+    padding: 2% 6%;
+    font-size: 3.5vw;
   }
 
   /* 
@@ -68,11 +74,11 @@ const ButtonHomeStyle = styled.button`
   ##Screen = B/w 320px to 479px
 */
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 414px) {
     padding: 4% 9%;
     font-size: 6vw;
     order: 1;
-    align-self: center;
+    align-self:  ${props => (props.tratamientos ? 'flex-end' : 'center')};
     width: 80vw;
     margin-bottom: ${props => (props.mobile ? '15%' : '3%')};
   }
