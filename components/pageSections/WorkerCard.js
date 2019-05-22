@@ -98,6 +98,8 @@ const WorkerCardStyle = styled.div`
 
   .other-panel {
     margin: 2% 0;
+    display: flex;
+    flex-direction: column;
   }
 
   li {
