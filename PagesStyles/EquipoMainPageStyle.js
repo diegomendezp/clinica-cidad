@@ -58,6 +58,8 @@ const EquipoMainPageStyle = styled.div`
     }
   }
 
+  
+
   @media only screen and (min-width: 415px) and (max-width: 768px) {
     display: flex;
     justify-content: center;
@@ -111,6 +113,62 @@ const EquipoMainPageStyle = styled.div`
       justify-content: space-between;
       flex-direction: row;
     }
+  }
+
+  @media screen and (orientation: landscape) and (max-height: 414px) {
+    display: flex;
+    justify-content: center;
+    .main-member {
+      width: 90%;
+      display: flex;
+      margin: 2.5% 0;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        object-fit: cover;
+        width: 45%;
+        height: 50vh;
+      }
+
+      .main-member-description {
+        width: 45%;
+
+        text-align: left;
+        p {
+          font-family: "Avenir";
+          font-size: 3.5vw;
+          line-height: 2vh;
+          -webkit-letter-spacing: 0.2vw;
+          -moz-letter-spacing: 0.2vw;
+          -ms-letter-spacing: 0.2vw;
+          -webkit-letter-spacing: 0.2vw;
+          -moz-letter-spacing: 0.2vw;
+          -ms-letter-spacing: 0.2vw;
+          letter-spacing: 0.2vw;
+        }
+
+        li {
+          list-style: none;
+          font-family: "Avenir";
+          font-size: 2vw;
+          line-height: 5vh;
+          -webkit-letter-spacing: 0.1vw;
+          -moz-letter-spacing: 0.1vw;
+          -ms-letter-spacing: 0.1vw;
+          letter-spacing: 0.1vw;
+        }
+      }
+    }
+    .workersContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {

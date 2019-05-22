@@ -31,17 +31,14 @@ const ExpansionPanel = withStyles({
 
 const ExpansionPanelSummary = withStyles({
   root: {
-    padding:0
-  },
-  
+    padding: 0
+  }
 })(MuiExpansionPanelSummary);
 
-
-const ExpansionPanelDetails= withStyles({
+const ExpansionPanelDetails = withStyles({
   root: {
-    padding:0
-  },
-  
+    padding: 0
+  }
 })(MuiExpansionPanelDetails);
 
 const displayCurriculum = curriculum =>
@@ -117,6 +114,8 @@ const WorkerCardStyle = styled.div`
       object-fit: cover;
     }
   }
+
+  
 
   @media only screen and (min-width: 1441px) {
     .arrow {
@@ -207,6 +206,37 @@ const WorkerCardStyle = styled.div`
     }
   }
 
+  @media screen and (orientation: landscape) and (max-height: 414px) {
+    margin: 2.5% 0;
+    .workerName {
+      font-size: 2.75vw;
+      line-height: 8vh;
+      -webkit-letter-spacing: 0.1vw;
+      -moz-letter-spacing: 0.1vw;
+      -ms-letter-spacing: 0.1vw;
+      letter-spacing: 0.1vw;
+    }
+
+    .imageWorker {
+      img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+      }
+    }
+
+    .workerDescription {
+      font-size: 1.5vw;
+      line-height: 5vh;
+      -webkit-letter-spacing: 0.1vw;
+      -moz-letter-spacing: 0.1vw;
+      -ms-letter-spacing: 0.1vw;
+      letter-spacing: 0.1vw;
+    }
+
+    
+  }
+
   /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -231,7 +261,7 @@ const WorkerCardStyle = styled.div`
       font-size: 5vw;
       padding-left: 2%;
       padding-right: 0 !important;
-      display:inline-block;
+      display: inline-block;
     }
 
     .workerDescription {
