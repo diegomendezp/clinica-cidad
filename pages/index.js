@@ -58,7 +58,7 @@ export default () => (
     `}</style>
     <React.Fragment>
       <NavBar />
-      <Main
+      <Main home
         img={imageOffice}
         imgPosition={-251}
         title={"Clínica Cidad –"}
