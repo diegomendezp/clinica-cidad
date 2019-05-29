@@ -81,15 +81,19 @@ const TratamientosWrapperStyle = styled.div`
 */
 
   @media (min-width: 415px) and (max-width: 768px) {
-    .tratamientosContainer {
-      background-position-x: -450px;
+    background: #ebecee;
+     .tratamientosContainer {
+      background-position-x: -400px;
+      padding-bottom: 10%;
     }
+    
     .downImage {
       position: absolute;
-      width: 50vw;
-      height: 20vh;
+      width: 80vw;
+      height: 70vh;
+      object-fit: contain;
+      z-index: 1;
       left: 0;
-      bottom: 0;
     }
   }
 

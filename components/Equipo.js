@@ -10,7 +10,7 @@ const Equipo = props => {
         <EquipoStyle img={image1}>
             <div className="equipoContainer">
                 <div className="infoContainer">
-                    <H2Style padding={true} equipo={true}>Nuestros equipo de 
+                    <H2Style padding={true} equipo={true}>Nuestro equipo de 
                     {"\n"}
                     expertos 
                     </H2Style>
