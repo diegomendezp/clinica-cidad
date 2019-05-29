@@ -9,8 +9,8 @@ const MainWrapperStyle = styled.div`
 
   .mainContainer {
     background-image: url(${props => props.img});
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
