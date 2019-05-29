@@ -5,7 +5,6 @@ const TratamientosWrapperStyle = styled.div`
   position: relative;
   z-index: 0;
 
-
   .tratamientosContainer {
     position: relative;
     width: 100vw;
@@ -49,6 +48,19 @@ const TratamientosWrapperStyle = styled.div`
 */
 
   @media (min-width: 1441px) {
+    .imageContainer {
+      z-index: 1;
+    }
+    background: #ebecee;
+    .tratamientosContainer {
+      background-position-x: -80px;
+      background-position-y: 80px;
+    }
+    .downImage {
+      position: absolute;
+      width: 40vw;
+      height: 60vh;
+    }
   }
 
   /* 
@@ -57,6 +69,19 @@ const TratamientosWrapperStyle = styled.div`
 */
 
   @media (min-width: 1025px) and (max-width: 1440px) {
+    .imageContainer {
+      z-index: 1;
+    }
+
+    .tratamientosContainer {
+      background-position-x: -50px;
+    }
+    background: #ebecee;
+    .downImage {
+      position: absolute;
+      width: 45vw;
+      height: 65vh;
+    }
   }
 
   /* 
@@ -65,6 +90,23 @@ const TratamientosWrapperStyle = styled.div`
 */
 
   @media (min-width: 769px) and (max-width: 1024px) {
+    .imageContainer {
+      z-index: 1;
+    }
+    background: #ebecee;
+    .tratamientosContainer {
+      background-position-x: -500px;
+      padding-bottom: 10%;
+    }
+
+    .downImage {
+      position: absolute;
+      width: 70vw;
+      height: 80vh;
+      object-fit: contain;
+      left: 0;
+      z-index: 1;
+    }
   }
 
   /* 
@@ -81,18 +123,20 @@ const TratamientosWrapperStyle = styled.div`
 */
 
   @media (min-width: 415px) and (max-width: 768px) {
+    .imageContainer {
+      z-index: 1;
+    }
     background: #ebecee;
-     .tratamientosContainer {
+    .tratamientosContainer {
       background-position-x: -400px;
       padding-bottom: 10%;
     }
-    
+
     .downImage {
       position: absolute;
       width: 80vw;
       height: 70vh;
       object-fit: contain;
-      z-index: 1;
       left: 0;
     }
   }
@@ -129,6 +173,9 @@ const TratamientosWrapperStyle = styled.div`
   @media only screen and (max-width: 414px) {
     height: 100vh;
     background: #ebecee;
+    .imageContainer {
+      z-index: 1;
+    }
 
     .tratamientosContainer {
       background-position-x: -220px;
@@ -151,8 +198,8 @@ const TratamientosWrapperStyle = styled.div`
       width: 90vw;
       height: 70vh;
       object-fit: contain;
-      z-index: 1;
       left: 0;
+      z-index: 1;
     }
   }
 `;
