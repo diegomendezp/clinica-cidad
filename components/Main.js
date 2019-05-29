@@ -40,7 +40,7 @@ export default class Main extends Component {
       } else {
         this.setState({...this.state, image: images[index + 1], index:index + 1})
       }  
-    }, 3000)
+    }, 3500)
   }
 
   componentDidMount() {
