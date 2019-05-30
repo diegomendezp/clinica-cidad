@@ -32,9 +32,9 @@ a {
 }
 
 
-@media (min-width: 1281px) {
+@media (min-width: 1441px) {
   
-
+  line-height: 12vh;
   
 }
 
@@ -43,9 +43,9 @@ a {
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   
-
+  line-height: 10vh;
   
 }
 
@@ -56,7 +56,7 @@ a {
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-  line-height: 7vh;
+  line-height: 6vh;
 }
 
 /* 
@@ -75,10 +75,10 @@ a {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px) {
   
   letter-spacing: 0.1vw;
-  line-height: 7vh;
+  line-height: 6vh;
   
 }
 
@@ -87,7 +87,7 @@ a {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 414px) {
 
   font-size: 5.5vw;
   letter-spacing: 0.1vw;
