@@ -29,7 +29,7 @@ const H2Style = styled.h1`
     padding: 0;
     font-family: "AvenirL";
     font-size: 6vw;
-    line-height: 8vh;
+    line-height: 12vh;
     letter-spacing: 0.2vw;
     align-self: ${props => (props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center')};
     height: auto;
@@ -47,7 +47,7 @@ const H2Style = styled.h1`
     padding: 0;
     font-family: "AvenirL";
     font-size: 6vw;
-    line-height: 8vh;
+    line-height: 9vh;
     letter-spacing: 0.2vw;
     align-self: ${props => (props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center')};
     height: auto;

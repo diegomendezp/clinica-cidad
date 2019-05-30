@@ -118,7 +118,7 @@ const EquipoStyle = styled.div`
       background-size: cover;
       background-repeat: no-repeat;
       z-index: 2;
-      background-position-x: -550px;
+      background-position-x: -500px;
       padding-bottom: 10%;
       display: flex;
       flex-direction: column;
