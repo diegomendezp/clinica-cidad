@@ -61,8 +61,8 @@ export default () => (
       <Main home
         img={imageOffice}
         imgPosition={-251}
-        title={"Clínica Cidad –"}
-        subtitle={"ortodoncia, odontología, medicina estética…"}
+        title={"Clínica Cidad"}
+        subtitle={"odontología, ortodoncia y medicina estética."}
         footer={true}
       />
       <Tratamientos />

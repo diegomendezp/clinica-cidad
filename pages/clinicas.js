@@ -18,6 +18,7 @@ import image5 from "../static/imgs/clinicas/galeria/imgClinica2.jpg";
 import image6 from "../static/imgs/clinicas/galeria/imgclinicagaleria8.jpg";
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import { ImgWithText } from '../components/pageSections/ImgWithText';
 import { TextSection } from '../components/pageSections/TextSection';
 import { ListItems } from '../components/pageSections/ListItems';
@@ -67,6 +68,13 @@ const Clinicas = props => {
             font-weight: normal;
             font-style: normal;
             }
+
+            @font-face {
+                font-family: "AvenirB";
+                src: url(${AvenirB}) format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
     
     
             body {
@@ -82,7 +90,7 @@ const Clinicas = props => {
         `}</style>
             <ClinicasMainPageStyle>
                 <NavBar position={true}></NavBar>
-                <Main img={img} imgPosition={-201} title={"Clínica Cidad –"} subtitle={"nuestras clínicas"} footer={false}></Main>
+                <Main img={img} imgPosition={-201} title={"Clínica Cidad"} subtitle={"nuestras clínicas"} footer={false}></Main>
                 <div className="firstSectionClinicas">
                     <ImgWithText img={img2} width={50} text={"Machupichu 25 |  Alcalá 590 1A"} colorText={"black"} imgPosition={-60} order={3}></ImgWithText>
                     <TextSection text={texto}></TextSection>

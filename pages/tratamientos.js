@@ -7,6 +7,7 @@ import img2 from '../static/imgs/tratamientos/imgTratamientos2.jpg'
 import img3 from '../static/imgs/tratamientos/ingTratamientos.jpg'
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
+import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import { ImgWithText } from '../components/pageSections/ImgWithText';
 import { ListItems } from '../components/pageSections/ListItems';
 import svg1 from '../static/imgs/tratamientos/Icon/iconResultado.svg'
@@ -48,7 +49,13 @@ const Tratamientos = props => {
             font-weight: normal;
             font-style: normal;
             }
-    
+            
+            @font-face {
+                font-family: "AvenirB";
+                src: url(${AvenirB}) format("truetype");
+                font-weight: normal;
+                font-style: normal;
+              }
     
             body {
             margin: 0;
@@ -63,8 +70,8 @@ const Tratamientos = props => {
         `}</style>
             <React.Fragment>
                 <NavBar></NavBar>
-                <Main img={img} imgPosition={-551} title={"Clínica Cidad –"} subtitle={"nuestros tratamientos"} footer={false}></Main>
-                <ImgWithText img={img2} text={"ORTODONCIA Y odontología"} colorText={"white"}></ImgWithText>
+                <Main img={img} imgPosition={-551} title={"Clínica Cidad"} subtitle={"nuestros tratamientos"} footer={false}></Main>
+                <ImgWithText img={img2} text={"ODONTOLOGÍA Y ORTODONCIA"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientos}></ListItems>
                 <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
                 </ImgWithText>
