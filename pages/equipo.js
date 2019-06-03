@@ -75,7 +75,7 @@ const Equipo = props => {
         <Main
           img={img}
           imgPosition={-421}
-          title={"Clínica Cidad –"}
+          title={"Clínica Cidad"}
           subtitle={"nuestro equipo"}
           footer={false}
         />
