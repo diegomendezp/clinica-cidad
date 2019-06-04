@@ -14,6 +14,7 @@ import { EquipoMainPageStyle } from "../PagesStyles/EquipoMainPageStyle";
 import { H3Style } from "../PagesStyles/TextStyles/H3Style";
 import Footer from "../components/Footer";
 import trabajadores from "../content/team.json";
+import FloatingMenu from "../components/FloatingMenu";
 
 const displayMainMember = member => {
   const { name, photo, curriculum } = member;
@@ -71,6 +72,7 @@ const Equipo = props => {
 
       `}</style>
       <NavBar />
+      <FloatingMenu />
       <EquipoMainPageStyle>
         <Main
           img={img}

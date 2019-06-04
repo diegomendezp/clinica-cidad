@@ -7,8 +7,9 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^3.0.2",
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1",
+    "@material-ui/lab": "^4.0.0-alpha.15",
     "@zeit/next-css": "^1.0.1",
     "all": "^0.0.0",
     "next": "^8.0.4",

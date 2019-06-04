@@ -25,6 +25,7 @@ import { ListItems } from '../components/pageSections/ListItems';
 import Footer from '../components/Footer';
 import { ClinicasMainPageStyle } from '../PagesStyles/ClinicasMainPageStyle'
 import ImageGallery from 'react-image-gallery';
+import FloatingMenu from '../components/FloatingMenu';
 
 const images = [
     {original: image1},
@@ -90,6 +91,7 @@ const Clinicas = props => {
         `}</style>
             <ClinicasMainPageStyle>
                 <NavBar position={true}></NavBar>
+                <FloatingMenu />
                 <Main img={img} imgPosition={-201} title={"Clínica Cidad"} subtitle={"nuestras clínicas"} footer={false}></Main>
                 <div className="firstSectionClinicas">
                     <ImgWithText img={img2} width={50} text={"Machupichu 25 |  Alcalá 590 1A"} colorText={"black"} imgPosition={-60} order={3}></ImgWithText>

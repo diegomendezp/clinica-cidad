@@ -10,6 +10,7 @@ import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
 import imageOffice from "../static/imgs/home/imgHome1.jpg";
 import Cookies from "../components/Cookies/Cookies";
+import FloatingMenu from "../components/FloatingMenu";
 
 export default () => (
   <React.Fragment>
@@ -57,6 +58,7 @@ export default () => (
       }
     `}</style>
     <React.Fragment>
+    <FloatingMenu />
       <NavBar />
       <Main home
         img={imageOffice}
