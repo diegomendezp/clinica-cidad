@@ -22,14 +22,19 @@ const FloatingMenuWrapper = styled.div`
     top: 75%;
   }
 
-  @media only screen and (min-width: 1025px) and (max-width: 1440px){
+  @media only screen and (min-width: 1025px) and (max-width: 1280px){
+    right: 50px;
+    top: 65%;
+  }
+
+  @media only screen and (min-width: 1281px) and (max-width: 1440px){
     right: 50px;
     top: 65%;
   }
 
   @media only screen and (min-width: 1441px) {
-    right: 100px;
-    top: 75%;
+    right: 70px;
+    top: 70%;
   }
 `;
 

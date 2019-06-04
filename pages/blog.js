@@ -14,6 +14,7 @@ import BlogCard from '../components/pageSections/BlogCard';
 import { BlogMainPageStyle } from '../PagesStyles/BlogMainPageStyle'
 import { H3Style } from '../PagesStyles/TextStyles/H3Style'
 import Footer from '../components/Footer';
+import FloatingMenu from '../components/FloatingMenu';
 
 const blogs = [
     {   
@@ -85,6 +86,7 @@ const Blog = props => {
         
         `}</style>
             <NavBar position={true}></NavBar>
+            <FloatingMenu />
             <BlogMainPageStyle>
                 <Main img={img} imgPosition={-301} title={"Clínica Cidad"} subtitle={"blog"} footer={false}></Main>
                 <div>

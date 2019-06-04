@@ -16,6 +16,7 @@ import svg3 from '../static/imgs/tratamientos/Icon/iconDuracion.svg'
 import svg4 from '../static/imgs/tratamientos/Icon/iconAnestesia.svg'
 import { IconContainer } from '../components/pageSections/IconsContainer';
 import Footer from '../components/Footer'
+import FloatingMenu from '../components/FloatingMenu';
 
 
 const listTratamientos = ["odontología preventiva", "Odontopediatría", "Eestética dental"]
@@ -70,6 +71,7 @@ const Tratamientos = props => {
         `}</style>
             <React.Fragment>
                 <NavBar></NavBar>
+                <FloatingMenu />
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad"} subtitle={"nuestros tratamientos"} footer={false}></Main>
                 <ImgWithText img={img2} text={"ODONTOLOGÍA Y ORTODONCIA"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientos}></ListItems>

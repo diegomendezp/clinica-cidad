@@ -104,6 +104,7 @@ class FloatingMenu extends React.Component {
               ariaLabel="SpeedDial example"
               className={speedDialClassName}
               hidden={hidden}
+              ButtonProps={{ color: "black" }}
               icon={<SpeedDialIcon />}
               onBlur={this.handleClose}
               onClick={this.handleClick}
