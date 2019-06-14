@@ -3,14 +3,12 @@ import Div100vh from "react-div-100vh";
 import { MainWrapperStyle } from "../PagesStyles/MainStyle";
 
 import { PStyle } from "../PagesStyles/TextStyles/PStyle";
-import imageOffice from "../static/imgs/home/imgHome1.jpg";
-import image1 from "../static/imgs/clinicas/galeria/imgclinicagaleria1.jpg";
-import image3 from "../static/imgs/clinicas/galeria/imgclinicagaleria7.jpg";
-import image4 from "../static/imgs/clinicas/galeria/imgclinicagaleria5.jpg";
-import image2 from "../static/imgs/clinicas/galeria/imgclinicagaleria2.jpg";
-import image5 from "../static/imgs/clinicas/galeria/imgClinica2.jpg";
-import image6 from "../static/imgs/clinicas/galeria/imgclinicagaleria8.jpg";
-import image7 from "../static/imgs/clinicas/galeria/imgclinicagaleria9.jpg";
+import image1 from "../static/imgs/clinicas/galeria/img1.jpg";
+import image2 from "../static/imgs/clinicas/galeria/img2.jpg";
+import image3 from "../static/imgs/clinicas/galeria/img3.jpg";
+import image4 from "../static/imgs/clinicas/galeria/img4.jpg";
+import image5 from "../static/imgs/clinicas/galeria/img5.jpg";
+import image6 from "../static/imgs/clinicas/galeria/img6.jpg";;
 
 import Header from "./Header";
 
@@ -20,14 +18,14 @@ export default class Main extends Component {
     this.props = props;
     this.state = {
       images: [
-        imageOffice,
         image1,
-        image3,
         image2,
+        image3,
         image4,
-        image7
+        image5,
+        image6
       ],
-      image:imageOffice,
+      image:image1,
       index: 0
     }
   }

@@ -1,83 +1,26 @@
 import styled from 'styled-components';
 
 const ListItemsWrapperStyle = styled.div`
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:70vw;
+  margin: 0 auto;
+  height:50vh;
+  div{
+    width:30vw;
 
-ul {
-    padding: 20% 5%;
-}
-
-li {
-    list-style: none;
-}
-
-p {
-    font-family: "AvenirL";
-}
-
-
-@media (min-width: 1281px) {
+  }
+  p,h3 {
+      font-family: "AvenirL";
+  }
   
 
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
 
 
-}
+
+
+
 
 `;
 

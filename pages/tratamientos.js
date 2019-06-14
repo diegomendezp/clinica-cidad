@@ -19,7 +19,9 @@ import Footer from '../components/Footer'
 import FloatingMenu from '../components/FloatingMenu';
 
 
-const listTratamientos = ["odontología preventiva", "Odontopediatría", "Eestética dental"]
+const listTratamientosODO = ["ODONTOLOGÍA PREVENTIVA", "– de caries", "– de enfermedad periodontal e Higiene", "ODONTOPEDIATRÍA", "ENDODONCIA", "PERIODONCIA", "ORTODONCIA", "– Aparatología removible", "– Apartología fija", "– Brackets Damon System ®", "–– Metálicos", "–– Estéticos", "– Ortodoncia invisible. Ivisaling®", "– Prótesis", "––Fija", "–– Removible", "IMPLANTOLOGÍA", "MAXILIFACIAL", "RADIODIAGNÓSTICO 3D", "NOVEDADES", "– Limpieza con aeropulidor" ]
+const listTratamientosME = ["EME"]
+
 
 const icons = [
     {svg: svg1, title: "RESULTADO", subtitle: "Inmediato"},
@@ -74,11 +76,11 @@ const Tratamientos = props => {
                 <FloatingMenu />
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad"} subtitle={"nuestros tratamientos"} footer={false}></Main>
                 <ImgWithText img={img2} text={"ODONTOLOGÍA Y ORTODONCIA"} colorText={"white"}></ImgWithText>
-                <ListItems list={listTratamientos}></ListItems>
+                <ListItems list={listTratamientosODO}></ListItems>
                 <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
                 </ImgWithText>
                 <IconContainer icons={icons}></IconContainer>
-                <ListItems list={listTratamientos}></ListItems>
+                <ListItems list={listTratamientosME}></ListItems>
                 <Footer></Footer>
             </React.Fragment>
 
