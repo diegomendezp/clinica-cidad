@@ -4,36 +4,25 @@ import Head from "next/head";
 import Main from '../components/Main'
 import img from '../static/imgs/tratamientos/imgTratamientos.jpg'
 import img2 from '../static/imgs/tratamientos/imgTratamientos2.jpg'
-import img3 from '../static/imgs/tratamientos/ingTratamientos.jpg'
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
 import AvenirB from "../static/fonts/Avenir-bold.ttf";
 import { ImgWithText } from '../components/pageSections/ImgWithText';
 import { ListItems } from '../components/pageSections/ListItems';
-import svg1 from '../static/imgs/tratamientos/Icon/iconResultado.svg'
-import svg2 from '../static/imgs/tratamientos/Icon/iconAplicacion.svg'
-import svg3 from '../static/imgs/tratamientos/Icon/iconDuracion.svg'
-import svg4 from '../static/imgs/tratamientos/Icon/iconAnestesia.svg'
-import { IconContainer } from '../components/pageSections/IconsContainer';
 import Footer from '../components/Footer'
 import FloatingMenu from '../components/FloatingMenu';
 
 
 const listTratamientosODO = ["ODONTOLOGÍA PREVENTIVA", "– de caries", "– de enfermedad periodontal e Higiene", "ODONTOPEDIATRÍA", "ENDODONCIA", "PERIODONCIA", "ORTODONCIA", "– Aparatología removible", "– Apartología fija", "– Brackets Damon System ®", "–– Metálicos", "–– Estéticos", "– Ortodoncia invisible. Ivisaling®", "– Prótesis", "––Fija", "–– Removible", "IMPLANTOLOGÍA", "MAXILIFACIAL", "RADIODIAGNÓSTICO 3D", "NOVEDADES", "– Limpieza con aeropulidor" ]
-const listTratamientosME = ["EME"]
 
 
-const icons = [
-    {svg: svg1, title: "RESULTADO", subtitle: "Inmediato"},
-    {svg: svg2, title: "APLICACIÓN", subtitle: "Dependiendo"},
-    {svg: svg3, title: "DURACIÓN", subtitle: "Dependiendo"},
-    {svg: svg4, title: "ANESTESIA", subtitle: "No necesaria"},
-]
+
 
 const Tratamientos = props => {
     return (
         <React.Fragment>
             <Head>
+                <img></img>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
                 <title>Clínica Cidad</title>
@@ -77,10 +66,6 @@ const Tratamientos = props => {
                 <Main img={img} imgPosition={-551} title={"Clínica Cidad"} subtitle={"nuestros tratamientos"} footer={false}></Main>
                 <ImgWithText img={img2} text={"ODONTOLOGÍA Y ORTODONCIA"} colorText={"white"}></ImgWithText>
                 <ListItems list={listTratamientosODO}></ListItems>
-                <ImgWithText img={img3} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
-                </ImgWithText>
-                <IconContainer icons={icons}></IconContainer>
-                <ListItems list={listTratamientosME}></ListItems>
                 <Footer></Footer>
             </React.Fragment>
 
