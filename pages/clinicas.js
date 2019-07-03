@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar';
 import Head from "next/head";
 import Main from '../components/Main'
 import img from '../static/imgs/clinicas/imgClinicas1.jpg'
-import img2 from '../static/imgs/clinicas/imgClinica2.jpg'
+// import img2 from '../static/imgs/clinicas/imgClinica2.jpg'
 import img3 from '../static/imgs/clinicas/galeria/imgclinicagaleria6.jpg'
 import img4 from '../static/imgs/clinicas/mapa.jpg'
 import img5 from '../static/imgs/clinicas/marker.png'

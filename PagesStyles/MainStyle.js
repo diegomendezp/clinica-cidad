@@ -13,6 +13,7 @@ const MainWrapperStyle = styled.div`
     -webkit-transition: background-image 0.01s ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
