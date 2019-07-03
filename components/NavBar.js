@@ -114,7 +114,7 @@ class NavBar extends React.Component {
             onClick={() => this._managePositionNav()}
           >
             <span className="hamburger-box">
-              <PStyle menu>{this.state.visible? "Cerrar" :"Menú"}</PStyle>
+              <PStyle menu>{this.state.visible? "Cerrar" :"Menu"}</PStyle>
             </span>
           </button>
         </div>
@@ -167,13 +167,10 @@ class NavBar extends React.Component {
                       Clínicas
                     </NavLinkStyle>
                   </Link>
-                  <Link href="/tratamientos">
-                    <NavLinkStyle title={true}>Tratamientos</NavLinkStyle>
+                  <Link href="/tratamientos" >
+                    <NavLinkStyle title={true} margin={true}>Tratamientos</NavLinkStyle>
                   </Link>
-                  <NavLinkStyle  top={true}>
-                    - Ortodoncia y odontología
-                  </NavLinkStyle>
-                  <NavLinkStyle margin={true}>- Medicina estética</NavLinkStyle>
+                  
                   <Link href="/equipo">
                     <NavLinkStyle title={true} margin={true}>
                       Equipo

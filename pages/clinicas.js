@@ -10,11 +10,11 @@ import img4 from '../static/imgs/clinicas/mapa.jpg'
 import img5 from '../static/imgs/clinicas/marker.png'
 import img6 from '../static/imgs/clinicas/galeria/imgclinicagaleria9.jpg'
 
-import image1 from "../static/imgs/clinicas/galeria/imgclinicagaleria1.jpg";
+// import image1 from "../static/imgs/clinicas/galeria/imgclinicagaleria1.jpg";
 import image3 from "../static/imgs/clinicas/galeria/imgclinicagaleria7.jpg";
 import image4 from "../static/imgs/clinicas/galeria/imgclinicagaleria5.jpg";
-import image2 from "../static/imgs/clinicas/galeria/imgclinicagaleria2.jpg";
-import image5 from "../static/imgs/clinicas/galeria/imgClinica2.jpg";
+// import image2 from "../static/imgs/clinicas/galeria/imgclinicagaleria2.jpg";
+// import image5 from "../static/imgs/clinicas/galeria/imgClinica2.jpg";
 import image6 from "../static/imgs/clinicas/galeria/imgclinicagaleria8.jpg";
 import Avenir from "../static/fonts/avenir.ttf";
 import AvenirL from "../static/fonts/Avenir-Light-07.ttf";
