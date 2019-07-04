@@ -10,6 +10,7 @@ import Footer from '../components/Footer';
 
 import { withRouter } from 'next/router'
 import Meta from '../components/Meta';
+import { Title } from '../components/pageSections/Title';
 
 const Blog = withRouter(props => {
 
@@ -21,7 +22,7 @@ const Blog = withRouter(props => {
             <Meta />
             <NavBar></NavBar>
             <PostMainPageStyle img={blog.imagen}>
-                <h1 className="title">Clínica Cidad</h1>
+                <Title text={"Clínica Cidad"} bold blog></Title>
                 <div className="imageSection"></div>
                 <div className="textSection">
                 <Link href="/blog">

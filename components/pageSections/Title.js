@@ -4,8 +4,8 @@ import styled from "styled-components";
 
 const Title = props => {
   return (
-    <H1Style bold={props.bold}>
-      <Link href="/">{props.text}</Link>
+    <H1Style bold={props.bold} blog={props.blog}>
+      <Link href="/"><a>{props.text}</a></Link>
     </H1Style>
   );
 };
@@ -23,6 +23,8 @@ const H1Style = styled.h1`
   font-size: 8vw;
   line-height: 16vh;
   letter-spacing: 0.6vw;
+  position: ${props => (props.blog ? "absolute" : "")};
+  left: ${props => (props.blog ? "4%" : "")};
 
   a {
     text-decoration: none;
