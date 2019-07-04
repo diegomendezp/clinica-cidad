@@ -14,6 +14,13 @@ const ListItemsWrapperStyle = styled.div`
   p,h3 {
       font-family: "AvenirL";
   }
+
+  .treatment-header{
+    display: flex;
+    img {
+      margin-right: 15px;
+    }
+  }
   
 
 
