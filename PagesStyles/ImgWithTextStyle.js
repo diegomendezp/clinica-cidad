@@ -6,7 +6,7 @@ const ImgWithTextStyleWrapperStyle = styled.div`
   ##Screen = 1281px to higher resolution desktops
 */
 
-width: ${props => props.width ? `${props.width}vw` : "100vw"};
+width: ${props => (props.width ? `${props.width}vw` : '100vw')};
 height: 100vh;
 background-image: url(${props => props.img});
 background-repeat: no-repeat;
@@ -55,10 +55,10 @@ h1 {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   
 
-  
+  width: 100vw;
 }
 
 /* 
@@ -77,8 +77,8 @@ h1 {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
+@media (min-width: 481px) and (max-width: 768px) {
+  width: 100vw;
 
   
 }
@@ -93,7 +93,7 @@ h1 {
   width: 100vw;
   height: 75vh;
   order: 0;
-  background-position-x: ${props=> props.imgPosition ? `${props.imgPosition}px` : "-345px"};
+  background-position-x: ${props => (props.imgPosition ? `${props.imgPosition}px` : '-345px')};
 
   h1 {
   font-size: 9.5vw;
@@ -203,4 +203,4 @@ const PointInteractive = styled.ul`
 
 `;
 
-export { ImgWithTextStyleWrapperStyle, PointInteractive};
+export { ImgWithTextStyleWrapperStyle, PointInteractive };

@@ -99,28 +99,6 @@ const ClinicasMainPageStyle = styled.div`
   
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    @media (min-width: 1281px) {
-  
-}
-
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
@@ -128,7 +106,40 @@ const ClinicasMainPageStyle = styled.div`
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image-gallery-image img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    }
+
+    .firstSectionClinicas {
+    flex-direction: column;
+    height: 150vh;
+    }
+
+    .secondSectionClinicas {
+    flex-direction: column;
+    height: 120vh;
+    }
+
+
+    .mapContainer {
+        position: relative;
+        order: 0;
+    }
+
+    .imagenSilla {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .imagenMapa {
+        width: 100vw;
+        height: 55vh;
+        object-fit: cover;
+    }
   
 }
 
@@ -140,8 +151,40 @@ const ClinicasMainPageStyle = styled.div`
 
 
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
+@media (min-width: 481px) and (max-width: 768px) {
+  .image-gallery-image img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    }
+
+    .firstSectionClinicas {
+    flex-direction: column;
+    height: 150vh;
+    }
+
+    .secondSectionClinicas {
+    flex-direction: column;
+    height: 120vh;
+    }
+
+
+    .mapContainer {
+        position: relative;
+        order: 0;
+    }
+
+    .imagenSilla {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .imagenMapa {
+        width: 100vw;
+        height: 55vh;
+        object-fit: cover;
+    }
 
 }
 
