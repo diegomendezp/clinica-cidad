@@ -34,7 +34,7 @@ const ListItems = props => {
                     <p>– Apartología fija"</p>
                     <p>– Brackets Damon System ® (meátilocs / Estéticos)</p>
                     <p>– Prótesis (Fija / Removible)</p>
-                    <p>– Ortodoncia invisible. Ivisaling®</p>
+                    <p>– Ortodoncia invisible. Invisalign®</p>
                 </div> 
                 <div className="treatments-container">
                     <div className="treatment-header">
