@@ -47,12 +47,13 @@ export default class Main extends Component {
 
   render() {
     const { image } = this.state;
+    console.log(this.props)
     return (
       <Div100vh style={{ height: "100rvh" }}>
         <MainWrapperStyle
           img={image}
-          position={this.props.imgPosition}
-          style={{ height: "100vh", zIndex: 2 }}
+          position={ this.props.blog === true ? "none" : `${this.props.imagePosition}`}
+          style={{ height: this.props.blog === true ? "0vh" : "100vh", zIndex: 2 }}
         >
           <Div100vh style={{ height: "100rvh" }} className="mainContainer">
             <Header title={this.props.title} subtitle={this.props.subtitle} />
