@@ -45,6 +45,10 @@ const ListItems = props => {
                         <img src="/static/imgs/svg/Radiodiagnostico.svg" alt="readiodiagnostico-icon"/>
                         <h3>RADIODIAGNÓSTICO 3D</h3>
                     </div>
+                    <div className="treatment-header">
+                        <img src="/static/imgs/svg/Novedades.svg" alt="novedades-icon"/>
+                        <h3>NOVEDADES</h3>
+                    </div>
                     <p>– Limpieza con aeropulidor</p>
                 </div> 
             </div>
