@@ -162,7 +162,7 @@ class NavBar extends React.Component {
               </div>
               <div className="rightSection">
                 <div className="subMenuSection2">
-                <Link href="/cli" as="/clinicas">
+                <Link href="/clinicas" as="/clinicas">
                     <a>
                       <NavLinkStyle title={true} margin={true}>
                         Clínicas
