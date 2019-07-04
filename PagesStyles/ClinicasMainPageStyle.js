@@ -60,47 +60,15 @@ const ClinicasMainPageStyle = styled.div`
   100% {top: 30%}
 }
 
-@media (min-width: 1281px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 1441px) {
   
 
   
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   
 }
 
@@ -143,11 +111,6 @@ const ClinicasMainPageStyle = styled.div`
   
 }
 
-
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-}
 
 
 
@@ -205,12 +168,12 @@ const ClinicasMainPageStyle = styled.div`
 
     .firstSectionClinicas {
     flex-direction: column;
-    height: 170vh;
+    height: auto;
     }
 
     .secondSectionClinicas {
     flex-direction: column;
-    height: 155vh;
+    height: auto;
     }
 
 

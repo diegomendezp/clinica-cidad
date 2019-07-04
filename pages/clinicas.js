@@ -119,7 +119,7 @@ const Clinicas = props => {
             <img src={img4} className="imagenMapa" />
           </div>
         </div>
-        {/* <ListItems list={listTratamientos} /> */}
+        <ListItems list={listTratamientos} />
         <React.Fragment>
           {/* <img src={img6} className="imagenSilla"></img> */}
         </React.Fragment>
