@@ -45,6 +45,13 @@ const Meta = ({ title }) => {
           justify-content: center;
           text-align: center;
         }
+
+        .backLink {
+          font-family: AvenirL;
+          text-decoration: underline;
+          align-self: flex-start;
+          color: black;
+      }
       `}</style>
     </React.Fragment>
   );

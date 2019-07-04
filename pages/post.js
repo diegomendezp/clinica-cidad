@@ -9,6 +9,7 @@ import Link from 'next/link'
 import Footer from '../components/Footer';
 
 import { withRouter } from 'next/router'
+import Meta from '../components/Meta';
 
 const Blog = withRouter(props => {
 
@@ -17,53 +18,7 @@ const Blog = withRouter(props => {
 
     return (
         <React.Fragment>
-            <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta charSet="utf-8" />
-                <title>Clínica Cidad</title>
-            </Head>
-            <style jsx global>{`
-            @font-face {
-            font-family: "Avenir";
-            src: url(${Avenir}) format("truetype");
-            font-weight: normal;
-            font-style: normal;
-            }
-
-
-            @font-face {
-            font-family: "AvenirB";
-            src: url(${AvenirB}) format("truetype");
-            font-weight: normal;
-            font-style: normal;
-            }
-    
-            @font-face {
-            font-family: "AvenirL";
-            src: url(${AvenirL}) format("truetype");
-            font-weight: normal;
-            font-style: normal;
-            }
-    
-    
-            body {
-            margin: 0;
-            padding: 0;
-            max-width: 100%;
-            position: relative;
-            overflow-x: hidden;
-            
-            }
-
-            .backLink {
-                font-family: AvenirL;
-                text-decoration: underline;
-                align-self: flex-start;
-                color: black;
-            }
-    
-        
-        `}</style>
+            <Meta />
             <NavBar></NavBar>
             <PostMainPageStyle img={blog.imagen}>
                 <h1 className="title">Clínica Cidad</h1>
