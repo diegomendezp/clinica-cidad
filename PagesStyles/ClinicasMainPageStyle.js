@@ -124,6 +124,7 @@ const ClinicasMainPageStyle = styled.div`
     .firstSectionClinicas {
     flex-direction: column;
     height: 150vh;
+    width: 100%;
     }
 
     .secondSectionClinicas {

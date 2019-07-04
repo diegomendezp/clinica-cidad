@@ -17,11 +17,17 @@ export { TextSection }
 const TextSectionStyle = styled.div`
 
 box-sizing: border-box;
-padding: 20% 3%;
 order: 2;
 
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 p {
-    font-family: "AvenirL"
+    font-family: "AvenirL";
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 width: 50vw;
@@ -49,6 +55,7 @@ width: 50vw;
 */
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  padding: 10% 0;
   p {
     font-size: 2.5vw;
   }
@@ -71,6 +78,7 @@ width: 50vw;
 */
 
 @media (min-width: 415px) and (max-width: 768px) {
+  padding: 10% 0;
   p {
     font-size: 2.5vw;
   }
@@ -84,6 +92,7 @@ width: 50vw;
 */
 
 @media (max-width: 414px) {
+  padding: 10% 0;
   p {
     font-size: 3.5vw;
   }
