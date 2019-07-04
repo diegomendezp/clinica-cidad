@@ -47,7 +47,6 @@ export default class Main extends Component {
 
   render() {
     const { image } = this.state;
-    console.log(this.props)
     return (
       <Div100vh style={{ height: "100rvh" }}>
         <MainWrapperStyle

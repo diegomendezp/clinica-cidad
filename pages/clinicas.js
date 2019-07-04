@@ -121,7 +121,6 @@ const Clinicas = props => {
         </div>
         <ListItems list={listTratamientos} />
         <React.Fragment>
-          {/* <img src={img6} className="imagenSilla"></img> */}
         </React.Fragment>
         <Footer />
       </ClinicasMainPageStyle>
