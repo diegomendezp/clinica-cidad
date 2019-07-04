@@ -162,24 +162,29 @@ class NavBar extends React.Component {
               </div>
               <div className="rightSection">
                 <div className="subMenuSection2">
-                  <Link href="/clinicas">
-                    <NavLinkStyle title={true} margin={true}>
-                      Clínicas
-                    </NavLinkStyle>
+                <Link href="/cli" as="/clinicas">
+                    <a>
+                      <NavLinkStyle title={true} margin={true}>
+                        Clínicas
+                      </NavLinkStyle>
+                    </a>
                   </Link>
                   <Link href="/tratamientos" >
-                    <NavLinkStyle title={true} margin={true}>Tratamientos</NavLinkStyle>
+                    <a><NavLinkStyle title={true} margin={true}>Tratamientos</NavLinkStyle></a>
                   </Link>
-                  
                   <Link href="/equipo">
-                    <NavLinkStyle title={true} margin={true}>
-                      Equipo
-                    </NavLinkStyle>
+                    <a>
+                      <NavLinkStyle title={true} margin={true}>
+                        Equipo
+                      </NavLinkStyle>
+                    </a>
                   </Link>
                   <Link href="/blog">
-                    <NavLinkStyle title={true} margin={true}>
-                      Blog
-                    </NavLinkStyle>
+                    <a>
+                      <NavLinkStyle title={true} margin={true}>
+                        Blog
+                      </NavLinkStyle>
+                    </a>
                   </Link>
                 </div>
               </div>

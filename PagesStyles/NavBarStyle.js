@@ -16,6 +16,7 @@ const NavWrapperStyle = styled.div`
   animation-delay: 0.4s;
   background-color: ${props => (props.visible ? 'white' : 'transparent')};
   transition: background-color 0.01s ease;
+  top: 0;
 
   .logo {
     margin-bottom: 15%;

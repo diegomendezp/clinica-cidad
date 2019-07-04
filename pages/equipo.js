@@ -62,7 +62,7 @@ const Equipo = props => {
           font-style: normal;
         }
 
-        body {
+        html,body {
           margin: 0;
           padding: 0;
           max-width: 100%;

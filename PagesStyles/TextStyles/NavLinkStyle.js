@@ -9,12 +9,12 @@ cursor: pointer;
 margin: 0;
 padding: 0;
 font-family: "Avenir";
-font-size: ${props => props.title ? "4vw" : "1.4vw"};
+font-size: ${props => (props.title ? '4vw' : '1.4vw')};
 line-height: 5vh;
 letter-spacing: 0.2vw;
 margin-right: 1%;
-margin-bottom: ${props => props.margin && "8%"};
-margin-top: ${props => props.top && "4%"};
+margin-bottom: ${props => props.margin && '8%'};
+margin-top: ${props => props.top && '4%'};
 
 @media (min-width: 1281px) {
   
@@ -72,7 +72,7 @@ margin-top: ${props => props.top && "4%"};
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  font-size: ${props => props.title ? "12.5vw" : "6vw"};
+  font-size: ${props => (props.title ? '12.5vw' : '6vw')};
 }
 
 `;
