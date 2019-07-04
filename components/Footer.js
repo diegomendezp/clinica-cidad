@@ -41,6 +41,11 @@ const Footer = props => {
         </FooterTextStyle>
       </div>
       <div className="footerSection">
+      <Link href="/clinicas">
+          <FooterLink margin black>
+            Clínicas
+          </FooterLink>
+        </Link>
         <Link href="/tratamientos">
           <FooterLink margin black>
             Tratamientos
@@ -56,6 +61,7 @@ const Footer = props => {
             Blog
           </FooterLink>
         </Link>
+        
       </div>
     </FooterStyle>
   );
