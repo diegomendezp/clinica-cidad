@@ -18,12 +18,16 @@ import { ClinicasMainPageStyle } from "../PagesStyles/ClinicasMainPageStyle";
 import ImageGallery from "react-image-gallery";
 import FloatingMenu from "../components/FloatingMenu";
 
-// const images = [
-//     {original: image1},
-//     {original: image3},
-//     {original: image4},
-//     {original: image2},
-// ]
+
+const images = [
+    {original: `/static/imgs/galeria/img1Clinica.jpg`},
+    {original: `/static/imgs/galeria/img2Clinica.jpg`},
+    {original: `/static/imgs/galeria/img3Clinica.jpg`},
+    {original: `/static/imgs/galeria/img4Clinica.jpg`},
+    {original: `/static/imgs/galeria/img5Clinica.jpg`},
+    {original: `/static/imgs/galeria/img6Clinica.jpg`},
+    {original: `/static/imgs/galeria/img7Clinica.jpg`}
+]
 
 const texto = {
   p1:
@@ -106,7 +110,7 @@ const Clinicas = props => {
           />
           <TextSection text={texto} />
         </div>
-        {/* <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showNav={false} autoPlay={true} slideDuration={600} lazyLoad={true} /> */}
+        <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showNav={false} autoPlay={true} slideDuration={1000} lazyLoad={true} />
 
         <div className="secondSectionClinicas">
           <TextSection text={texto2} />
@@ -115,7 +119,7 @@ const Clinicas = props => {
             <img src={img4} className="imagenMapa" />
           </div>
         </div>
-        <ListItems list={listTratamientos} />
+        {/* <ListItems list={listTratamientos} /> */}
         <React.Fragment>
           {/* <img src={img6} className="imagenSilla"></img> */}
         </React.Fragment>
