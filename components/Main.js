@@ -3,12 +3,6 @@ import Div100vh from "react-div-100vh";
 import { MainWrapperStyle } from "../PagesStyles/MainStyle";
 
 import { PStyle } from "../PagesStyles/TextStyles/PStyle";
-import image1 from "../static/imgs/clinicas/galeria/img1.jpg";
-import image2 from "../static/imgs/clinicas/galeria/img2.jpg";
-import image3 from "../static/imgs/clinicas/galeria/img3.jpg";
-import image4 from "../static/imgs/clinicas/galeria/img4.jpg";
-import image5 from "../static/imgs/clinicas/galeria/img5.jpg";
-import image6 from "../static/imgs/clinicas/galeria/img6.jpg";;
 
 import Header from "./Header";
 
@@ -18,37 +12,41 @@ export default class Main extends Component {
     this.props = props;
     this.state = {
       images: [
-        image1,
-        image2,
-        image3,
-        image4,
-        image5,
-        image6
+        "/static/imgs/clinicas/galeria/img1.jpg",
+        "/static/imgs/clinicas/galeria/img2.jpg",
+        "/static/imgs/clinicas/galeria/img3.jpg",
+        "/static/imgs/clinicas/galeria/img4.jpg",
+        "/static/imgs/clinicas/galeria/img5.jpg",
+        "/static/imgs/clinicas/galeria/img6.jpg"
       ],
-      image:image1,
+      image: "/static/imgs/clinicas/galeria/img1.jpg",
       index: 0
-    }
+    };
   }
 
   _carrousel() {
     setInterval(() => {
       const { images, index } = this.state;
-      if(index + 1 > images.length-1) {
-        this.setState({...this.state, image: images[0], index:0})
+      if (index + 1 > images.length - 1) {
+        this.setState({ ...this.state, image: images[0], index: 0 });
       } else {
-        this.setState({...this.state, image: images[index + 1], index:index + 1})
-      }  
-    }, 3500)
+        this.setState({
+          ...this.state,
+          image: images[index + 1],
+          index: index + 1
+        });
+      }
+    }, 3500);
   }
 
   componentDidMount() {
-    if(this.props.home) {
+    if (this.props.home) {
       this._carrousel();
     }
   }
-  
+
   render() {
-    const { image } = this.state
+    const { image } = this.state;
     return (
       <Div100vh style={{ height: "100rvh" }}>
         <MainWrapperStyle
@@ -68,7 +66,8 @@ export default class Main extends Component {
                   {"Calle Alcalá 590 1A "}{" "}
                 </a>
 
-                <a className="with-margin"
+                <a
+                  className="with-margin"
                   href="https://goo.gl/maps/ni44kW5qsULYRnJZ7"
                   target="_blank"
                   rel="noopener noreferrer"

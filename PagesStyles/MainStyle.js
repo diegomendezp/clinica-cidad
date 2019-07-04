@@ -100,7 +100,7 @@ const MainWrapperStyle = styled.div`
 
   @media only screen and (max-width: 414px) {
     .mainContainer {
-      background-position-x: ${props => props.position}px;
+      background-position-x: center;
     }
 
     .headerContainer {
