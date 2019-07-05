@@ -18,7 +18,7 @@
         "name": "Especialista en Periodoncia."
       }
     ],
-    "photo": "../static/imgs/equipo/imgdrAngel.jpg"
+    "photo": "/static/imgs/equipo/imgdrAngel.jpg"
   },
   "doctors": [
     {
@@ -37,7 +37,7 @@
           "name": "Asistente a numerosos cursos y seminarios que le permiten dominar los últimos avances tecnológicos."
         }
       ],
-      "photo": "../static/imgs/equipo/imgdrRamon.jpg"
+      "photo": "/static/imgs/equipo/imgdrRamon.jpg"
     },
     {
       "name": "Dra. Ana Rabal Soláns",
@@ -70,7 +70,7 @@
           "name": "Formación en Tratamiento Ortodóncico-Quirúrgico de las Deformidades Dentofaciales en Valencia."
         }
       ],
-      "photo": "../static/imgs/equipo/imgdrAna2.jpg"
+      "photo": "/static/imgs/equipo/imgdrAna2.jpg"
     },
     {
       "name": "Dra. Piferrer",
@@ -91,28 +91,7 @@
           "name": "Odontología en Atención Primaria en el Servicio Madrileño de Salud (SERMAS)."
         }
       ],
-      "photo": "../static/imgs/equipo/imgdrPiferrer.jpg"
-    },
-    {
-      "name": "Dra. Tonita",
-      "curriculum": [
-        {
-          "name": "Licenciada en Odontología."
-        },
-        {
-          "name": "Curso Universitario de especialización en carillas."
-        },
-        {
-          "name": "Máster en Estética y Rehabilitación oral."
-        },
-        {
-          "name": "Curso Universitario de Fotografía Dental."
-        },
-        {
-          "name": "Máster en Periodoncia Avanzada e Implantología."
-        }
-      ],
-      "photo": "../static/imgs/equipo/imgdrTonita.jpg"
+      "photo": "/static/imgs/equipo/imgdrPiferrer.jpg"
     },
     {
       "name": "Dr. Chamorro",
@@ -133,7 +112,7 @@
           "name": "Profesor de la Universidad Autónoma de Madrid."
         }
       ],
-      "photo": "../static/imgs/equipo/imgdrChamorro.jpg"
+      "photo": "/static/imgs/equipo/imgdrChamorro.jpg"
     },
     {
       "name": "Dra. Ana Padierna",
@@ -154,44 +133,44 @@
           "name": "Miembro de la SEME, AMEM, SEMERGEN y SEMES."
         }
       ],
-      "photo": "../static/imgs/equipo/imgdrAna.jpg"
+      "photo": "/static/imgs/equipo/imgdrAna.jpg"
     }
   ],
   "other": [
     {
       "name": "Amanda",
       "descripcion": "Auxiliar e Higienista Dental.",
-      "photo": "../static/imgs/equipo/imgAmanda.jpg"
+      "photo": "/static/imgs/equipo/imgAmanda.jpg"
     },
     {
       "name": "Mar",
       "descripcion": "Auxiliar Dental.",
-      "photo": "../static/imgs/equipo/imgMar.jpg"
+      "photo": "/static/imgs/equipo/imgMar.jpg"
     },
     {
       "name": "Sara Medina",
       "descripcion": "Atención al paciente.",
-      "photo": "../static/imgs/equipo/imgSara.jpg"
+      "photo": "/static/imgs/equipo/imgSara.jpg"
     },
     {
       "name": "Sergio",
       "descripcion": "Auxiliar e Higienista Dental.",
-      "photo": "../static/imgs/equipo/imgSergio.jpg"
+      "photo": "/static/imgs/equipo/imgSergio.jpg"
     },
     {
       "name": "Soraya",
       "descripcion": "Auxiliar e Higienista Dental.",
-      "photo": "../static/imgs/equipo/imgSoraya.jpg"
+      "photo": "/static/imgs/equipo/imgSoraya.jpg"
     },
     {
       "name": "Carmen",
       "descripcion": "Gerente.",
-      "photo": "../static/imgs/equipo/imgCarmen.jpg"
+      "photo": "/static/imgs/equipo/imgCarmen.jpg"
     },
     {
       "name": "Enrique",
       "descripcion": "Informático.",
-      "photo": "../static/imgs/equipo/imgEnrique.jpg"
+      "photo": "/static/imgs/equipo/imgEnrique.jpg"
     }
   ]
 }
