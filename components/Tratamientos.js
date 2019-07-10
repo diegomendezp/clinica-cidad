@@ -3,9 +3,6 @@ import { TratamientosWrapperStyle } from "../PagesStyles/TratamientosStyle";
 import { tween, easing } from "popmotion";
 import { H2Style } from "../PagesStyles/TextStyles/H2Style";
 import { ButtonHomeStyle } from "../PagesStyles/TextStyles/ButtonHomeStyle";
-import image1 from "../static/imgs/home/imgHome2.jpg";
-import image2 from "../static/imgs/home/imghome2.png";
-import image3 from "../static/imgs/home/imgHome4.jpg";
 import Link from "next/link";
 
 export default class Tratamientos extends Component {
@@ -82,13 +79,13 @@ export default class Tratamientos extends Component {
       <TratamientosWrapperStyle
         img={
           this.state.width !== undefined && this.state.width <= 414
-            ? image3
-            : image1
+            ? "/static/imgs/home/imgHome4.jpg"
+            : "/static/imgs/home/imgHome2.jpg"
         }
       >
         <div className="tratamientosContainer">
           <div className="imageContainer">
-            <img id="image2" className="downImage" src={image2} />
+            <img id="image2" className="downImage" src={"/static/imgs/home/imghome2.png"} />
           </div>
           <div className="infoContainer">
             <H2Style padding={true} tratamientos>
