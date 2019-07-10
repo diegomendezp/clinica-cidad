@@ -3,8 +3,6 @@ import posed from "react-pose";
 import { NavWrapperStyle } from "../PagesStyles/NavBarStyle";
 import { NavTextStyle } from "../PagesStyles/TextStyles/NavTextStyle";
 import { NavLinkStyle } from "../PagesStyles/TextStyles/NavLinkStyle";
-import logo from "../static/imgs/home/logoMenu.jpg";
-import tailorLogo from "../static/imgs/tailorBlackLogo.svg";
 import Link from "next/link";
 import { PStyle } from "../PagesStyles/TextStyles/PStyle";
 
@@ -127,7 +125,7 @@ class NavBar extends React.Component {
           <div className="menuSection">
             <div className="logoSection">
               <Link href="/" >
-                <img onClick={() => this._managePositionNav()} className="logo" src={logo} alt="logo-clinica"/>
+                <img onClick={() => this._managePositionNav()} className="logo" src={"/static/imgs/home/logoMenu.jpg"} alt="logo-clinica"/>
               </Link>
             </div>
             <div className="infoNavSection">
@@ -196,7 +194,7 @@ class NavBar extends React.Component {
                 ©2019 by Tailor
               </a>
             </NavTextStyle>
-            <img src={tailorLogo} />
+            <img src={"/static/imgs/tailorBlackLogo.svg"} />
           </div>
         </Box>
       </NavWrapperStyle>
