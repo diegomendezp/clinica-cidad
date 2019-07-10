@@ -2,10 +2,6 @@ import React from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
 import NavBar from "../components/NavBar";
 import Main from "../components/Main";
-import img from "../static/imgs/clinicas/imgClinicas1.jpg";
-import img2 from "../static/imgs/clinicas/imgClinica2.jpg";
-import img4 from "../static/imgs/clinicas/mapa.jpg";
-import img5 from "../static/imgs/clinicas/marker.png";
 import { ImgWithText } from "../components/pageSections/ImgWithText";
 import { TextSection } from "../components/pageSections/TextSection";
 import { ListItems } from "../components/pageSections/ListItems";
@@ -56,7 +52,7 @@ const Clinicas = props => {
         <NavBar position={true} />
         <FloatingMenu />
         <Main
-          img={img}
+          img={"/static/imgs/clinicas/imgClinicas1.jpg"}
           imgPosition={-201}
           title={"Clínica Cidad"}
           subtitle={"nuestras clínicas"}
@@ -64,7 +60,7 @@ const Clinicas = props => {
         />
         <div className="firstSectionClinicas">
           <ImgWithText
-            img={img2}
+            img={"/static/imgs/clinicas/imgClinica2.jpg"}
             width={50}
             text={"Machupichu 25 |  Alcalá 590 1A"}
             colorText={"black"}
@@ -78,8 +74,8 @@ const Clinicas = props => {
         <div className="secondSectionClinicas">
           <TextSection text={texto2} />
           <div className="mapContainer">
-            <img src={img5} className="marker" />
-            <img src={img4} className="imagenMapa" />
+            <img src={"/static/imgs/clinicas/marker.png"} className="marker" />
+            <img src={"/static/imgs/clinicas/mapa.jpg"} className="imagenMapa" />
           </div>
         </div>
         <ListItems list={listTratamientos} />
