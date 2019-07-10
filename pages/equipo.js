@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Main from "../components/Main";
-import img from "../static/imgs/equipo/imgpersonal1.jpg";
 import WorkerCard from "../components/pageSections/WorkerCard";
 import { EquipoMainPageStyle } from "../PagesStyles/EquipoMainPageStyle";
 import { H3Style } from "../PagesStyles/TextStyles/H3Style";
@@ -34,7 +33,7 @@ const Equipo = props => {
       <FloatingMenu />
       <EquipoMainPageStyle>
         <Main
-          img={img}
+          img={"static/imgs/equipo/imgpersonal1.jpg"}
           imgPosition={-421}
           title={"Clínica Cidad"}
           subtitle={"nuestro equipo"}
