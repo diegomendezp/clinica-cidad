@@ -68,7 +68,6 @@ export default class Tratamientos extends Component {
 
   _checkVisible = () => {
     if (this.state.animation && !this.animationDone) {
-      console.log("hola");
       document.getElementById("image1").style.display = "block";
       this._makeAnimation();
     }

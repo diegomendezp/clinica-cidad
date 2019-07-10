@@ -114,7 +114,7 @@ const PointInteractive = styled.ul`
     background-color: ${props => `${props.backGroundColor}`};
     padding: 1.5rem;
     width: auto;
-    border-radius: 5%;
+    border-radius: 2%;
 
     ul {
       list-style: none;
@@ -148,7 +148,8 @@ const PointInteractive = styled.ul`
     left: 0;
     transform: scale(1.2);
     border-radius: 5%;
-    box-shadow: inset 0 0 2px 1px black;
+    box-shadow: inset 0 0 2px 1px ${props => (props.backGroundColor === 'white' ? 'black' : 'white')};
+    display: none;
   }
 
   .wrapper:hover .popOver {
@@ -178,11 +179,11 @@ const PointInteractive = styled.ul`
   @keyframes cd-pulse {
     0% {
       transform: scale(1);
-      box-shadow: inset 0 0 1px 1px black;
+      box-shadow: inset 0 0 1px 1px ${props => (props.backGroundColor === 'white' ? 'white' : 'black')};
     }
 
     50% {
-      box-shadow: inset 0 0 1px 1px black;
+      box-shadow: inset 0 0 1px 1px ${props => (props.backGroundColor === 'white' ? 'white' : 'black')};
     }
 
     100% {

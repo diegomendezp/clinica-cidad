@@ -13,7 +13,7 @@ const displayFaceTreatments = () => {
       {faceTreatments.map((treatment, i )=> {
         const { name, solutions, posX, posY } = treatment;
         return (
-          <PointInteractive posX={posX} posY={posY} backGroundColor={whitePoints.includes(i) ? "white" : "black"}>
+          <PointInteractive posX={posX} posY={posY} backGroundColor={"white"}>
             <div className="wrapper">
               <div className="point" id="point1" />
               <div className="popOver">
