@@ -9,7 +9,6 @@ import Footer from "../components/Footer";
 import FloatingMenu from "../components/FloatingMenu";
 import Meta from "../components/Meta";
 
-
 const listTratamientosODO = [
   "ODONTOLOGÍA PREVENTIVA",
   "– de caries",
@@ -54,10 +53,15 @@ const Tratamientos = props => {
           colorText={"white"}
         />
         <ListItems list={listTratamientosODO} />
-        <ImgWithText img={"/static/imgs/img7.jpg"} imgPosition={-270} text={"MEDICINA ESTÉTICA"} colorText={"white"} tratamiento={true}>
-                </ImgWithText>
-                {/* <IconContainer icons={icons}></IconContainer> */}
-        
+        <ImgWithText
+          img={"/static/imgs/img7.jpg"}
+          imgPosition={-270}
+          text={"MEDICINA ESTÉTICA"}
+          colorText={"white"}
+          tratamiento={true}
+        />
+        {/* <IconContainer icons={icons}></IconContainer> */}
+
         <Footer />
       </React.Fragment>
     </React.Fragment>

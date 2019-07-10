@@ -11,6 +11,7 @@ height: 100vh;
 background-image: url(${props => props.img});
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 order: ${props => props.order};
 
 h1 {
