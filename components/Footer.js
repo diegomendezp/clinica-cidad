@@ -1,7 +1,6 @@
 import React from "react";
 import { FooterStyle } from "../PagesStyles/FooterStyle";
 import { FooterTextStyle } from "../PagesStyles/TextStyles/FooterTextStyle";
-import logo from "../static/imgs/home/logoAzul.jpg";
 import { FooterLink } from "../PagesStyles/TextStyles/FooterLinkStyles";
 import Link from "next/link";
 
@@ -9,7 +8,7 @@ const Footer = props => {
   return (
     <FooterStyle>
       <div className="footerSection">
-        <img className="logo" src={logo} />
+        <img className="logo" src={"/static/imgs/home/logoAzul.jpg"} />
       </div>
       <div className="footerSection">
         <FooterTextStyle margin black>
