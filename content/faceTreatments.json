@@ -17,7 +17,7 @@
       }
     ],
     "posX":"56",
-    "posY":"14"
+    "posY":"17"
   },
   {
     "name": "Bolsas y ojeras.",
@@ -26,8 +26,8 @@
         "name": "Ácido Hialurónico."
       }
     ],
-    "posX":"62",
-    "posY":"50"
+    "posX":"56",
+    "posY":"34"
   },
   {
     "name": "Código de barras.",
@@ -36,8 +36,8 @@
         "name": "Ácido Hialurónico."
       }
     ],
-    "posX":"36",
-    "posY":"50"
+    "posX":"48",
+    "posY":"64"
   },
   {
     "name": "Perfilado, hidratación o aumento de labios.",
@@ -46,8 +46,8 @@
         "name": "Ácido Hialurónico."
       }
     ],
-    "posX":"43",
-    "posY":"83"
+    "posX":"48",
+    "posY":"77"
   },
   {
     "name": "Pérdida del soporte facial.",
@@ -65,8 +65,8 @@
         "name": "Mesoterapia."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"56",
+    "posY":"55"
   },
   {
     "name": "Flacidez y pérdida de densidad cutánea.",
@@ -75,8 +75,8 @@
         "name": "Hilos tensores."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"60",
+    "posY":"46"
   },
   {
     "name": "Bolsas de grasa localizada: papada.",
@@ -85,8 +85,8 @@
         "name": "Belkira."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"44",
+    "posY":"104"
   },
   {
     "name": "Mentón.",
@@ -98,8 +98,8 @@
         "name": "Hidroxipatita Cálcica."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"46",
+    "posY":"96"
   },
   {
     "name": "Pómulos.",
@@ -111,8 +111,8 @@
         "name": "Hidroxipatita Cálcica."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"36",
+    "posY":"46"
   },
   {
     "name": "Rinomodelación.",
@@ -121,8 +121,8 @@
         "name": "Ácido Hialurónico."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"48",
+    "posY":"50"
   },
   {
     "name": "Surco nasogeniano.",
@@ -131,8 +131,8 @@
         "name": "Ácido Hialurónico."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"42",
+    "posY":"64"
   },
   {
     "name": "Desnutrición y desvitalización cutánea.",
@@ -141,8 +141,8 @@
         "name": "Mesoterapia facial."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"64",
+    "posY":"40"
   },
   {
     "name": "Poro dilatado/ lesiones de acné/ pequeñas cicatrices/ manchas.",
@@ -151,8 +151,8 @@
         "name": "Peeling médico."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"64",
+    "posY":"46"
   },
   {
     "name": "Especial EVENTOS BBC.",
@@ -161,17 +161,17 @@
         "name": "PRX-T33 15."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"64",
+    "posY":"52"
   },
   {
-    "name": "Hiperidroxis/ sudoración excesiva.",
+    "name": "Hiperidroxis / sudoración excesiva.",
     "solutions": [
       {
         "name": "Tóxina Butolítica (BOTOX-VISTABEL)."
       }
     ],
-    "posX":"0",
-    "posY":"0"
+    "posX":"6",
+    "posY":"110"
   }
 ]

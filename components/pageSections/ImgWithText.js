@@ -6,17 +6,21 @@ import {
 } from "../../PagesStyles/ImgWithTextStyle";
 import faceTreatments from "../../content/faceTreatments.json";
 
+const whitePoints = [15]
 const displayFaceTreatments = () => {
   return (
     <div className="interactiveTratamiento">
-      {faceTreatments.map(treatment => {
+      {faceTreatments.map((treatment, i )=> {
         const { name, solutions, posX, posY } = treatment;
         return (
-          <PointInteractive posX={posX} posY={posY}>
+          <PointInteractive posX={posX} posY={posY} backGroundColor={whitePoints.includes(i) ? "white" : "black"}>
             <div className="wrapper">
               <div className="point" id="point1" />
               <div className="popOver">
                 <p className="popOverText">{name}</p>
+                <ul>
+                    {solutions.map(solution=> <p className="popOverSolution">{solution.name}</p> )}
+                </ul>
               </div>
             </div>
           </PointInteractive>

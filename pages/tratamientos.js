@@ -1,8 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Main from "../components/Main";
-import img from "../static/imgs/tratamientos/imgTratamientos.jpg";
-import img2 from "../static/imgs/tratamientos/imgTratamientos2.jpg";
 import { ImgWithText } from "../components/pageSections/ImgWithText";
 import { ListItems } from "../components/pageSections/ListItems";
 import Footer from "../components/Footer";
@@ -41,14 +39,14 @@ const Tratamientos = props => {
         <NavBar />
         <FloatingMenu />
         <Main
-          img={img}
+          img={"/static/imgs/tratamientos/imgTratamientos.jpg"}
           imgPosition={-551}
           title={"Clínica Cidad"}
           subtitle={"nuestros tratamientos"}
           footer={false}
         />
         <ImgWithText
-          img={img2}
+          img={"/static/imgs/tratamientos/imgTratamientos2.jpg"}
           text={"ODONTOLOGÍA Y ORTODONCIA"}
           colorText={"white"}
         />
