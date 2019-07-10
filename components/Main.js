@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import Div100vh from "react-div-100vh";
 import { MainWrapperStyle } from "../PagesStyles/MainStyle";
-
-import { PStyle } from "../PagesStyles/TextStyles/PStyle";
-
 import Header from "./Header";
 
 export default class Main extends Component {
