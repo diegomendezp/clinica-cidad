@@ -31,6 +31,7 @@ const displayFaceTreatments = () => {
 };
 
 const ImgWithText = props => {
+    const { display } = props;
   return (
     <ImgWithTextStyleWrapperStyle
       img={props.img}
@@ -40,7 +41,7 @@ const ImgWithText = props => {
       width={props.width}
     >
       <h1>{props.text}</h1>
-      {props.tratamiento !== undefined && (
+      {props.tratamiento !== undefined &&  display &&(
         displayFaceTreatments()
       )}
     </ImgWithTextStyleWrapperStyle>
