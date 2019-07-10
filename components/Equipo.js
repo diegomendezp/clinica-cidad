@@ -1,13 +1,12 @@
 import React from 'react'
 import { EquipoStyle } from '../PagesStyles/EquipoStyle'
-import image1 from '../static/imgs/home/imgHome3.jpg'
 import { H2Style } from '../PagesStyles/TextStyles/H2Style'
 import { ButtonHomeStyle } from '../PagesStyles/TextStyles/ButtonHomeStyle'
 import Link from 'next/link';
 
 const Equipo = props => {
     return (
-        <EquipoStyle img={image1}>
+        <EquipoStyle img={"/static/imgs/home/imgHome3.jpg"}>
             <div className="equipoContainer">
                 <div className="infoContainer">
                     <H2Style padding={true} equipo={true}>Nuestro equipo de 
