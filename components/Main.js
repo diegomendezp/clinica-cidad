@@ -48,7 +48,7 @@ export default class Main extends Component {
       <Div100vh style={{ height: "100rvh" }}>
         <MainWrapperStyle
           img={image}
-          position={ this.props.blog === true ? "none" : `${this.props.imagePosition}`}
+          position={ this.props.blog === true ? "none" : `${this.props.imgPosition}`}
           style={{ height: this.props.blog === true ? "0vh" : "100vh", zIndex: 2 }}
         >
           <Div100vh style={{ height: "100rvh" }} className="mainContainer">
