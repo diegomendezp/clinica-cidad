@@ -14,6 +14,7 @@ import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
 import MailIcon from '@material-ui/icons/Mail';
 import MapIcon from '@material-ui/icons/Map';
 import PhoneIcon from '@material-ui/icons/Phone';
+import InstagramIcon from '@material-ui/icons/CameraAlt';
 import FloatingMenuWrapper from '../PagesStyles/FloatingMenuStyles';
 import { AST_ClassExpression } from 'terser';
 
@@ -51,6 +52,7 @@ const actions = [
   { icon: <MailIcon />, name: 'Email' },
   { icon: <MapIcon />, name: 'Visitar' },
   { icon: <PhoneIcon />, name: 'Llamar' },
+  { icon: <InstagramIcon />, name: 'Instagram' }
 ];
 
 class FloatingMenu extends React.Component {
@@ -116,7 +118,7 @@ class FloatingMenu extends React.Component {
               direction={direction}
             >
               {actions.map(action => { 
-                let enlace = action.name === "Email" ? `mailto:info@clinicacidad.es` : action.name === "Llamar" ? `tel:${"910660526"}` : "https://goo.gl/maps/ni44kW5qsULYRnJZ7"
+                let enlace = action.name === "Email" ? `mailto:info@clinicacidad.es` : action.name === "Llamar" ? `tel:${"910660526"}` : action.name === 'Visitar' ? "https://g.page/CIDAD?share" : "https://www.instagram.com/clinicacidad/"
                 return (
                 <SpeedDialAction
                   href={enlace}
