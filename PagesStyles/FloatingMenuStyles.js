@@ -9,7 +9,7 @@ const FloatingMenuWrapper = styled.div`
 
   @media only screen and (min-width: 321px) and (max-width: 414px){
     right: 70px;
-    top: 60%;
+    top: 50%;
   }
 
   @media only screen and (min-width: 415px) and (max-width: 768px){
@@ -24,12 +24,12 @@ const FloatingMenuWrapper = styled.div`
 
   @media only screen and (min-width: 1025px) and (max-width: 1280px){
     right: 50px;
-    top: 65%;
+    top: 60%;
   }
 
   @media only screen and (min-width: 1281px) and (max-width: 1440px){
     right: 50px;
-    top: 65%;
+    top: 60%;
   }
 
   @media only screen and (min-width: 1441px) {
