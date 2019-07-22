@@ -12,16 +12,21 @@ import { withRouter } from 'next/router'
 import Meta from '../components/Meta';
 import { Title } from '../components/pageSections/Title';
 
+const displayContent = (posts) => {
+    return posts.map((post, i) => {
+        return (<p key={i} className="descriptionPost">{post}</p>)
+    })
+}
 const Blog = withRouter(props => {
 
     const blog = JSON.parse(props.router.query.blog);
-    console.log(blog)
+
 
     return (
         <React.Fragment>
             <Meta />
             <NavBar></NavBar>
-            <PostMainPageStyle img={blog.imagen}>
+            <PostMainPageStyle img={props.router.query.imagen}>
                 <Title text={"Clínica Cidad"} bold blog></Title>
                 <div className="imageSection"></div>
                 <div className="textSection">
@@ -29,7 +34,7 @@ const Blog = withRouter(props => {
                 <p className="backLink">&lt;-- Volver</p>
                 </Link>
                 <h1 className="titlePost">{blog.title.toUpperCase()}</h1>
-                <p className="descriptionPost">{blog.descripcion}</p>
+                {displayContent(blog.posts)}
                 </div>
             </PostMainPageStyle>
             <Footer></Footer>

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const BackLink = styled(Link)`
     font-family: AvenirL;
     text-decoration: underline;
     align-self: flex-start;
-`
+`;
 
 const PostMainPageStyle = styled.div`
 
@@ -58,7 +58,9 @@ position: relative;
     padding: 0 5%;
     width: 50vw;
     height: 100vh;
+    overflow-y: scroll;
     box-sizing: border-box;
+    
 }
 
 
@@ -67,8 +69,7 @@ position: relative;
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
+@media (min-width: 769px) and (max-width: 1024px) {
   
 }
 
@@ -80,9 +81,29 @@ position: relative;
 
 
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
+@media (min-width: 481px) and (max-width: 768px) {
+    .imageSection {
+    width: 50vw;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(${props => props.img});
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.textSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5%;
+    width: 50vw;
+    height: auto;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    
+}
 }
 
 
@@ -98,7 +119,7 @@ position: relative;
     .textSection {
         justify-content: flex-start;
         width: 100vw;
-
+        height: auto;
         .titlePost {
             font-size: 10vw;
         }
@@ -107,6 +128,7 @@ position: relative;
 
     .title {
         top: 1%;
+        display: none;
     }
 
 }

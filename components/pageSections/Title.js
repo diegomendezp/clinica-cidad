@@ -86,5 +86,6 @@ const H1Style = styled.h1`
     letter-spacing: 0.1vw;
     line-height: 7vh;
     padding: ${props => (props.padding ? "0 25%" : "0")};
+    display: ${props => (props.blog ? "none" : "")};
   }
 `;
