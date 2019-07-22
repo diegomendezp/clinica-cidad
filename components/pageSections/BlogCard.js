@@ -5,17 +5,15 @@ import { PStyle } from '../../PagesStyles/TextStyles/PStyle'
 
 import Link from 'next/link'
 
-const BlogCard = props => {
-
-
+const BlogCard = ({imagen, title, blog}) => {
     return (
         <BlogCardStyle>
             <div className="imageBlogEntrade">
-                <img src={props.blog.imagen}></img>
+                <img src={imagen}></img>
             </div>
             <div className="blogInfo">
-                    <PStyle>{props.blog.title.toUpperCase()}</PStyle>
-                    <Link as={`/post/${props.blog.shortName}`} href={{ pathname: '/post', query: { blog: JSON.stringify(props.blog) } }}><a className="link">Leer más +++</a></Link>
+                    <PStyle>{title.toUpperCase()}</PStyle>
+                    <Link as={`/post/${title}`} href={{ pathname: '/post', query: { blog: JSON.stringify(blog) } }}><a className="link">Leer más +++</a></Link>
              </div>
         </BlogCardStyle>
     )
