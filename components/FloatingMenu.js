@@ -118,7 +118,7 @@ class FloatingMenu extends React.Component {
               direction={direction}
             >
               {actions.map(action => { 
-                let enlace = action.name === "Email" ? `mailto:info@clinicacidad.es` : action.name === "Llamar" ? `tel:${"910660526"}` : action.name === 'Visitar' ? "https://g.page/CIDAD?share" : "https://www.instagram.com/clinicacidad/"
+                let enlace = action.name === "Email" ? `mailto:info@clinicacidad.es` : action.name === "Llamar" ? `tel:${"910660526"}` : action.name === 'Visitar' ? "https://g.page/CIDAD?share" : "https://www.instagram.com/clinicaa.cidad/"
                 return (
                 <SpeedDialAction
                   href={enlace}
