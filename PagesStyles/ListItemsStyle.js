@@ -7,6 +7,16 @@ const ListItemsWrapperStyle = styled.div`
   align-items: center;
   height: 50vh;
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  p:before {
+    content: "·";
+    margin-left: -20px;
+    margin-right: 10px;
+  }
   p {
     margin-top: 0;
   }

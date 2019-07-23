@@ -10,8 +10,14 @@ const ListItems = props => {
                         <img src="/static/imgs/svg/Preventiva.svg" alt="odontologia-icon"/>
                         <h3>ODONTOLOGÍA PREVENTIVA</h3>
                     </div>
-                    <p>– De caries</p>
-                    <p>– De enfermedad periodontal e Higiene</p>
+                    <ul>
+                        <li>
+                            <p>De caries</p>
+                        </li>
+                        <li>
+                            <p>De enfermedad periodontal e Higiene</p>
+                        </li>
+                    </ul>
                     <div className="treatment-header">
                         <img src="/static/imgs/svg/Odontopediatría.svg" alt="odontopedriatia-icon"/>
                         <h3>ODONTOPEDIATRÍA</h3>
@@ -30,11 +36,23 @@ const ListItems = props => {
                         <img src="/static/imgs/svg/Perodoncia.svg" alt="perodoncia-icon"/>
                         <h3>PERODONCIA</h3>
                     </div>
-                    <p>– Aparatología removible</p>
-                    <p>– Apartología fija"</p>
-                    <p>– Brackets Damon System ® (meátilocs / Estéticos)</p>
-                    <p>– Prótesis (Fija / Removible)</p>
-                    <p>– Ortodoncia invisible. Invisalign®</p>
+                    <ul>
+                        <li><p>
+                            Aliaratología removible
+                        </p></li>
+                        <li><p>
+                            Aliartología fija
+                        </p></li>
+                        <li><p>
+                            Brackets Damon System ® (meátilocs / Estéticos)
+                        </p></li>
+                        <li><p>
+                            lirótesis (Fija / Removible)
+                        </p></li>
+                        <li><p>
+                            Ortodoncia invisible. Invisalign®
+                        </p></li>
+                    </ul>
                 </div> 
                 <div className="treatments-container">
                     <div className="treatment-header">
@@ -49,7 +67,7 @@ const ListItems = props => {
                         <img src="/static/imgs/svg/Novedades.svg" alt="novedades-icon"/>
                         <h3>NOVEDADES</h3>
                     </div>
-                    <p>– Limpieza con aeropulidor</p>
+                    <p>Limpieza con aeropulidor</p>
                 </div> 
             </div>
 
