@@ -6,15 +6,18 @@ import {
 } from "../../PagesStyles/ImgWithTextStyle";
 import faceTreatments from "../../content/faceTreatments.json";
 import Link from 'next/link'
+import posts from '../../content/blog.json'
 
 const whitePoints = [15]
 const displayFaceTreatments = () => {
   return (
     <div className="interactiveTratamiento">
       {faceTreatments.map((treatment, i )=> {
-        const { name, solutions, posX, posY } = treatment;
+        const { name, solutions, posX, posY, link, blog } = treatment;
+        const images = ["/static/imgs/blog/post1.jpg", "/static/imgs/blog/post2.jpg", "/static/imgs/blog/post3.jpg", "/static/imgs/blog/post4.jpg"]
+        const imagen = images[Math.floor(Math.random() * images.length)];
         return (
-          <Link href="/post/Rejuvenecimientodelamirada."> 
+          <Link as={`/post/${link.replace(/\s/g, '').replace(/[^\w\s]/gi, '')}`} href={{ pathname: '/post', query: { blog: JSON.stringify(posts[blog]), imagen, lastPath:"/tratamientos" } }}>
             <a>
               <PointInteractive posX={posX} posY={posY} backGroundColor={"white"}>
                 <div className="wrapper">

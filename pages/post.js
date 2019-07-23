@@ -24,8 +24,8 @@ const Post= props => {
                 <Title text={"Clínica Cidad"} bold blog></Title>
                 <div className="imageSection"></div>
                 <div className="textSection">
-                <Link href="/blog">
-                <p className="backLink">&lt;-- Volver</p>
+                <Link href={router.query.lastPath ? router.query.lastPath : "/blog"}>
+                    <p className="backLink">&lt;-- Volver</p>
                 </Link>
                 <h1 className="titlePost">{blog.title.toUpperCase()}</h1>
                 {displayContent(blog.posts)}
