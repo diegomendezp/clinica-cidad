@@ -62,7 +62,7 @@ const Clinicas = props => {
           <ImgWithText
             img={"/static/imgs/clinicas/imgClinica2.jpg"}
             width={50}
-            text={"Machupichu 25 |  Alcalá 590 1A"}
+            text={"Machupichu 65 |  Alcalá 590 1A"}
             colorText={"black"}
             imgPosition={-60}
             order={3}
