@@ -5,6 +5,7 @@ import {
   PointInteractive
 } from "../../PagesStyles/ImgWithTextStyle";
 import faceTreatments from "../../content/faceTreatments.json";
+import Link from 'next/link'
 
 const whitePoints = [15]
 const displayFaceTreatments = () => {
@@ -13,17 +14,21 @@ const displayFaceTreatments = () => {
       {faceTreatments.map((treatment, i )=> {
         const { name, solutions, posX, posY } = treatment;
         return (
-          <PointInteractive posX={posX} posY={posY} backGroundColor={"white"}>
-            <div className="wrapper">
-              <div className="point" id="point1" />
-              <div className="popOver">
-                <p className="popOverText">{name}</p>
-                <ul>
-                    {solutions.map(solution=> <p className="popOverSolution">{solution.name}</p> )}
-                </ul>
-              </div>
-            </div>
-          </PointInteractive>
+          <Link href="/post/Rejuvenecimientodelamirada."> 
+            <a>
+              <PointInteractive posX={posX} posY={posY} backGroundColor={"white"}>
+                <div className="wrapper">
+                  <div className="point" id="point1" />
+                  <div className="popOver">
+                    <p className="popOverText">{name}</p>
+                    <ul>
+                        {solutions.map(solution=> <p className="popOverSolution">{solution.name}</p> )}
+                    </ul>
+                  </div>
+                </div>
+              </PointInteractive>
+            </a>
+          </Link>
         );
       })}
     </div>

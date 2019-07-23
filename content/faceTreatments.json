@@ -7,7 +7,8 @@
       }
     ],
     "posX":"46",
-    "posY":"12"
+    "posY":"12",
+    "link":"/post/Rejuvenecimientodelamirada"
   },
   {
     "name": "Pequeñas arrugas/ laxitud de los párpados.",
@@ -17,7 +18,9 @@
       }
     ],
     "posX":"56",
-    "posY":"17"
+    "posY":"17",
+    "link":"/post/Rejuvenecimientodelamirada",
+    "blog": 0
   },
   {
     "name": "Bolsas y ojeras.",
@@ -27,7 +30,9 @@
       }
     ],
     "posX":"56",
-    "posY":"34"
+    "posY":"34",
+    "link":"/post/Rejuvenecimientodelamirada",
+    "blog": 0
   },
   {
     "name": "Código de barras.",
@@ -37,7 +42,9 @@
       }
     ],
     "posX":"48",
-    "posY":"64"
+    "posY":"64",
+    "link":"/post/Cdigodebarras",
+    "blog": 1
   },
   {
     "name": "Perfilado, hidratación o aumento de labios.",
@@ -47,7 +54,9 @@
       }
     ],
     "posX":"48",
-    "posY":"77"
+    "posY":"77",
+    "link":"/post/PerfiladohidratacinoaumentodeLabios",
+    "blog": 2
   },
   {
     "name": "Pérdida del soporte facial.",
@@ -66,7 +75,9 @@
       }
     ],
     "posX":"56",
-    "posY":"55"
+    "posY":"55",
+    "link":"/post/Rejuvenecimientodelrostro",
+    "blog": 3
   },
   {
     "name": "Flacidez y pérdida de densidad cutánea.",
@@ -76,7 +87,9 @@
       }
     ],
     "posX":"60",
-    "posY":"46"
+    "posY":"46",
+    "link":"/post/Rejuvenecimientodelrostro",
+    "blog": 3
   },
   {
     "name": "Bolsas de grasa localizada: papada.",
@@ -86,7 +99,9 @@
       }
     ],
     "posX":"44",
-    "posY":"104"
+    "posY":"104",
+    "link":"/post/Rejuvenecimientodelrostro",
+    "blog": 3
   },
   {
     "name": "Mentón.",
@@ -99,7 +114,9 @@
       }
     ],
     "posX":"46",
-    "posY":"96"
+    "posY":"96",
+    "link":"/post/RedefinicindelRostro",
+    "blog": 4
   },
   {
     "name": "Pómulos.",
@@ -112,7 +129,9 @@
       }
     ],
     "posX":"36",
-    "posY":"46"
+    "posY":"46",
+    "link":"/post/RedefinicindelRostro",
+    "blog": 4
   },
   {
     "name": "Rinomodelación.",
@@ -122,7 +141,9 @@
       }
     ],
     "posX":"48",
-    "posY":"50"
+    "posY":"50",
+    "link":"/post/Rinomodelacinsinciruga",
+    "blog": 5
   },
   {
     "name": "Surco nasogeniano.",
@@ -132,7 +153,9 @@
       }
     ],
     "posX":"42",
-    "posY":"64"
+    "posY":"64",
+    "link":"/post/Surconasogeniano",
+    "blog": 6
   },
   {
     "name": "Desnutrición y desvitalización cutánea.",
@@ -142,7 +165,9 @@
       }
     ],
     "posX":"64",
-    "posY":"40"
+    "posY":"40",
+    "link":"/post/Desnutricinydesvitalizacincutnea",
+    "blog": 7
   },
   {
     "name": "Poro dilatado/ lesiones de acné/ pequeñas cicatrices/ manchas.",
@@ -152,7 +177,9 @@
       }
     ],
     "posX":"64",
-    "posY":"46"
+    "posY":"46",
+    "link":"/post/Porodilatadolesionesdeacnpequeascicatricesmanchas",
+    "blog": 8
   },
   {
     "name": "Especial EVENTOS BBC.",
@@ -162,7 +189,9 @@
       }
     ],
     "posX":"64",
-    "posY":"52"
+    "posY":"52",
+    "link":"/post/EspecialEVENTOSBBC",
+    "blog": 9
   },
   {
     "name": "Hiperidroxis / sudoración excesiva.",
@@ -172,6 +201,8 @@
       }
     ],
     "posX":"6",
-    "posY":"100"
+    "posY":"100",
+    "link":"/post/Hiperidroxissudoracinexcesiva",
+    "blog": 10
   }
 ]

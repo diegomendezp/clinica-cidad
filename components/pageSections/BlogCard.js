@@ -13,7 +13,7 @@ const BlogCard = ({imagen, title, blog}) => {
             </div>
             <div className="blogInfo">
                     <PStyle>{title.toUpperCase()}</PStyle>
-                    <Link as={`/post/${title.replace(/\s/g, '')}`} href={{ pathname: '/post', query: { blog: JSON.stringify(blog), imagen } }}><a className="link">Leer más +++</a></Link>
+                    <Link as={`/post/${title.replace(/\s/g, '').replace(/[^\w\s]/gi, '')}`} href={{ pathname: '/post', query: { blog: JSON.stringify(blog), imagen } }}><a className="link">Leer más +++</a></Link>
              </div>
         </BlogCardStyle>
     )
