@@ -47,7 +47,7 @@ const ListItems = props => {
                             Brackets Damon System ® (meátilocs / Estéticos)
                         </p></li>
                         <li><p>
-                            lirótesis (Fija / Removible)
+                            Lirótesis (Fija / Removible)
                         </p></li>
                         <li><p>
                             Ortodoncia invisible. Invisalign®
