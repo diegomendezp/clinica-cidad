@@ -8,6 +8,7 @@ import Div100vh from "react-div-100vh/lib/Div100vh";
 import Header from "../components/Header";
 import Meta from "../components/Meta";
 import posts from '../content/blog.json'
+import Main from "../components/Main";
 
 const displayPosts = () => {
   const images = ["/static/imgs/blog/post1.jpg", "/static/imgs/blog/post2.jpg", "/static/imgs/blog/post3.jpg", "/static/imgs/blog/post4.jpg"]
@@ -23,9 +24,13 @@ const Blog = props => {
       <NavBar position={true} />
       <FloatingMenu />
       <BlogMainPageStyle>
-        <Div100vh style={{ height: "50vh" }} className="mainContainer">
-          <Header title={"Clínica Cidad"} subtitle={"blog"} />
-        </Div100vh>
+      <Main
+            img={"/static/imgs/tratamientos/imgTratamientos.jpg"}
+            imgPosition={-551}
+            title={"Clínica Cidad"}
+            subtitle={"blog"}
+            footer={false}
+          />
         <div>
           <div className="blogsContainer">
             {displayPosts()}
