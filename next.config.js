@@ -9,11 +9,19 @@ const withPlugins = require('next-compose-plugins');
 //   '/tratamientos': { page: '/tratamientos' },
 // });
 
+const nextConfig = {
+  exportPathMap: () => ({
+    '/': { page: '/' },
+    '/clinicas': { page: '/clinicas' },
+    '/tratamientos': { page: '/tratamientos' },
+    '/blog': { page: '/blog' },
+    '/equipo': { page: '/equipo' },
+  }),
+};
 
 module.exports = withPlugins([
   [withCSS],
   [withFonts],
-  [withImages]
-  // [exportPathMap],
-]);
+  [withImages],
+], nextConfig);
 // module.exports = withFonts(withImages(withCSS()));

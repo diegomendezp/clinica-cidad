@@ -6,7 +6,6 @@ import { NavLinkStyle } from "../PagesStyles/TextStyles/NavLinkStyle";
 import Link from "next/link";
 import { PStyle } from "../PagesStyles/TextStyles/PStyle";
 
-
 const Box = posed.div({
   up: {
     y: ({ y }) => y,
@@ -112,7 +111,7 @@ class NavBar extends React.Component {
             onClick={() => this._managePositionNav()}
           >
             <span className="hamburger-box">
-              <PStyle menu>{this.state.visible? "Cerrar" :"Menu"}</PStyle>
+              <PStyle menu>{this.state.visible ? "Cerrar" : "Menu"}</PStyle>
             </span>
           </button>
         </div>
@@ -124,8 +123,13 @@ class NavBar extends React.Component {
         >
           <div className="menuSection">
             <div className="logoSection">
-              <Link href="/" >
-                <img onClick={() => this._managePositionNav()} className="logo" src={"/static/imgs/home/logoMenu.jpg"} alt="logo-clinica"/>
+              <Link href="/">
+                <img
+                  onClick={() => this._managePositionNav()}
+                  className="logo"
+                  src={"/static/imgs/home/logoMenu.jpg"}
+                  alt="logo-clinica"
+                />
               </Link>
             </div>
             <div className="infoNavSection">
@@ -155,20 +159,26 @@ class NavBar extends React.Component {
                   <NavTextStyle margin={true}>
                     <a href={`tel:${"910660526"}`}>910 66 05 26</a>
                   </NavTextStyle>
-                  <NavTextStyle><a href={`mailto:info@clinicacidad.es`}>info@clinicacidad.es</a></NavTextStyle>
+                  <NavTextStyle>
+                    <a href={`mailto:info@clinicacidad.es`}>
+                      info@clinicacidad.es
+                    </a>
+                  </NavTextStyle>
                 </div>
               </div>
               <div className="rightSection">
                 <div className="subMenuSection2">
-                <Link href="/clinicas" as="/clinicas">
+                  <Link href="/clinicas">
+                    <NavLinkStyle title={true} margin={true}>
+                      Clínicas
+                    </NavLinkStyle>
+                  </Link>
+                  <Link href="/tratamientos">
                     <a>
                       <NavLinkStyle title={true} margin={true}>
-                        Clínicas
+                        Tratamientos
                       </NavLinkStyle>
                     </a>
-                  </Link>
-                  <Link href="/tratamientos" >
-                    <a><NavLinkStyle title={true} margin={true}>Tratamientos</NavLinkStyle></a>
                   </Link>
                   <Link href="/equipo">
                     <a>

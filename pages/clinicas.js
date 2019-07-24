@@ -1,5 +1,5 @@
 import React from "react";
-import "react-image-gallery/styles/css/image-gallery.css";
+
 import NavBar from "../components/NavBar";
 import Main from "../components/Main";
 import { ImgWithText } from "../components/pageSections/ImgWithText";
@@ -11,16 +11,15 @@ import ImageGallery from "react-image-gallery";
 import FloatingMenu from "../components/FloatingMenu";
 import Meta from "../components/Meta";
 
-
 const images = [
-    {original: `/static/imgs/galeria/img1Clinica.jpg`},
-    {original: `/static/imgs/galeria/img2Clinica.jpg`},
-    {original: `/static/imgs/galeria/img3Clinica.jpg`},
-    {original: `/static/imgs/galeria/img4Clinica.jpg`},
-    {original: `/static/imgs/galeria/img5Clinica.jpg`},
-    {original: `/static/imgs/galeria/img6Clinica.jpg`},
-    {original: `/static/imgs/galeria/img7Clinica.jpg`}
-]
+  { original: `/static/imgs/galeria/img1Clinica.jpg` },
+  { original: `/static/imgs/galeria/img2Clinica.jpg` },
+  { original: `/static/imgs/galeria/img3Clinica.jpg` },
+  { original: `/static/imgs/galeria/img4Clinica.jpg` },
+  { original: `/static/imgs/galeria/img5Clinica.jpg` },
+  { original: `/static/imgs/galeria/img6Clinica.jpg` },
+  { original: `/static/imgs/galeria/img7Clinica.jpg` }
+];
 
 const texto = {
   p1:
@@ -44,47 +43,62 @@ const listTratamientos = [
   "Eestética dental"
 ];
 
-const Clinicas = props => {
-  return (
-    <React.Fragment>
-      <Meta />
-      <ClinicasMainPageStyle>
-        <NavBar position={true} />
-        <FloatingMenu />
-        <Main
-          img={"/static/imgs/clinicas/imgClinicas1.jpg"}
-          imgPosition={-201}
-          title={"Clínica Cidad"}
-          subtitle={"nuestras clínicas"}
-          footer={false}
-        />
-        <div className="firstSectionClinicas">
-          <ImgWithText
-            img={"/static/imgs/clinicas/imgClinica2.jpg"}
-            width={50}
-            text={"Machupichu 65 |  Alcalá 590 1A"}
-            colorText={"black"}
-            imgPosition={-60}
-            order={3}
+class Clinicas extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Meta />
+        <ClinicasMainPageStyle>
+          <NavBar position={true} />
+          <FloatingMenu />
+          <Main
+            img={"/static/imgs/clinicas/imgClinicas1.jpg"}
+            imgPosition={-201}
+            title={"Clínica Cidad"}
+            subtitle={"nuestras clínicas"}
+            footer={false}
           />
-          <TextSection text={texto} />
-        </div>
-        <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showNav={false} autoPlay={true} slideDuration={1000} lazyLoad={true} />
-
-        <div className="secondSectionClinicas">
-          <TextSection text={texto2} />
-          <div className="mapContainer">
-            <img src={"/static/imgs/clinicas/marker.png"} className="marker" />
-            <img src={"/static/imgs/clinicas/mapa.jpg"} className="imagenMapa" />
+          <div className="firstSectionClinicas">
+            <ImgWithText
+              img={"/static/imgs/clinicas/imgClinica2.jpg"}
+              width={50}
+              text={"Machupichu 65 |  Alcalá 590 1A"}
+              colorText={"black"}
+              imgPosition={-60}
+              order={3}
+            />
+            <TextSection text={texto} />
           </div>
-        </div>
-        <ListItems list={listTratamientos} />
-        <React.Fragment>
-        </React.Fragment>
-        <Footer />
-      </ClinicasMainPageStyle>
-    </React.Fragment>
-  );
-};
+          <ImageGallery
+            items={images}
+            showThumbnails={false}
+            showPlayButton={false}
+            showNav={false}
+            autoPlay={true}
+            slideDuration={1000}
+            lazyLoad={true}
+          />
+
+          <div className="secondSectionClinicas">
+            <TextSection text={texto2} />
+            <div className="mapContainer">
+              <img
+                src={"/static/imgs/clinicas/marker.png"}
+                className="marker"
+              />
+              <img
+                src={"/static/imgs/clinicas/mapa.jpg"}
+                className="imagenMapa"
+              />
+            </div>
+          </div>
+          <ListItems list={listTratamientos} />
+          <React.Fragment />
+          <Footer />
+        </ClinicasMainPageStyle>
+      </React.Fragment>
+    );
+  }
+}
 
 export default Clinicas;
