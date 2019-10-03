@@ -28,7 +28,7 @@ const Footer = props => {
         </FooterTextStyle>
         <FooterTextStyle>
           <a
-            href="https://goo.gl/maps/ni44kW5qsULYRnJZ7"
+            href="https://g.page/CIDAD?share"
             target="_blank"
             rel="noopener noreferrer"
           >
