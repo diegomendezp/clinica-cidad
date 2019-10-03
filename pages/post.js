@@ -36,7 +36,7 @@ const Post = props => {
         <Title text={"Clínica Cidad"} bold blog></Title>
         <div className="imageSection"></div>
         <div className="textSection">
-          <Link href={router.query.lastPath ? router.query.lastPath : "/blog"}>
+          <Link href={router.query.lastPath ? router.query.lastPath : "/blog"} scroll>
             <p className="backLink">← Volver</p>
           </Link>
           <h1 className="titlePost">{blog.title.toUpperCase()}</h1>

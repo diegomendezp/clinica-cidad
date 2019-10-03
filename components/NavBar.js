@@ -39,9 +39,9 @@ class NavBar extends React.Component {
 
   hamburgerEffect = () => {
     if (this.state.visible) {
-      setTimeout(() => {
+ 
         this.setState({ visible: !this.state.visible });
-      }, 400);
+
     } else {
       this.setState({ visible: !this.state.visible });
     }
