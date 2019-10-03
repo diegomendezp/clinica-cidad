@@ -6,23 +6,6 @@ import { NavLinkStyle } from "../PagesStyles/TextStyles/NavLinkStyle";
 import Link from "next/link";
 import { PStyle } from "../PagesStyles/TextStyles/PStyle";
 
-const Box = posed.div({
-  up: {
-    y: ({ y }) => y,
-    transition: {
-      duration: 400,
-      ease: "linear"
-    }
-  },
-  down: {
-    y: ({ y2 }) => y2,
-    transition: {
-      duration: 400,
-      ease: "linear"
-    }
-  }
-});
-
 class NavBar extends React.Component {
   constructor() {
     super();
@@ -54,27 +37,7 @@ class NavBar extends React.Component {
     }
   };
 
-  componentDidMount() {
-    this.setState({
-      hamburger: document.getElementsByClassName("hamburger")[0],
-      menuSizes: this._manageResize()
-    });
-  }
-
   hamburgerEffect = () => {
-    let el = this.state.hamburger;
-    if (el.classList) {
-      el.classList.toggle("is-active");
-    } else {
-      var classes = el.className.split(" ");
-      var existingIndex = classes.indexOf("is-active");
-
-      if (existingIndex >= 0) classes.splice(existingIndex, 1);
-      else classes.push("is-active");
-
-      el.className = classes.join(" ");
-    }
-
     if (this.state.visible) {
       setTimeout(() => {
         this.setState({ visible: !this.state.visible });
@@ -102,37 +65,39 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <NavWrapperStyle position={this.state.pos} visible={this.state.visible}>
+      <NavWrapperStyle position={this.state.pos} visible={this.state.visible}> 
         <div className="menuIcon">
-          <link href="/static/css/hamburger.css" rel="stylesheet" />
-          <button
-            className="hamburger hamburger--spin"
-            type="button"
-            onClick={() => this._managePositionNav()}
-          >
             <span className="hamburger-box">
-              <PStyle menu>{this.state.visible ? "Cerrar" : "Menu"}</PStyle>
+              <PStyle menu onClick={() => this._managePositionNav()}>{this.state.visible ? "Cerrar" : "Menu"} </PStyle>
             </span>
-          </button>
         </div>
-        <Box
-          pose={this.state.position ? "up" : "down"}
-          className="menu"
-          y={this.state.menuSizes !== undefined && this.state.menuSizes.y}
-          y2={this.state.menuSizes !== undefined && this.state.menuSizes.y2}
+
+        <div
+          className="dialog"
+          style={{ display: this.state.visible ? "block" : "none", height:  this.state.visible ? "auto" : "0px" }}
         >
-          <div className="menuSection">
-            <div className="logoSection">
-              <Link href="/">
-                <img
-                  onClick={() => this._managePositionNav()}
-                  className="logo"
-                  src={"/static/imgs/home/logoMenu.jpg"}
-                  alt="logo-clinica"
-                />
-              </Link>
-            </div>
-            <div className="infoNavSection">
+           <div className="close">
+             <PStyle menu onClick={() => this._managePositionNav()} > Cerrar </PStyle>
+           </div>
+          <div className="menu"></div>
+          <div
+            className="menu-container"
+            style={{ opacity: this.state.visible ? 1 : 0 }}
+          >
+            <div className="nav-container menu-open">
+              
+              <div className="menuSection">
+                <div className="logoSection">
+                  <Link href="/">
+                    <img
+                      onClick={() => this._managePositionNav()}
+                      className="logo"
+                      src={"/static/imgs/home/logoMenu.jpg"}
+                      alt="logo-clinica"
+                    />
+                  </Link>
+                </div>
+                <div className="infoNavSection">
               <div className="leftSection">
                 <div className="subMenuSection">
                   <NavTextStyle>
@@ -197,16 +162,24 @@ class NavBar extends React.Component {
                 </div>
               </div>
             </div>
+              </div>
+                        
+              <div className="menuFooter">
+                {" "}
+                            
+                <NavTextStyle>
+                                
+                  <a href="http://tailor-hub.com" target="_blank">
+                                    ©2019 by Tailor               
+                  </a>
+                             
+                </NavTextStyle>
+                     
+                <img src={"/static/imgs/tailorBlackLogo.svg"} />           
+              </div>
+            </div>
           </div>
-          <div className="menuFooter">
-            <NavTextStyle>
-              <a href="http://tailor-hub.com" target="_blank">
-                ©2019 by Tailor
-              </a>
-            </NavTextStyle>
-            <img src={"/static/imgs/tailorBlackLogo.svg"} />
-          </div>
-        </Box>
+        </div>
       </NavWrapperStyle>
     );
   }

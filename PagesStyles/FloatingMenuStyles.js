@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const FloatingMenuWrapper = styled.div`
   position: fixed;
   right: 70px;
-  z-index: 300000;
+  z-index: 1000;
   top: 48%;
 
 
