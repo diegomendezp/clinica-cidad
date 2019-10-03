@@ -37,10 +37,15 @@ const ListItems = props => {
             <h3>IMPLANTOLOGÍA</h3>
           </div>
         </div>
+
         <div className="treatments-container">
           <div className="treatment-header">
             <img src="/static/imgs/svg/Perodoncia.svg" alt="perodoncia-icon" />
             <h3>PERIODONCIA</h3>
+          </div>
+          <div className="treatment-header">
+            <img src="/static/imgs/svg/Endodoncia.svg" alt="perodoncia-icon" />
+            <h3>ORTODONCIA</h3>
           </div>
           <ul>
             <li>
@@ -53,12 +58,13 @@ const ListItems = props => {
               <p>Brackets Damon System® (Metálicos / Estéticos)</p>
             </li>
             <li>
-              <p>Prótesis (Fija / Removible)</p>
-            </li>
-            <li>
               <p>Ortodoncia invisible. Invisalign®</p>
             </li>
           </ul>
+          <div className="treatment-header">
+            <img src="/static/imgs/svg/Protesis.svg" alt="perodoncia-icon" />
+            <h3>PRÓTESIS</h3>
+          </div>
         </div>
         <div className="treatments-container">
           <div className="treatment-header">
