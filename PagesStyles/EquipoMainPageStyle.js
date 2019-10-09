@@ -228,6 +228,7 @@ const EquipoMainPageStyle = styled.div`
         object-fit: cover;
         width: 45%;
         height: auto;
+        max-height: 50vh;
       }
 
       .main-member-description {
