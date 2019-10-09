@@ -152,6 +152,54 @@ const ClinicasMainPageStyle = styled.div`
 
 }
 
+@media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    @-webkit-keyframes markerAnimation {
+      0%   {top: 15%}
+      50% {top: 20%}
+      100% {top: 15%}
+    }
+
+    @keyframes markerAnimation {
+      0%   {top: 15%}
+      50% {top: 20%}
+      100% {top: 15%}
+    }
+
+    .firstSectionClinicas {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .secondSectionClinicas {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-gallery-image img {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .marker {
+        top: 45% !important;
+        left: 32%;
+        -webkit-animation-name: markerAnimation;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: markerAnimation;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .imagenMapa {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 
