@@ -197,6 +197,13 @@ const EquipoStyle = styled.div`
   ##Screen = B/w 320px to 479px
 */
 
+@media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+  .equipoContainer {
+      background-position: center;
+  
+    }
+  }
+
   @media only screen and (max-width: 414px) {
     z-index: 0;
     .equipoContainer {

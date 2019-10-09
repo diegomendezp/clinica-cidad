@@ -100,6 +100,11 @@ const H2Style = styled.h1`
     width: ${props => props.equipo && '100%'};
   }
 
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    line-height: 3rem;
+    letter-spacing: 0.1vw;
+  }
+
   @media only screen and (max-width: 414px) {
     padding: ${props => (props.padding ? '0 25%' : '0')};
     margin: 0;
