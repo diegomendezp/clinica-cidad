@@ -53,8 +53,6 @@ const FooterStyle = styled.div`
   ##Screen = B/w 768px to 1024px
 */
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  }
 
   /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -62,6 +60,15 @@ const FooterStyle = styled.div`
 */
 
   @media (min-width: 481px) and (max-width: 767px) {
+  }
+
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    .footerSection {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100vw;
+    }
   }
 
   /* 
