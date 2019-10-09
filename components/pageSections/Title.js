@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Title = props => {
   return (
-    <H1Style bold={props.bold} blog={props.blog}>
+    <H1Style bold={props.bold} blog={props.blog} className="mobile-title">
       <Link href="/"><a>{props.text}</a></Link>
     </H1Style>
   );

@@ -33,7 +33,7 @@ const Post = props => {
       <Meta />
       <NavBar></NavBar>
       <PostMainPageStyle img={router.query.imagen}>
-        <Title text={"Clínica Cidad"} bold blog></Title>
+        <Title text={"Clínica Cidad"} bold blog ></Title>
         <div className="imageSection"></div>
         <div className="textSection">
           <Link href={router.query.lastPath ? router.query.lastPath : "/blog"} scroll>

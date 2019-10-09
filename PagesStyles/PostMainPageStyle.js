@@ -119,6 +119,30 @@ const PostMainPageStyle = styled.div`
     }
   }
 
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    flex-direction: column;
+
+    .imageSection {
+      width: 100vw;
+      min-height: 80vh;
+
+    }
+
+    .textSection {
+      justify-content: flex-start;
+      width: 100vw;
+      height: auto;
+
+      .descriptionPost{
+        margin-left: 0;
+      }
+    }
+
+    .mobile-title {
+      display: none;
+    }
+  }
+
   @media (min-width: 320px) and (max-width: 480px) {
     flex-direction: column;
 
