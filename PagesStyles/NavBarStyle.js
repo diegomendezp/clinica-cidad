@@ -271,15 +271,25 @@ const NavWrapperStyle = styled.div`
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  }
+ 
 
   /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-  @media (min-width: 414px) and (max-width: 767px) {
+
+
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    .menu {
+      height: 100vh;
+    }
+
+    .menuIcon {
+      position: absolute;
+      padding-right: 6%;
+    }
+
     width: ${props => (props.visible ? '100vw' : '90px')};
     height: ${props => (props.visible ? '100vh' : '90px')};
     top: ${props => (props.visible ? '0' : '15px')};
@@ -294,62 +304,7 @@ const NavWrapperStyle = styled.div`
       justify-content: flex-end;
       cursor: pointer;
     }
-    .menuIcon {
-      top: ${props => (props.visible ? '0.8%' : '4%')};
-    }
-
-    .logo {
-      width: 30vw;
-    }
-
-    .subMenuSection,
-    .subMenuSection2 {
-      box-sizing: border-box;
-      width: 100vw;
-    }
-
-    .subMenuSection2 {
-      margin-top: 5%;
-    }
-
-    .logoSection {
-      /* order: 1; */
-      align-self: flex-start;
-    }
-
-    .leftSection {
-      order: 2;
-    }
-
-    .rightSection {
-      /* order: 2; */
-    }
-
-    .menuSection {
-      box-sizing: border-box;
-      flex-direction: column;
-    }
-
-    .infoNavSection {
-      width: 100%;
-      flex-direction: column;
-      padding: 0 4%;
-      margin-top: 30%;
-    }
-
-    .leftSection,
-    .rightSection {
-      width: 100%;
-    }
-
-    .menuFooter {
-      img {
-        width: 10vw;
-        margin-left: 2%;
-      }
-    }
   }
-
   /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px

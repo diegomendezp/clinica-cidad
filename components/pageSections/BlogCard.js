@@ -92,9 +92,6 @@ width: 50vw;
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -105,6 +102,15 @@ width: 50vw;
   
 }
 
+@media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+  .imageBlogEntrade {
+    img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+  }
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
