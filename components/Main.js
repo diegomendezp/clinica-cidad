@@ -13,7 +13,6 @@ export default class Main extends Component {
         "/static/imgs/clinicas/galeria/img2.jpg",
         "/static/imgs/clinicas/galeria/img3.jpg",
         "/static/imgs/clinicas/galeria/img4.jpg",
-        "/static/imgs/clinicas/galeria/img5.jpg",
         "/static/imgs/clinicas/galeria/img6.jpg"
       ],
       image: "/static/imgs/clinicas/galeria/img1.jpg",
