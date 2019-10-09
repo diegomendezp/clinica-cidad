@@ -222,7 +222,22 @@ const EquipoMainPageStyle = styled.div`
       flex-direction: row;
     }
   }
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    .main-member {
+      img {
+        object-fit: cover;
+        width: 45%;
+        height: auto;
+      }
 
+      .main-member-description {
+        li {
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+  
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     display: flex;
     justify-content: center;
