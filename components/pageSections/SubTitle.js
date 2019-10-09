@@ -64,11 +64,7 @@ a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
 
-  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -81,6 +77,12 @@ a {
   line-height: 6vh;
   
 }
+
+@media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    line-height: 3rem;
+    letter-spacing: 0.1vw;
+    margin-top: 0%;
+  }
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)

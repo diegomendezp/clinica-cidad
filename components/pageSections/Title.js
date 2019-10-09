@@ -62,9 +62,7 @@ const H1Style = styled.h1`
   ##Screen = B/w 768px to 1024px
 */
 
-  @media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-  }
-
+  
   /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -74,6 +72,12 @@ const H1Style = styled.h1`
     line-height: 10vh;
     letter-spacing: 0.1vw;
     margin-top: 3%;
+  }
+
+  @media (min-width: 414px) and (max-width: 1024px) and (orientation: landscape) {
+    line-height: 3rem;
+    letter-spacing: 0.1vw;
+    margin-top: 0%;
   }
 
   /* 
