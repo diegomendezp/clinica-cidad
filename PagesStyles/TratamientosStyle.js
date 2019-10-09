@@ -141,6 +141,23 @@ const TratamientosWrapperStyle = styled.div`
     }
   }
 
+  @media (min-width: 414px) and (max-width: 900px) and (orientation: landscape) {
+    .tratamientosContainer {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("/static/imgs/clinicas/imgClinicas1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-bottom: 2%;
+    }
+
+    .downImage {
+      display: none;
+    }
+  }
+
   @media (min-width: 376px) and (max-width: 480px) {
     /* height: 100vh;
     background: #ebecee;

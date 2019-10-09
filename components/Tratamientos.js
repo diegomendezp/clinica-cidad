@@ -28,6 +28,9 @@ export default class Tratamientos extends Component {
       case window.innerWidth < 415:
         this._makeAnimation(-150, -150, 70, 80, 20, 20);
         break;
+      case window.innerWidth < 812 && window.innerHeight < 414:
+        this._makeAnimation(-250, -250, 250, 200,20, 20);
+        break;
       case window.innerWidth < 769:
         this._makeAnimation(-250, -250, 250, 200, 20, 20);
         break;
