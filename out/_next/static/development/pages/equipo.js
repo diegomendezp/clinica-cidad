@@ -1,33 +1,21 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/equipo.js"],{
 
-/***/ "./PagesStyles/EquipoStyle.js":
-/*!************************************!*\
-  !*** ./PagesStyles/EquipoStyle.js ***!
-  \************************************/
-/*! exports provided: EquipoStyle */
+/***/ "./PagesStyles/EquipoMainPageStyle.js":
+/*!********************************************!*\
+  !*** ./PagesStyles/EquipoMainPageStyle.js ***!
+  \********************************************/
+/*! exports provided: EquipoMainPageStyle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EquipoStyle", function() { return EquipoStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EquipoMainPageStyle", function() { return EquipoMainPageStyle; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var EquipoStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "EquipoStyle",
-  componentId: "vuw4ei-0"
-})(["z-index:0;position:relative;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;}.infoContainer{box-sizing:border-box;text-align:left;width:100vw;display:flex;flex-direction:column;justify-content:flex-end;padding:0 3%;}@media (min-width:1441px){z-index:0;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;padding-bottom:3%;display:flex;flex-direction:column;justify-content:flex-end;}.infoContainer{box-sizing:border-box;text-align:left;width:95%;margin:0 auto;padding:0;display:flex;button{margin-top:2%;order:2;display:inline-block;}h1{display:inline-block;}}}@media (min-width:1025px) and (max-width:1440px){z-index:0;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;padding-bottom:5%;display:flex;flex-direction:column;justify-content:flex-end;}.infoContainer{box-sizing:border-box;text-align:left;width:95%;margin:0 auto;padding:0;display:flex;button{margin-top:2%;order:2;display:inline-block;}h1{display:inline-block;}}}@media (min-width:769px) and (max-width:1024px){z-index:0;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;background-position-x:-500px;padding-bottom:10%;display:flex;flex-direction:column;justify-content:flex-end;}.infoContainer{box-sizing:border-box;text-align:left;width:95%;margin:0 auto;padding:0;display:flex;button{margin-top:5%;order:2;display:inline-block;}h1{display:inline-block;}}}@media (min-width:769px) and (max-width:1024px) and (orientation:landscape){}@media (min-width:415px) and (max-width:768px){z-index:0;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;background-position-x:-550px;padding-bottom:10%;display:flex;flex-direction:column;justify-content:flex-end;}.infoContainer{box-sizing:border-box;text-align:left;width:90%;margin:0 auto;padding:0;display:flex;button{margin-top:5%;order:2;display:inline-block;}h1{display:inline-block;}}}@media (min-width:414px) and (max-width:1024px) and (orientation:landscape){.equipoContainer{background-position:center;}}@media only screen and (max-width:414px){z-index:0;.equipoContainer{width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;z-index:2;background-position-x:-550px;padding-bottom:10%;display:flex;flex-direction:column;justify-content:flex-end;}.infoContainer{box-sizing:border-box;text-align:left;width:80%;margin:0 auto;padding:0;button{margin-top:5%;}}}"], function (props) {
-  return props.img;
-}, function (props) {
-  return props.img;
-}, function (props) {
-  return props.img;
-}, function (props) {
-  return props.img;
-}, function (props) {
-  return props.img;
-}, function (props) {
-  return props.img;
-});
+var EquipoMainPageStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "EquipoMainPageStyle",
+  componentId: "sc-1vqdd8h-0"
+})(["box-sizing:border-box;text-align:center;display:flex;flex-wrap:wrap;width:100%;.workersContainer{display:flex;flex-wrap:wrap;width:100%;margin:0 auto;flex-direction:column;}justify-content:center;.main-member{width:90%;display:flex;flex-direction:column;margin:5% 0;justify-content:space-between;img{object-fit:cover;width:100%;height:30vh;}.main-member-description{width:100%;text-align:left;p{font-family:\"Avenir\";font-size:6.5vw;line-height:3vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:3.5vw;line-height:3.3vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}}}@media only screen and (min-width:415px) and (max-width:768px){display:flex;justify-content:center;.main-member{width:90%;display:flex;margin:2.5% 0;flex-direction:row;justify-content:space-between;img{object-fit:cover;width:45%;height:30vh;}.main-member-description{width:45%;text-align:left;p{font-family:\"Avenir\";font-size:3.5vw;line-height:2vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:2vw;line-height:3vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}}}.workersContainer{display:flex;flex-wrap:wrap;width:90%;margin:0 auto;justify-content:space-between;flex-direction:row;}}@media screen and (orientation:landscape) and (max-height:414px){display:flex;justify-content:center;.main-member{width:90%;display:flex;margin:2.5% 0;flex-direction:row;justify-content:space-between;img{object-fit:cover;width:45%;height:50vh;}.main-member-description{width:45%;text-align:left;p{font-family:\"Avenir\";font-size:3.5vw;line-height:2vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:2vw;line-height:5vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}}}.workersContainer{display:flex;flex-wrap:wrap;width:90%;margin:0 auto;justify-content:space-between;flex-direction:row;}}@media only screen and (min-width:769px) and (max-width:1024px){display:flex;justify-content:center;.main-member{width:90%;display:flex;margin:2.5% 0;flex-direction:row;justify-content:space-between;img{object-fit:cover;width:45%;height:30vh;}.main-member-description{width:45%;text-align:left;p{font-family:\"Avenir\";font-size:3.5vw;line-height:5vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:2.5vw;line-height:3vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}}}.workersContainer{display:flex;flex-wrap:wrap;width:90%;margin:0 auto;justify-content:space-between;flex-direction:row;}}@media (min-width:414px) and (max-width:1024px) and (orientation:landscape){.main-member{img{object-fit:cover;width:45%;height:auto;max-height:50vh;}.main-member-description{li{line-height:1.5rem;}}}}@media only screen and (min-width:1025px) and (max-width:1440px){display:flex;justify-content:center;.main-member{width:90%;display:flex;margin:2.5% 0;flex-direction:row;justify-content:space-between;img{object-fit:cover;width:45%;height:45vh;}.main-member-description{width:50%;text-align:left;p{font-family:\"Avenir\";font-size:3vw;line-height:5vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:1.5vw;line-height:3vh;-webkit-letter-spacing:0.15vw;-moz-letter-spacing:0.15vw;-ms-letter-spacing:0.15vw;letter-spacing:0.15vw;}}}.workersContainer{display:flex;flex-wrap:wrap;width:90%;margin:0 auto;justify-content:space-between;flex-direction:row;}}@media only screen and (min-width:1441px){display:flex;justify-content:center;.main-member{width:90%;display:flex;margin:2.5% 0;flex-direction:row;justify-content:space-between;img{object-fit:cover;width:40%;height:45vh;}.main-member-description{width:50%;text-align:left;p{font-family:\"Avenir\";font-size:3vw;line-height:5vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}li{list-style:none;font-family:\"Avenir\";font-size:1.5vw;line-height:3vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.2vw;}}}.workersContainer{display:flex;flex-wrap:wrap;width:90%;margin:0 auto;justify-content:space-between;flex-direction:row;}}"]);
 
 
 /***/ }),
@@ -167,34 +155,6 @@ var NavWrapperStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].
 
 /***/ }),
 
-/***/ "./PagesStyles/TextStyles/ButtonHomeStyle.js":
-/*!***************************************************!*\
-  !*** ./PagesStyles/TextStyles/ButtonHomeStyle.js ***!
-  \***************************************************/
-/*! exports provided: ButtonHomeStyle */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonHomeStyle", function() { return ButtonHomeStyle; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-var ButtonHomeStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.withConfig({
-  displayName: "ButtonHomeStyle",
-  componentId: "f40nlg-0"
-})(["font-family:\"Avenir\";border:4px solid black;background:", ";padding:1% 2%;font-size:2vw;-webkit-order:-1;-ms-flex-order:-1;order:-1;align-self:", ";margin-bottom:3%;cursor:pointer;border-radius:3px;outline:none;&:hover{background:black;color:white;border:4px solid white;}@media (min-width:1441px){padding:1% 4%;font-size:2vw;}@media (min-width:1025px) and (max-width:1440px){padding:1.5% 5%;font-size:2vw;}@media (min-width:769px) and (max-width:1024px){padding:2% 6%;font-size:2.5vw;}@media (min-width:415px) and (max-width:768px){padding:2% 6%;font-size:3.5vw;}@media only screen and (max-width:414px){padding:4% 9%;font-size:6vw;order:1;align-self:", ";width:80vw;margin-bottom:", ";}"], function (props) {
-  return props.background ? '#ffffff63' : 'transparent';
-}, function (props) {
-  return props.equipo ? 'flex-start' : 'flex-end';
-}, function (props) {
-  return props.tratamientos ? 'flex-end' : 'center';
-}, function (props) {
-  return props.mobile ? '15%' : '3%';
-});
-
-
-/***/ }),
-
 /***/ "./PagesStyles/TextStyles/FooterLinkStyles.js":
 /*!****************************************************!*\
   !*** ./PagesStyles/TextStyles/FooterLinkStyles.js ***!
@@ -245,53 +205,27 @@ var FooterTextStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].
 
 /***/ }),
 
-/***/ "./PagesStyles/TextStyles/H2Style.js":
+/***/ "./PagesStyles/TextStyles/H3Style.js":
 /*!*******************************************!*\
-  !*** ./PagesStyles/TextStyles/H2Style.js ***!
+  !*** ./PagesStyles/TextStyles/H3Style.js ***!
   \*******************************************/
-/*! exports provided: H2Style */
+/*! exports provided: H3Style */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H2Style", function() { return H2Style; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H3Style", function() { return H3Style; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var H2Style = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConfig({
-  displayName: "H2Style",
-  componentId: "sc-1labx6a-0"
-})(["margin:0;padding:0;font-family:\"Avenir\";font-size:5vw;line-height:10vh;-webkit-letter-spacing:0.4vw;-moz-letter-spacing:0.4vw;-ms-letter-spacing:0.4vw;-webkit-letter-spacing:0.4vw;-moz-letter-spacing:0.4vw;-ms-letter-spacing:0.4vw;letter-spacing:0.4vw;align-self:flex-end;width:", ";height:29vh;white-space:pre-line;@media (min-width:1441px){padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:6vw;line-height:12vh;letter-spacing:0.2vw;align-self:", ";height:auto;width:", ";}@media (min-width:1025px) and (max-width:1440px){padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:6vw;line-height:9vh;letter-spacing:0.2vw;align-self:", ";height:auto;width:", ";}@media (min-width:769px) and (max-width:1024px){padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:8vw;line-height:6vh;letter-spacing:0.2vw;align-self:", ";height:auto;width:", ";}@media only screen and (min-width:415px) and (max-width:768px){padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:8vw;line-height:6vh;letter-spacing:0.2vw;align-self:", ";height:auto;width:", ";}@media (min-width:414px) and (max-width:1024px) and (orientation:landscape){line-height:3rem;letter-spacing:0.1vw;}@media only screen and (max-width:414px){padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:8vw;line-height:4vh;letter-spacing:0.2vw;align-self:", ";height:auto;width:", ";}"], function (props) {
+var H3Style = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3.withConfig({
+  displayName: "H3Style",
+  componentId: "sc-1izhztj-0"
+})(["display:flex;justify-content:flex-start;align-items:center;margin:0;padding:2% 0 0 2%;font-family:\"Avenir\";font-size:4.5vw;line-height:10vh;-webkit-letter-spacing:0.4vw;-moz-letter-spacing:0.4vw;-ms-letter-spacing:0.4vw;-webkit-letter-spacing:0.4vw;-moz-letter-spacing:0.4vw;-ms-letter-spacing:0.4vw;letter-spacing:0.4vw;align-self:flex-end;width:", ";@media (min-width:1281px){}@media (min-width:1025px) and (max-width:1280px){}@media (min-width:768px) and (max-width:1024px){}@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){}@media (min-width:481px) and (max-width:767px){}@media (min-width:320px) and (max-width:480px){justify-content:center;padding:", ";margin:0;padding:0;font-family:\"AvenirL\";font-size:8vw;line-height:6vh;letter-spacing:0.4vw;align-self:center;height:15vh;width:", ";}"], function (props) {
   return props.equipo ? '100%' : '52vw';
 }, function (props) {
   return props.padding ? '0 25%' : '0';
 }, function (props) {
-  return props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center';
-}, function (props) {
   return props.equipo && '100%';
-}, function (props) {
-  return props.padding ? '0 25%' : '0';
-}, function (props) {
-  return props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center';
-}, function (props) {
-  return props.equipo && '100%';
-}, function (props) {
-  return props.padding ? '0 25%' : '0';
-}, function (props) {
-  return props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center';
-}, function (props) {
-  return props.equipo && '100%';
-}, function (props) {
-  return props.padding ? '0 25%' : '0';
-}, function (props) {
-  return props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center';
-}, function (props) {
-  return props.equipo && '100%';
-}, function (props) {
-  return props.padding ? '0 25%' : '0';
-}, function (props) {
-  return props.tratamientos ? 'flex-end' : props.equipo ? 'flex-start' : 'center';
-}, function (props) {
-  return props.equipo && '80%';
 });
 
 
@@ -380,279 +314,6 @@ var PStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.withCon
   return props.menu ? '1vw' : '2vw';
 });
 
-
-/***/ }),
-
-/***/ "./PagesStyles/TratamientosStyle.js":
-/*!******************************************!*\
-  !*** ./PagesStyles/TratamientosStyle.js ***!
-  \******************************************/
-/*! exports provided: TratamientosWrapperStyle */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TratamientosWrapperStyle", function() { return TratamientosWrapperStyle; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-var TratamientosWrapperStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "TratamientosStyle__TratamientosWrapperStyle",
-  componentId: "sc-11qotok-0"
-})(["box-sizing:border-box;position:relative;z-index:0;.tratamientosContainer{position:relative;width:100vw;height:100vh;background-image:url(", ");background-size:cover;background-repeat:no-repeat;padding-bottom:2%;}.infoContainer{box-sizing:border-box;text-align:right;width:100vw;height:100vh;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:0 3%;}.imageContainer{z-index:1;}.upImage{width:100vw;height:100vh;}.downImage{position:absolute;width:50vw;height:65vh;}@media (min-width:1441px){.imageContainer{z-index:1;}background:#ebecee;.tratamientosContainer{background-position-x:-80px;background-position-y:80px;}.downImage{position:absolute;width:40vw;height:60vh;}}@media (min-width:1025px) and (max-width:1440px){.imageContainer{z-index:1;}.tratamientosContainer{background-position-x:-50px;}background:#ebecee;.downImage{position:absolute;width:45vw;height:65vh;}}@media (min-width:769px) and (max-width:1024px){.imageContainer{z-index:1;}background:#ebecee;.tratamientosContainer{background-position-x:-500px;padding-bottom:10%;}.downImage{position:absolute;width:70vw;height:80vh;object-fit:contain;left:0;z-index:1;}}@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){}@media (min-width:415px) and (max-width:768px){.imageContainer{z-index:1;}background:#ebecee;.tratamientosContainer{background-position-x:-400px;padding-bottom:10%;}.downImage{position:absolute;width:80vw;height:70vh;object-fit:contain;left:0;}}@media (min-width:414px) and (max-width:900px) and (orientation:landscape){.tratamientosContainer{position:relative;width:100vw;height:100vh;background-image:url(\"/static/imgs/clinicas/imgClinicas1.jpg\");background-size:cover;background-repeat:no-repeat;background-position:center;padding-bottom:2%;}.downImage{display:none;}}@media (min-width:376px) and (max-width:480px){}@media only screen and (max-width:414px){height:100vh;background:#ebecee;.imageContainer{z-index:1;}.tratamientosContainer{background-position-x:-220px;padding-bottom:10%;height:64vh;}.infoContainer{display:flex;justify-content:flex-end;margin:0 auto;padding:0;width:80%;button{margin-top:5%;}}.downImage{position:absolute;width:90vw;height:70vh;object-fit:contain;left:0;z-index:1;}}"], function (props) {
-  return props.img;
-});
-
-
-/***/ }),
-
-/***/ "./components/Cookies/Cookies.js":
-/*!***************************************!*\
-  !*** ./components/Cookies/Cookies.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _CookiesStyles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CookiesStyles */ "./components/Cookies/CookiesStyles.js");
-/* harmony import */ var _PagesStyles_TextStyles_PStyle__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../PagesStyles/TextStyles/PStyle */ "./PagesStyles/TextStyles/PStyle.js");
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/components/Cookies/Cookies.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
-
-
-
-
-var Cookies =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Cookies, _React$Component);
-
-  function Cookies(_ref) {
-    var _this;
-
-    var backgroundColor = _ref.backgroundColor,
-        color = _ref.color;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Cookies);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Cookies).call(this, {
-      backgroundColor: backgroundColor,
-      color: color
-    }));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "changeDisplay", function () {
-      localStorage.setItem("displayCidad", 'none');
-      var display = localStorage.getItem("displayCidad");
-
-      _this.setState(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this.state, {
-        display: display
-      }));
-    });
-
-    _this.state = {
-      display: "flex"
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Cookies, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var display = localStorage.getItem("displayCidad");
-      this.setState(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.state, {
-        display: display
-      }));
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var _this$props = this.props,
-          backgroundColor = _this$props.backgroundColor,
-          color = _this$props.color;
-      return __jsx(_CookiesStyles__WEBPACK_IMPORTED_MODULE_9__["CookieWrapper"], {
-        backgroundColor: backgroundColor,
-        color: color,
-        display: this.state.display,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, __jsx("img", {
-        src: "/static/imgs/home/logoMenu.jpg",
-        alt: "app-logo",
-        className: "logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "cookies-content",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, __jsx(_PagesStyles_TextStyles_PStyle__WEBPACK_IMPORTED_MODULE_10__["PStyle"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.", " ", __jsx("a", {
-        href: "https://cookies.insites.com/",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, "Leer m\xE1s")), __jsx("button", {
-        onClick: function onClick() {
-          return _this2.changeDisplay();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, "ENTENDIDO")));
-    }
-  }]);
-
-  return Cookies;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Cookies);
-
-/***/ }),
-
-/***/ "./components/Cookies/CookiesStyles.js":
-/*!*********************************************!*\
-  !*** ./components/Cookies/CookiesStyles.js ***!
-  \*********************************************/
-/*! exports provided: CookieWrapper */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CookieWrapper", function() { return CookieWrapper; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-var CookieWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "CookiesStyles__CookieWrapper",
-  componentId: "sc-32fr6u-0"
-})(["position:fixed;bottom:0;width:100%;background-color:", ";color:", ";display:", ";justify-content:space-around;transition:all 1s ease 0s;padding-top:1em;a{color:", ";}a:visited{color:", ";}.cookies-content{display:flex;flex-direction:column;justify-content:flex-start;width:70%;p{text-align:left;margin-top:0;margin-bottom:1.2em;font-size:1.1rem;}button{text-align:left;padding:0;outline:none;font-size:1.2rem;margin-bottom:1.2em;border:none;background-color:", ";width:50%;}}.logo{height:50px;object-fit:cover;}@media only screen and (min-width:415px) and (max-width:768px){.cookies-content{width:75%;}}@media only screen and (min-width:769px) and (max-width:1024px){.cookies-content{width:75%;}}@media only screen and (min-width:1025px){width:60%;border:1px solid white;border-radius:2px;.cookies-content{width:80%;}}"], function (props) {
-  return props.backgroundColor ? props.backgroundColor : "white";
-}, function (props) {
-  return props.color ? props.color : 'black';
-}, function (props) {
-  return props.display ? props.display : 'flex';
-}, function (props) {
-  return props.color ? props.color : 'black';
-}, function (props) {
-  return props.color ? props.color : 'black';
-}, function (props) {
-  return props.backgroundColor ? props.backgroundColor : "white";
-});
-
-/***/ }),
-
-/***/ "./components/Equipo.js":
-/*!******************************!*\
-  !*** ./components/Equipo.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _PagesStyles_EquipoStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../PagesStyles/EquipoStyle */ "./PagesStyles/EquipoStyle.js");
-/* harmony import */ var _PagesStyles_TextStyles_H2Style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../PagesStyles/TextStyles/H2Style */ "./PagesStyles/TextStyles/H2Style.js");
-/* harmony import */ var _PagesStyles_TextStyles_ButtonHomeStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../PagesStyles/TextStyles/ButtonHomeStyle */ "./PagesStyles/TextStyles/ButtonHomeStyle.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/components/Equipo.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-var Equipo = function Equipo(props) {
-  return __jsx(_PagesStyles_EquipoStyle__WEBPACK_IMPORTED_MODULE_1__["EquipoStyle"], {
-    img: "/static/imgs/home/imgHome3.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "equipoContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "infoContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx(_PagesStyles_TextStyles_H2Style__WEBPACK_IMPORTED_MODULE_2__["H2Style"], {
-    padding: true,
-    equipo: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "Nuestro equipo de", "\n", "expertos"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/equipo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx(_PagesStyles_TextStyles_ButtonHomeStyle__WEBPACK_IMPORTED_MODULE_3__["ButtonHomeStyle"], {
-    equipo: true,
-    mobile: false,
-    background: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Ver equipo")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Equipo);
 
 /***/ }),
 
@@ -1911,218 +1572,6 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/Tratamientos.js":
-/*!************************************!*\
-  !*** ./components/Tratamientos.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Tratamientos; });
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _PagesStyles_TratamientosStyle__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../PagesStyles/TratamientosStyle */ "./PagesStyles/TratamientosStyle.js");
-/* harmony import */ var popmotion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! popmotion */ "./node_modules/popmotion/dist/popmotion.es.js");
-/* harmony import */ var _PagesStyles_TextStyles_H2Style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../PagesStyles/TextStyles/H2Style */ "./PagesStyles/TextStyles/H2Style.js");
-/* harmony import */ var _PagesStyles_TextStyles_ButtonHomeStyle__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../PagesStyles/TextStyles/ButtonHomeStyle */ "./PagesStyles/TextStyles/ButtonHomeStyle.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/components/Tratamientos.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
-
-
-
-
-
-
-
-var Tratamientos =
-/*#__PURE__*/
-function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Tratamientos, _Component);
-
-  function Tratamientos() {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Tratamientos);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Tratamientos).call(this));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "_manageResize", function () {
-      switch (true) {
-        case window.innerWidth < 376:
-          _this._makeAnimation(-130, -130, 60, 70, 20, 20);
-
-          break;
-
-        case window.innerWidth < 415:
-          _this._makeAnimation(-150, -150, 70, 80, 20, 20);
-
-          break;
-
-        case window.innerWidth < 812 && window.innerHeight < 414:
-          _this._makeAnimation(-250, -250, 250, 200, 20, 20);
-
-          break;
-
-        case window.innerWidth < 769:
-          _this._makeAnimation(-250, -250, 250, 200, 20, 20);
-
-          break;
-
-        case window.innerWidth < 1025:
-          _this._makeAnimation(-250, -250, 240, 190, 30, 30);
-
-          break;
-
-        case window.innerWidth < 1441:
-          _this._makeAnimation(-34, -24, 610, 600, 0, 0);
-
-          break;
-
-        default:
-          _this._makeAnimation(-30, -20, 610, 600, 0, 0);
-
-      }
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "_makeAnimation", function (posX1, posX2, posY1, posY2, rotate1, rotate2) {
-      Object(popmotion__WEBPACK_IMPORTED_MODULE_9__["tween"])({
-        from: {
-          transalteX: posX1,
-          transalteY: posY1,
-          rotate: rotate1
-        },
-        to: {
-          transalteX: posX2,
-          transalteY: posY2,
-          rotate: rotate2
-        },
-        duration: 2800,
-        ease: popmotion__WEBPACK_IMPORTED_MODULE_9__["easing"].easeInOut,
-        flip: Infinity
-      }).start(function (v) {
-        if (document.getElementById("image2") !== null) {
-          document.getElementById("image2").style.webkitTransform = "translate(".concat(v.transalteX, "px, ").concat(v.transalteY, "px) rotate(").concat(v.rotate, "deg)");
-        }
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "_checkVisible", function () {
-      if (_this.state.animation && !_this.animationDone) {
-        document.getElementById("image1").style.display = "block";
-
-        _this._makeAnimation();
-      }
-    });
-
-    _this.state = {
-      animation: false,
-      animationDone: false,
-      width: undefined
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Tratamientos, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.setState({
-        width: window.innerWidth
-      });
-
-      this._manageResize();
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return __jsx(_PagesStyles_TratamientosStyle__WEBPACK_IMPORTED_MODULE_8__["TratamientosWrapperStyle"], {
-        img: this.state.width !== undefined && this.state.width <= 414 ? "/static/imgs/home/imgHome4.jpg" : "/static/imgs/home/imgHome2.jpg",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
-      }, __jsx("div", {
-        className: "tratamientosContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      }, __jsx("div", {
-        className: "imageContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      }, __jsx("img", {
-        id: "image2",
-        className: "downImage",
-        src: "/static/imgs/home/imghome2.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      })), __jsx("div", {
-        className: "infoContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
-      }, __jsx(_PagesStyles_TextStyles_H2Style__WEBPACK_IMPORTED_MODULE_10__["H2Style"], {
-        padding: true,
-        tratamientos: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
-      }, "Nuestros tratamientos"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/tratamientos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }, __jsx(_PagesStyles_TextStyles_ButtonHomeStyle__WEBPACK_IMPORTED_MODULE_11__["ButtonHomeStyle"], {
-        tratamientos: true,
-        mobile: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, "Ver tratamientos")))));
-    }
-  }]);
-
-  return Tratamientos;
-}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
-
-
-
-/***/ }),
-
 /***/ "./components/pageSections/SubTitle.js":
 /*!*********************************************!*\
   !*** ./components/pageSections/SubTitle.js ***!
@@ -2231,6 +1680,188 @@ var H1Style = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withC
 }, function (props) {
   return props.blog ? "none" : "";
 });
+
+/***/ }),
+
+/***/ "./components/pageSections/WorkerCard.js":
+/*!***********************************************!*\
+  !*** ./components/pageSections/WorkerCard.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _PagesStyles_TextStyles_PStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../PagesStyles/TextStyles/PStyle */ "./PagesStyles/TextStyles/PStyle.js");
+/* harmony import */ var _material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/ExpansionPanel */ "./node_modules/@material-ui/core/esm/ExpansionPanel/index.js");
+/* harmony import */ var _material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelSummary */ "./node_modules/@material-ui/core/esm/ExpansionPanelSummary/index.js");
+/* harmony import */ var _material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelDetails */ "./node_modules/@material-ui/core/esm/ExpansionPanelDetails/index.js");
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/icons/ExpandMore */ "./node_modules/@material-ui/icons/ExpandMore.js");
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_imgs_down_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../static/imgs/down.svg */ "./static/imgs/down.svg");
+/* harmony import */ var _static_imgs_down_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_imgs_down_svg__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/components/pageSections/WorkerCard.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+var ExpansionPanel = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])({
+  root: {
+    border: "1px solid white",
+    boxShadow: "none",
+    "&:not(:last-child)": {
+      borderBottom: 0
+    },
+    "&:before": {
+      display: "none"
+    }
+  },
+  expanded: {
+    margin: "auto"
+  }
+})(_material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4__["default"]);
+var ExpansionPanelSummary = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])({
+  root: {
+    padding: 0
+  }
+})(_material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5__["default"]);
+var ExpansionPanelDetails = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])({
+  root: {
+    padding: 0
+  }
+})(_material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6__["default"]);
+
+var displayCurriculum = function displayCurriculum(curriculum) {
+  return curriculum.map(function (element) {
+    return __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, "\u2013 ", element.name);
+  });
+};
+
+var WorkerCard = function WorkerCard(props) {
+  var _props$trabajador = props.trabajador,
+      photo = _props$trabajador.photo,
+      name = _props$trabajador.name,
+      descripcion = _props$trabajador.descripcion,
+      curriculum = _props$trabajador.curriculum;
+  return __jsx(WorkerCardStyle, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "imageWorker",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("img", {
+    src: photo,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  })), curriculum ? __jsx(ExpansionPanel, {
+    className: "workerDescription",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, __jsx(ExpansionPanelSummary, {
+    expandIcon: __jsx("img", {
+      src: _static_imgs_down_svg__WEBPACK_IMPORTED_MODULE_8___default.a,
+      className: "arrow",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "workerName",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, name)), __jsx(ExpansionPanelDetails, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "workerDescription",
+    align: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, displayCurriculum(curriculum)))) : __jsx("div", {
+    className: "other-panel",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "workerName",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, name), __jsx("p", {
+    className: "workerDescription",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, descripcion)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (WorkerCard);
+var WorkerCardStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "WorkerCard__WorkerCardStyle",
+  componentId: "sc-1gk0b4-0"
+})(["width:30%;.workerName,.workerDescription{margin:0;padding:0;font-family:\"Avenir\";font-size:2vw;line-height:3.3vh;-webkit-letter-spacing:0.2vw;-moz-letter-spacing:0.2vw;-ms-letter-spacing:0.2vw;letter-spacing:0.1vw;text-align:left;}.other-panel{margin:2% 0;display:flex;flex-direction:column;}li{list-style:none;}.arrow{width:3vw;}.imageWorker{margin-top:2%;img{width:100%;height:45vh;object-fit:cover;}}@media only screen and (min-width:1441px){.arrow{width:2vw;}margin:1% 0;.workerName{font-size:2vw;}.workerDescription{font-size:1.25vw;}}@media only screen and (min-width:1025px) and (max-width:1440px){margin:2.5% 0;.workerName{font-size:2vw;}.workerDescription{font-size:1.5vw;}}@media only screen and (min-width:769px) and (max-width:1024px){margin:2.5% 0;width:45%;.workerName{font-size:3.5vw;}.imageWorker{img{width:100%;height:30vh;object-fit:cover;}}.workerDescription{font-size:2.5vw;}}@media only screen and (min-width:415px) and (max-width:768px){margin:2.5% 0;width:45%;.arrow{width:4vw;}.imageWorker{img{width:100%;height:30vh;object-fit:cover;}}.workerName{font-size:3.5vw;}.workerDescription{font-size:2.5vw;}}@media screen and (orientation:landscape) and (max-height:414px){margin:2.5% 0;.workerName{font-size:2.75vw;line-height:8vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}.imageWorker{img{width:100%;height:50vh;object-fit:cover;}}.workerDescription{font-size:1.5vw;line-height:5vh;-webkit-letter-spacing:0.1vw;-moz-letter-spacing:0.1vw;-ms-letter-spacing:0.1vw;letter-spacing:0.1vw;}}@media only screen and (max-width:414px){margin:2.5% 0;width:100vw;.arrow{width:8vw;}.imageWorker{img{width:100vw;height:30vh;object-fit:cover;}}.workerName{font-size:5vw;padding-left:2%;padding-right:0 !important;display:inline-block;}.workerDescription{font-size:3.5vw;padding-left:2%;}}"]);
+
+/***/ }),
+
+/***/ "./content/team.json":
+/*!***************************!*\
+  !*** ./content/team.json ***!
+  \***************************/
+/*! exports provided: boss, doctors, other, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"boss\":{\"name\":\"Dr. Ángel Cidad\",\"curriculum\":[{\"name\":\"Licenciado en Medicina y Cirugía.\"},{\"name\":\"Especialista en Estomatología.\"},{\"name\":\"Especialista en Prótesis\"},{\"name\":\"Especialista en ATM.\"},{\"name\":\"Especialista en Periodoncia.\"}],\"photo\":\"/static/imgs/equipo/imgdrAngel.jpg\"},\"doctors\":[{\"name\":\"Dr. Ramón Arias\",\"curriculum\":[{\"name\":\"Licenciado en Odontología en la UCM.\"},{\"name\":\"Magister Universitario en Endodoncia.\"},{\"name\":\"Miembro de la Asociación Española de Endodoncia.\"},{\"name\":\"Asistente a numerosos cursos y seminarios que le permiten dominar los últimos avances tecnológicos.\"}],\"photo\":\"/static/imgs/equipo/imgdrRamon.jpg\"},{\"name\":\"Dra. Ana Rabal Soláns\",\"curriculum\":[{\"name\":\"Licenciada en Odontología.\"},{\"name\":\"Magíster Universitario en Ortodoncia.\"},{\"name\":\"Tesina doctoral con calificación de sobresaliente.\"},{\"name\":\"Profesora colaboradora en Máster Universitario de Ortodoncia en la Universidad Alfonso X el Sabio.\"},{\"name\":\"Miembro de sociedades científicas:  SEDO, AESOR, EOS y SEDA.\"},{\"name\":\"Certificado en el Sistema de  Ortodoncia Invisible INVISALIGN.\"},{\"name\":\"Certificado en el  Sistema de ortodoncia lingual INCOGNITO.\"},{\"name\":\"Máster DAMON por los Dres. Perera y García Espejo.\"},{\"name\":\"Formación en Tratamiento Ortodóncico-Quirúrgico de las Deformidades Dentofaciales en Valencia.\"}],\"photo\":\"/static/imgs/equipo/imgdrAna2.jpg\"},{\"name\":\"Dra. Piferrer\",\"curriculum\":[{\"name\":\"Especializada en odontología general de adultos y niños.\"},{\"name\":\"Licenciada en Odontología por la UAM.\"},{\"name\":\"Máster de Cirugía Oral, Periodoncia e Implantología por la UAM\"},{\"name\":\"Diploma Pre-doctorado de Estudios Avanzados por la UAM.\"},{\"name\":\"Odontología en Atención Primaria en el Servicio Madrileño de Salud (SERMAS).\"}],\"photo\":\"/static/imgs/equipo/imgdrPiferrer.jpg\"},{\"name\":\"Dr. Chamorro\",\"curriculum\":[{\"name\":\"Doctor en Medicina y Cirugía.\"},{\"name\":\"Médico especialista en Cirugía Maxilofacial.\"},{\"name\":\"Jefe Departamento de Cirugía Maxilofacial del Hospital la Paz.\"},{\"name\":\"Miembro de la Sociedad Española de Implantes.\"},{\"name\":\"Profesor de la Universidad Autónoma de Madrid.\"}],\"photo\":\"/static/imgs/equipo/imgdrChamorro.jpg\"},{\"name\":\"Dra. Ana Padierna\",\"curriculum\":[{\"name\":\"Lda. en Medicina  y Cirugía por la UCM.\"},{\"name\":\"Master en Medicina Estética y Antienvejecimiento.\"},{\"name\":\"Especialista en Medicina Familiar, Comunitaria y de Empresa.\"},{\"name\":\"Formación continuada y dilatada experiencia profesional en estas materias así como en Medicina de Urgencias.\"},{\"name\":\"Miembro de la SEME, AMEM, SEMERGEN y SEMES.\"}],\"photo\":\"/static/imgs/equipo/imgdrAna.jpg\"}],\"other\":[{\"name\":\"Amanda\",\"descripcion\":\"Auxiliar e Higienista Dental.\",\"photo\":\"/static/imgs/equipo/imgAmanda.jpg\"},{\"name\":\"Mar\",\"descripcion\":\"Auxiliar Dental.\",\"photo\":\"/static/imgs/equipo/imgMar.jpg\"},{\"name\":\"Sara Medina\",\"descripcion\":\"Atención al paciente.\",\"photo\":\"/static/imgs/equipo/imgSara.png\"},{\"name\":\"Sergio\",\"descripcion\":\"Auxiliar e Higienista Dental.\",\"photo\":\"/static/imgs/equipo/imgSergio.jpg\"},{\"name\":\"Soraya\",\"descripcion\":\"Auxiliar e Higienista Dental.\",\"photo\":\"/static/imgs/equipo/imgSoraya.jpg\"},{\"name\":\"Carmen\",\"descripcion\":\"Gerente.\",\"photo\":\"/static/imgs/equipo/imgCarmen.jpg\"},{\"name\":\"Enrique\",\"descripcion\":\"Informático.\",\"photo\":\"/static/imgs/equipo/imgEnrique.jpg\"}]}");
 
 /***/ }),
 
@@ -3274,6 +2905,22 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithHoles; });
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
@@ -3453,6 +3100,22 @@ function _iterableToArray(iter) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
@@ -3525,6 +3188,28 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   }
 
   return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/toArray.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toArray.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toArray; });
+/* harmony import */ var _arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js");
+/* harmony import */ var _nonIterableRest__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+
+
+
+function _toArray(arr) {
+  return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
 }
 
 /***/ }),
@@ -4681,6 +4366,881 @@ function withMuiName(Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonBase */ "./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ButtonBase__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Collapse/Collapse.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Collapse/Collapse.js ***!
+  \*****************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/esm/index.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _styles_transitions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/transitions */ "./node_modules/@material-ui/core/esm/styles/transitions.js");
+/* harmony import */ var _transitions_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../transitions/utils */ "./node_modules/@material-ui/core/esm/transitions/utils.js");
+/* harmony import */ var _styles_useTheme__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/useTheme */ "./node_modules/@material-ui/core/esm/styles/useTheme.js");
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the container element. */
+    container: {
+      height: 0,
+      overflow: 'hidden',
+      transition: theme.transitions.create('height')
+    },
+
+    /* Styles applied to the container element when the transition has entered. */
+    entered: {
+      height: 'auto',
+      overflow: 'visible'
+    },
+
+    /* Styles applied to the container element when the transition has exited and `collapsedHeight` != 0px. */
+    hidden: {
+      visibility: 'hidden'
+    },
+
+    /* Styles applied to the outer wrapper element. */
+    wrapper: {
+      // Hack to get children with a negative margin to not falsify the height computation.
+      display: 'flex'
+    },
+
+    /* Styles applied to the inner wrapper element. */
+    wrapperInner: {
+      width: '100%'
+    }
+  };
+};
+/**
+ * The Collapse transition is used by the
+ * [Vertical Stepper](/components/steppers/#vertical-stepper) StepContent component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Collapse = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function Collapse(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$collapsedHeigh = props.collapsedHeight,
+      collapsedHeight = _props$collapsedHeigh === void 0 ? '0px' : _props$collapsedHeigh,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      inProp = props.in,
+      onEnter = props.onEnter,
+      onEntered = props.onEntered,
+      onEntering = props.onEntering,
+      onExit = props.onExit,
+      onExiting = props.onExiting,
+      style = props.style,
+      _props$timeout = props.timeout,
+      timeout = _props$timeout === void 0 ? _styles_transitions__WEBPACK_IMPORTED_MODULE_7__["duration"].standard : _props$timeout,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["children", "classes", "className", "collapsedHeight", "component", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExiting", "style", "timeout"]);
+
+  var theme = Object(_styles_useTheme__WEBPACK_IMPORTED_MODULE_9__["default"])();
+  var timer = react__WEBPACK_IMPORTED_MODULE_2___default.a.useRef();
+  var wrapperRef = react__WEBPACK_IMPORTED_MODULE_2___default.a.useRef(null);
+  var autoTransitionDuration = react__WEBPACK_IMPORTED_MODULE_2___default.a.useRef();
+  react__WEBPACK_IMPORTED_MODULE_2___default.a.useEffect(function () {
+    return function () {
+      clearTimeout(timer.current);
+    };
+  }, []);
+
+  var handleEnter = function handleEnter(node, isAppearing) {
+    node.style.height = collapsedHeight;
+
+    if (onEnter) {
+      onEnter(node, isAppearing);
+    }
+  };
+
+  var handleEntering = function handleEntering(node, isAppearing) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_8__["getTransitionProps"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'enter'
+    }),
+        transitionDuration = _getTransitionProps.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onEntering) {
+      onEntering(node, isAppearing);
+    }
+  };
+
+  var handleEntered = function handleEntered(node, isAppearing) {
+    node.style.height = 'auto';
+
+    if (onEntered) {
+      onEntered(node, isAppearing);
+    }
+  };
+
+  var handleExit = function handleExit(node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onExit) {
+      onExit(node);
+    }
+  };
+
+  var handleExiting = function handleExiting(node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps2 = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_8__["getTransitionProps"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'exit'
+    }),
+        transitionDuration = _getTransitionProps2.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = collapsedHeight;
+
+    if (onExiting) {
+      onExiting(node);
+    }
+  };
+
+  var addEndListener = function addEndListener(_, next) {
+    if (timeout === 'auto') {
+      timer.current = setTimeout(next, autoTransitionDuration.current || 0);
+    }
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_5__["Transition"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    in: inProp,
+    onEnter: handleEnter,
+    onEntered: handleEntered,
+    onEntering: handleEntering,
+    onExit: handleExit,
+    onExiting: handleExiting,
+    addEndListener: addEndListener,
+    timeout: timeout === 'auto' ? null : timeout
+  }, other), function (state, childProps) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      className: Object(clsx__WEBPACK_IMPORTED_MODULE_3__["default"])(classes.container, className, {
+        entered: classes.entered,
+        exited: !inProp && collapsedHeight === '0px' && classes.hidden
+      }[state]),
+      style: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        minHeight: collapsedHeight
+      }, style),
+      ref: ref
+    }, childProps), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: classes.wrapper,
+      ref: wrapperRef
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: classes.wrapperInner
+    }, children)));
+  });
+});
+ true ? Collapse.propTypes = {
+  /**
+   * The content node to be collapsed.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+
+  /**
+   * The height of the container when collapsed.
+   */
+  collapsedHeight: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.elementType,
+
+  /**
+   * If `true`, the component will transition in.
+   */
+  in: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * @ignore
+   */
+  onEnter: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onEntered: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onEntering: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onExit: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onExiting: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  style: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
+
+  /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   *
+   * Set to 'auto' to automatically calculate transition time based on height.
+   */
+  timeout: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.shape({
+    enter: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
+    exit: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number
+  }), prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(['auto'])])
+} : undefined;
+Collapse.muiSupportAuto = true;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_6__["default"])(styles, {
+  name: 'MuiCollapse'
+})(Collapse));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Collapse/index.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Collapse/index.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Collapse */ "./node_modules/@material-ui/core/esm/Collapse/Collapse.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Collapse__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanel.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanel.js ***!
+  \*****************************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_toArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toArray */ "./node_modules/@babel/runtime/helpers/esm/toArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _material_ui_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/utils */ "./node_modules/@material-ui/utils/esm/index.js");
+/* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Collapse */ "./node_modules/@material-ui/core/esm/Collapse/index.js");
+/* harmony import */ var _Paper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Paper */ "./node_modules/@material-ui/core/esm/Paper/index.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var transition = {
+    duration: theme.transitions.duration.shortest
+  };
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      position: 'relative',
+      transition: theme.transitions.create(['margin'], transition),
+      '&:before': {
+        position: 'absolute',
+        left: 0,
+        top: -1,
+        right: 0,
+        height: 1,
+        content: '""',
+        opacity: 1,
+        backgroundColor: theme.palette.divider,
+        transition: theme.transitions.create(['opacity', 'background-color'], transition)
+      },
+      '&:first-child': {
+        '&:before': {
+          display: 'none'
+        }
+      },
+      '&$expanded': {
+        margin: '16px 0',
+        '&:first-child': {
+          marginTop: 0
+        },
+        '&:last-child': {
+          marginBottom: 0
+        },
+        '&:before': {
+          opacity: 0
+        }
+      },
+      '&$expanded + &': {
+        '&:before': {
+          display: 'none'
+        }
+      },
+      '&$disabled': {
+        backgroundColor: theme.palette.action.disabledBackground
+      }
+    },
+
+    /* Styles applied to the root element if `square={false}`. */
+    rounded: {
+      borderRadius: 0,
+      '&:first-child': {
+        borderTopLeftRadius: theme.shape.borderRadius,
+        borderTopRightRadius: theme.shape.borderRadius
+      },
+      '&:last-child': {
+        borderBottomLeftRadius: theme.shape.borderRadius,
+        borderBottomRightRadius: theme.shape.borderRadius,
+        // Fix a rendering issue on Edge
+        '@supports (-ms-ime-align: auto)': {
+          borderBottomLeftRadius: 0,
+          borderBottomRightRadius: 0
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `expanded={true}`. */
+    expanded: {},
+
+    /* Styles applied to the root element if `disabled={true}`. */
+    disabled: {}
+  };
+};
+var ExpansionPanel = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function ExpansionPanel(props, ref) {
+  var childrenProp = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$defaultExpande = props.defaultExpanded,
+      defaultExpanded = _props$defaultExpande === void 0 ? false : _props$defaultExpande,
+      _props$disabled = props.disabled,
+      disabled = _props$disabled === void 0 ? false : _props$disabled,
+      expandedProp = props.expanded,
+      onChange = props.onChange,
+      _props$square = props.square,
+      square = _props$square === void 0 ? false : _props$square,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? _Collapse__WEBPACK_IMPORTED_MODULE_7__["default"] : _props$TransitionComp,
+      TransitionProps = props.TransitionProps,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(props, ["children", "classes", "className", "defaultExpanded", "disabled", "expanded", "onChange", "square", "TransitionComponent", "TransitionProps"]);
+
+  var _React$useRef = react__WEBPACK_IMPORTED_MODULE_3___default.a.useRef(expandedProp != null),
+      isControlled = _React$useRef.current;
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState(defaultExpanded),
+      expandedState = _React$useState[0],
+      setExpandedState = _React$useState[1];
+
+  var expanded = isControlled ? expandedProp : expandedState;
+
+  var handleChange = function handleChange(event) {
+    if (!isControlled) {
+      setExpandedState(!expanded);
+    }
+
+    if (onChange) {
+      onChange(event, !expanded);
+    }
+  };
+
+  var _React$Children$toArr = react__WEBPACK_IMPORTED_MODULE_3___default.a.Children.toArray(childrenProp),
+      _React$Children$toArr2 = Object(_babel_runtime_helpers_esm_toArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$Children$toArr),
+      summary = _React$Children$toArr2[0],
+      children = _React$Children$toArr2.slice(1);
+
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_Paper__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_5__["default"])(classes.root, className, expanded && classes.expanded, disabled && classes.disabled, !square && classes.rounded),
+    ref: ref,
+    square: square
+  }, other), react__WEBPACK_IMPORTED_MODULE_3___default.a.cloneElement(summary, {
+    disabled: disabled,
+    expanded: expanded,
+    onChange: handleChange
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(TransitionComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    in: expanded,
+    timeout: "auto"
+  }, TransitionProps), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    "aria-labelledby": summary.props.id,
+    id: summary.props['aria-controls'],
+    role: "region"
+  }, children)));
+});
+ true ? ExpansionPanel.propTypes = {
+  /**
+   * The content of the expansion panel.
+   */
+  children: Object(_material_ui_utils__WEBPACK_IMPORTED_MODULE_6__["chainPropTypes"])(prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node.isRequired, function (props) {
+    var summary = react__WEBPACK_IMPORTED_MODULE_3___default.a.Children.toArray(props.children)[0];
+
+    if (summary.type === react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment) {
+      return new Error("Material-UI: the ExpansionPanel doesn't accept a Fragment as a child. " + 'Consider providing an array instead.');
+    }
+
+    if (!react__WEBPACK_IMPORTED_MODULE_3___default.a.isValidElement(summary)) {
+      return new Error('Material-UI: expected the first child of ExpansionPanel to be a valid element.');
+    }
+
+    return null;
+  }),
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+
+  /**
+   * If `true`, expands the panel by default.
+   */
+  defaultExpanded: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * If `true`, the panel will be displayed in a disabled state.
+   */
+  disabled: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * If `true`, expands the panel, otherwise collapse it.
+   * Setting this prop enables control over the panel.
+   */
+  expanded: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * Callback fired when the expand/collapse state is changed.
+   *
+   * @param {object} event The event source of the callback.
+   * @param {boolean} expanded The `expanded` state of the panel.
+   */
+  onChange: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  square: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * The component used for the collapse effect.
+   */
+  TransitionComponent: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.elementType,
+
+  /**
+   * Props applied to the `Transition` element.
+   */
+  TransitionProps: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_9__["default"])(styles, {
+  name: 'MuiExpansionPanel'
+})(ExpansionPanel));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanel/index.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanel/index.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ExpansionPanel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExpansionPanel */ "./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanel.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ExpansionPanel__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanelDetails/ExpansionPanelDetails.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelDetails/ExpansionPanelDetails.js ***!
+  \*******************************************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    display: 'flex',
+    padding: '8px 24px 24px'
+  }
+};
+var ExpansionPanelDetails = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function ExpansionPanelDetails(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["classes", "className"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className),
+    ref: ref
+  }, other));
+});
+ true ? ExpansionPanelDetails.propTypes = {
+  /**
+   * The content of the expansion panel details.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiExpansionPanelDetails'
+})(ExpansionPanelDetails));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanelDetails/index.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelDetails/index.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExpansionPanelDetails */ "./node_modules/@material-ui/core/esm/ExpansionPanelDetails/ExpansionPanelDetails.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanelSummary/ExpansionPanelSummary.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelSummary/ExpansionPanelSummary.js ***!
+  \*******************************************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../ButtonBase */ "./node_modules/@material-ui/core/esm/ButtonBase/index.js");
+/* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../IconButton */ "./node_modules/@material-ui/core/esm/IconButton/index.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var transition = {
+    duration: theme.transitions.duration.shortest
+  };
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      display: 'flex',
+      minHeight: 8 * 6,
+      transition: theme.transitions.create(['min-height', 'background-color'], transition),
+      padding: '0 24px 0 24px',
+      '&:hover:not($disabled)': {
+        cursor: 'pointer'
+      },
+      '&$expanded': {
+        minHeight: 64
+      },
+      '&$focused': {
+        backgroundColor: theme.palette.grey[300]
+      },
+      '&$disabled': {
+        opacity: 0.38
+      }
+    },
+
+    /* Styles applied to the root element, children wrapper element and `IconButton` component if `expanded={true}`. */
+    expanded: {},
+
+    /* Styles applied to the root and children wrapper elements when focused. */
+    focused: {},
+
+    /* Styles applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the children wrapper element. */
+    content: {
+      display: 'flex',
+      flexGrow: 1,
+      transition: theme.transitions.create(['margin'], transition),
+      margin: '12px 0',
+      '&$expanded': {
+        margin: '20px 0'
+      }
+    },
+
+    /* Styles applied to the `IconButton` component when `expandIcon` is supplied. */
+    expandIcon: {
+      transform: 'rotate(0deg)',
+      transition: theme.transitions.create('transform', transition),
+      '&:hover': {
+        // Disable the hover effect for the IconButton,
+        // because a hover effect should apply to the entire Expand button and
+        // not only to the IconButton.
+        backgroundColor: 'transparent'
+      },
+      '&$expanded': {
+        transform: 'rotate(180deg)'
+      }
+    }
+  };
+};
+var ExpansionPanelSummary = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function ExpansionPanelSummary(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$disabled = props.disabled,
+      disabled = _props$disabled === void 0 ? false : _props$disabled,
+      expanded = props.expanded,
+      expandIcon = props.expandIcon,
+      IconButtonProps = props.IconButtonProps,
+      onBlur = props.onBlur,
+      onChange = props.onChange,
+      onClick = props.onClick,
+      onFocusVisible = props.onFocusVisible,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["children", "classes", "className", "disabled", "expanded", "expandIcon", "IconButtonProps", "onBlur", "onChange", "onClick", "onFocusVisible"]);
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_2___default.a.useState(false),
+      focusedState = _React$useState[0],
+      setFocusedState = _React$useState[1];
+
+  var handleFocusVisible = function handleFocusVisible(event) {
+    setFocusedState(true);
+
+    if (onFocusVisible) {
+      onFocusVisible(event);
+    }
+  };
+
+  var handleBlur = function handleBlur(event) {
+    setFocusedState(false);
+
+    if (onBlur) {
+      onBlur(event);
+    }
+  };
+
+  var handleChange = function handleChange(event) {
+    if (onChange) {
+      onChange(event);
+    }
+
+    if (onClick) {
+      onClick(event);
+    }
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_ButtonBase__WEBPACK_IMPORTED_MODULE_5__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    focusRipple: false,
+    disableRipple: true,
+    disabled: disabled,
+    component: "div",
+    "aria-expanded": expanded,
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className, disabled && classes.disabled, expanded && classes.expanded, focusedState && classes.focused),
+    onFocusVisible: handleFocusVisible,
+    onBlur: handleBlur,
+    onClick: handleChange,
+    ref: ref
+  }, other), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.content, expanded && classes.expanded)
+  }, children), expandIcon && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_IconButton__WEBPACK_IMPORTED_MODULE_6__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    disabled: disabled,
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.expandIcon, expanded && classes.expanded),
+    edge: "end",
+    component: "div",
+    tabIndex: -1,
+    "aria-hidden": true
+  }, IconButtonProps), expandIcon));
+});
+ true ? ExpansionPanelSummary.propTypes = {
+  /**
+   * The content of the expansion panel summary.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * @ignore
+   * If `true`, the summary will be displayed in a disabled state.
+   */
+  disabled: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * @ignore
+   * If `true`, expands the summary, otherwise collapse it.
+   */
+  expanded: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * The icon to display as the expand indicator.
+   */
+  expandIcon: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Props applied to the `IconButton` element wrapping the expand icon.
+   */
+  IconButtonProps: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+
+  /**
+   * @ignore
+   */
+  onBlur: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onChange: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onClick: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onFocusVisible: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__["default"])(styles, {
+  name: 'MuiExpansionPanelSummary'
+})(ExpansionPanelSummary));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/ExpansionPanelSummary/index.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelSummary/index.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExpansionPanelSummary */ "./node_modules/@material-ui/core/esm/ExpansionPanelSummary/ExpansionPanelSummary.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -6417,6 +6977,128 @@ if (true) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NoSsr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NoSsr */ "./node_modules/@material-ui/core/esm/NoSsr/NoSsr.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _NoSsr__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Paper/Paper.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Paper/Paper.js ***!
+  \***********************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! warning */ "./node_modules/warning/warning.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(warning__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var elevations = {};
+  theme.shadows.forEach(function (shadow, index) {
+    elevations["elevation".concat(index)] = {
+      boxShadow: shadow
+    };
+  });
+  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    /* Styles applied to the root element. */
+    root: {
+      backgroundColor: theme.palette.background.paper,
+      color: theme.palette.text.primary,
+      transition: theme.transitions.create('box-shadow')
+    },
+
+    /* Styles applied to the root element if `square={false}`. */
+    rounded: {
+      borderRadius: theme.shape.borderRadius
+    }
+  }, elevations);
+};
+var Paper = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function Paper(props, ref) {
+  var classes = props.classes,
+      classNameProp = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$square = props.square,
+      square = _props$square === void 0 ? false : _props$square,
+      _props$elevation = props.elevation,
+      elevation = _props$elevation === void 0 ? 1 : _props$elevation,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(props, ["classes", "className", "component", "square", "elevation"]);
+
+   true ? warning__WEBPACK_IMPORTED_MODULE_5___default()(elevation >= 0 && elevation < 25, "Material-UI: this elevation `".concat(elevation, "` is not implemented.")) : undefined;
+  var className = Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, classes["elevation".concat(elevation)], classNameProp, !square && classes.rounded);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    className: className,
+    ref: ref
+  }, other));
+});
+ true ? Paper.propTypes = {
+  /**
+   * The content of the component.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType,
+
+  /**
+   * Shadow depth, corresponds to `dp` in the spec.
+   * It accepts values between 0 and 24 inclusive.
+   */
+  elevation: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.number,
+
+  /**
+   * If `true`, rounded corners are disabled.
+   */
+  square: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_6__["default"])(styles, {
+  name: 'MuiPaper'
+})(Paper));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Paper/index.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Paper/index.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Paper */ "./node_modules/@material-ui/core/esm/Paper/Paper.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Paper__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -10512,7 +11194,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/index.js ***!
   \************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, useTheme, withStyles, withTheme, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration, formatMs, isString, isNumber */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, easing, duration, formatMs, isString, isNumber, useTheme, withStyles, withTheme */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11246,7 +11928,7 @@ function createChainedFunction() {
 /*!***********************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/utils/index.js ***!
   \***********************************************************/
-/*! exports provided: deprecatedPropType, useIsFocusVisible, ownerDocument, ownerWindow, requirePropFactory, unsupportedProp, useEventCallback, capitalize, createChainedFunction, isMuiElement, setRef, useForkRef */
+/*! exports provided: deprecatedPropType, capitalize, createChainedFunction, isMuiElement, setRef, useForkRef, useIsFocusVisible, ownerDocument, ownerWindow, requirePropFactory, unsupportedProp, useEventCallback */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11570,6 +12252,35 @@ var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.d
 }), _react.default.createElement("path", {
   d: "M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"
 })), 'CameraAlt');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/ExpandMore.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/icons/ExpandMore.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+}), 'ExpandMore');
 
 exports.default = _default;
 
@@ -27893,21 +28604,21 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fequipo&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Fequipo.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fequipo&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Fequipo.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/equipo", function() {
+      var page = __webpack_require__(/*! ./pages/equipo.js */ "./pages/equipo.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/equipo.js */ "./pages/equipo.js", function() {
+          if(!next.router.components["/equipo"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/equipo.js */ "./pages/equipo.js")
+          next.router.update("/equipo", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -48334,10 +49045,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/equipo.js":
+/*!*************************!*\
+  !*** ./pages/equipo.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -48347,13 +49058,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
 /* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Main */ "./components/Main.js");
-/* harmony import */ var _components_Tratamientos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Tratamientos */ "./components/Tratamientos.js");
-/* harmony import */ var _components_Equipo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Equipo */ "./components/Equipo.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Cookies/Cookies */ "./components/Cookies/Cookies.js");
-/* harmony import */ var _components_FloatingMenu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/FloatingMenu */ "./components/FloatingMenu.js");
-/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
-var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/pages/index.js";
+/* harmony import */ var _components_pageSections_WorkerCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/pageSections/WorkerCard */ "./components/pageSections/WorkerCard.js");
+/* harmony import */ var _PagesStyles_EquipoMainPageStyle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../PagesStyles/EquipoMainPageStyle */ "./PagesStyles/EquipoMainPageStyle.js");
+/* harmony import */ var _PagesStyles_TextStyles_H3Style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../PagesStyles/TextStyles/H3Style */ "./PagesStyles/TextStyles/H3Style.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _content_team_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../content/team.json */ "./content/team.json");
+var _content_team_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/team.json */ "./content/team.json", 1);
+/* harmony import */ var _components_FloatingMenu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/FloatingMenu */ "./components/FloatingMenu.js");
+/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
+var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/pages/equipo.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -48364,94 +49077,188 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx(_components_Meta__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx(_components_FloatingMenu__WEBPACK_IMPORTED_MODULE_7__["default"], {
+
+
+var displayMainMember = function displayMainMember(member) {
+  var name = member.name,
+      photo = member.photo,
+      curriculum = member.curriculum;
+  return __jsx("div", {
+    className: "main-member",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx("img", {
+    src: photo,
+    alt: "main-member-photo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    home: true,
-    img: "/static/imgs/home/imgHome1.jpg",
-    imgPosition: -251,
-    title: "Clínica Cidad",
-    subtitle: "odontología, ortodoncia y medicina estética.",
-    footer: true,
+  }), __jsx("div", {
+    className: "main-member-description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), __jsx(_components_Tratamientos__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, __jsx("p", {
+    className: "main-member-name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 18
     },
     __self: this
-  }), __jsx(_components_Equipo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, name), curriculum.map(function (e, i) {
+    return __jsx("li", {
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "\u2013 ", e.name);
+  })));
+};
+
+var Equipo = function Equipo(props) {
+  var doctors = _content_team_json__WEBPACK_IMPORTED_MODULE_7__.doctors,
+      other = _content_team_json__WEBPACK_IMPORTED_MODULE_7__.other,
+      boss = _content_team_json__WEBPACK_IMPORTED_MODULE_7__.boss;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 30
     },
     __self: this
-  }), __jsx("div", {
-    className: "center",
+  }, __jsx(_components_Meta__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 31
     },
     __self: this
-  }, __jsx(_components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    backgroundColor: "white",
+  }), __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 32
     },
     __self: this
-  })), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_components_FloatingMenu__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
+    },
+    __self: this
+  }), __jsx(_PagesStyles_EquipoMainPageStyle__WEBPACK_IMPORTED_MODULE_4__["EquipoMainPageStyle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx(_components_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    img: "static/imgs/equipo/imgpersonal1.jpg",
+    imgPosition: -421,
+    title: "Clínica Cidad",
+    subtitle: "nuestro equipo",
+    footer: false,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), __jsx(_PagesStyles_TextStyles_H3Style__WEBPACK_IMPORTED_MODULE_5__["H3Style"], {
+    equipo: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Nuestros doctores"), displayMainMember(boss), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "workersContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, doctors.map(function (trabajador) {
+    return __jsx(_components_pageSections_WorkerCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      trabajador: trabajador,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    });
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx(_PagesStyles_TextStyles_H3Style__WEBPACK_IMPORTED_MODULE_5__["H3Style"], {
+    equipo: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Equipo"), __jsx("div", {
+    className: "workersContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, other.map(function (trabajador) {
+    return __jsx(_components_pageSections_WorkerCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      trabajador: trabajador,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    });
+  }))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
     },
     __self: this
   })));
-});
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Equipo);
 
 /***/ }),
 
-/***/ 1:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ "./static/imgs/down.svg":
+/*!******************************!*\
+  !*** ./static/imgs/down.svg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTk4My44LDI1MC43Yy04LjMtOC4zLTIxLjgtOC4zLTMwLjEsMEw1MDAsNzA0LjNMNDYuNCwyNTAuN2MtOC4zLTguMy0yMS44LTguMy0zMC4xLDBjLTguMyw4LjMtOC4zLDIxLjgsMCwzMC4xbDQ2OC42LDQ2OC42YzQuMiw0LjIsOS42LDYuMiwxNS4xLDYuMmMwLDAsMC4xLDAsMC4xLDBjMCwwLDAuMSwwLDAuMSwwYzUuNSwwLDEwLjktMi4xLDE1LjEtNi4ybDQ2OC42LTQ2OC42Qzk5Mi4xLDI3Mi41LDk5Mi4xLDI1OSw5ODMuOCwyNTAuN3oiLz48L2c+DQo8L3N2Zz4="
+
+/***/ }),
+
+/***/ 2:
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fequipo&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Fequipo.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fequipo&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Fequipo.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fequipo&absolutePagePath=%2FUsers%2FDiegomendez1997%2FTailor%2Fclinica-cidad%2FClinicaCiudad%2Fpages%2Fequipo.js!./");
 
 
 /***/ }),
@@ -48467,5 +49274,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=equipo.js.map
