@@ -6,7 +6,7 @@
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
     "export": "next export",
-    "deploy": "next build && next export && git add out/ && touch out/.nojekyll && git add out/.nojekyll && git commit -m \"Deploy gh-pages last version\" && git push origin `git subtree split --prefix out gh-pages`:master --force"
+    "deploy": "next build && next export && git add out/ && touch out/.nojekyll && git add out/.nojekyll && git commit -m \"Deploy gh-pages last version\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@material-ui/core": "^4.0.2",
