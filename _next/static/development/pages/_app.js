@@ -9135,6 +9135,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-image-gallery/styles/css/image-gallery.css */ "./node_modules/react-image-gallery/styles/css/image-gallery.css");
 /* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -9143,6 +9145,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/Diegomendez1997/Tailor/clinica-cidad/ClinicaCiudad/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
 
 
 
@@ -9167,13 +9170,13 @@ function (_App) {
       return __jsx(next_app__WEBPACK_IMPORTED_MODULE_6__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       })));
@@ -9184,6 +9187,44 @@ function (_App) {
 }(next_app__WEBPACK_IMPORTED_MODULE_6___default.a);
 
 
+initRouterListeners();
+
+function initRouterListeners() {
+  var routes = [];
+  next_router__WEBPACK_IMPORTED_MODULE_9___default.a.events.on('routeChangeStart', function (url) {
+    pushCurrentRouteInfo();
+  });
+  next_router__WEBPACK_IMPORTED_MODULE_9___default.a.events.on('routeChangeComplete', function (url) {
+    fixScrollPosition();
+  });
+
+  function pushCurrentRouteInfo() {
+    routes.push({
+      pathname: next_router__WEBPACK_IMPORTED_MODULE_9___default.a.pathname,
+      scrollY: window.scrollY
+    });
+  }
+
+  function isBack() {
+    return routes.length >= 2 && next_router__WEBPACK_IMPORTED_MODULE_9___default.a.pathname === routes[routes.length - 2].pathname;
+  }
+
+  function fixScrollPosition() {
+    var scrollY = 0;
+
+    if (isBack()) {
+      routes.pop(); // route where we come from
+
+      var targetRoute = routes.pop(); // route where we return
+
+      scrollY = targetRoute.scrollY; // scrollY we had before
+    }
+
+    window.requestAnimationFrame(function () {
+      return window.scrollTo(0, scrollY);
+    });
+  }
+}
 
 /***/ }),
 
