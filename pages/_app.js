@@ -1,17 +1,28 @@
-import App, { Container } from 'next/app'
-import React from 'react'
+import { Container } from 'next/app'
+import React, { useEffect } from 'react'
 import "react-image-gallery/styles/css/image-gallery.css";
 import Router from "next/router";
+import * as gtag from '../lib/gtag';
+import { useRouter } from 'next/router'
 
-export default class MyApp extends App {
-  render () {
-    const { Component, pageProps } = this.props
+export default function App({ Component, pageProps }) {
+    const router = useRouter()
+    useEffect(() => {
+        const handleRouteChange = (url) => {
+            gtag.pageview(url)
+        }
+        router.events.on('routeChangeComplete', handleRouteChange)
+        return () => {
+            router.events.off('routeChangeComplete', handleRouteChange)
+        }
+    }, [router.events])
+
     return (
-      <Container>
-          <Component {...pageProps} />
-      </Container>
+        <Container>
+            <Component {...pageProps} />
+        </Container>
     )
-  }
+
 }
 initRouterListeners();
 
@@ -27,14 +38,14 @@ function initRouterListeners() {
     });
 
     function pushCurrentRouteInfo() {
-        routes.push({pathname: Router.pathname, scrollY: window.scrollY});
+        routes.push({ pathname: Router.pathname, scrollY: window.scrollY });
     }
 
     function isBack() {
         return routes.length >= 2 && Router.pathname === routes[routes.length - 2].pathname;
     }
 
-    function fixScrollPosition () {
+    function fixScrollPosition() {
 
         let scrollY = 0;
 
